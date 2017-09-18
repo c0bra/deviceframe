@@ -1,0 +1,66 @@
+{
+  "name": "deviceframe",
+  "version": "1.0.0",
+  "description": "Frame app screenshots inside a device",
+  "main": "index.js",
+  "bin": {
+    "deviceframe": "./bin/deviceframe.js"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/c0bra/deviceframe.git"
+  },
+  "keywords": [
+    "screenshot",
+    "mobile",
+    "app",
+    "frame",
+    "device"
+  ],
+  "author": "Brian Hann",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/c0bra/deviceframe/issues"
+  },
+  "homepage": "https://github.com/c0bra/deviceframe#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "conf": "^1.3.0",
+    "env-paths": "^1.0.0",
+    "get-stream": "^3.0.0",
+    "globby": "^6.1.0",
+    "got": "^7.1.0",
+    "inquirer": "^3.3.0",
+    "is-stream": "^1.1.0",
+    "is-url-superb": "^2.0.0",
+    "jimp": "^0.2.28",
+    "lodash": "^4.17.4",
+    "log-symbols": "^2.0.0",
+    "meow": "^3.7.0",
+    "mkdirp": "^0.5.1",
+    "pageres": "^4.5.1",
+    "progress": "^2.0.0",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "space": 2,
+    "rules": {
+      "capitalized-comments": 0,
+      "curly": [
+        "error",
+        "multi-line"
+      ],
+      "object-curly-spacing": [
+        "error",
+        "always"
+      ],
+      "comma-dangle": [
+        "error",
+        "always-multiline"
+      ]
+    }
+  }
+}
