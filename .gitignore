@@ -59,4 +59,7 @@ typings/
 
 .DS_Store
 
-Facebook Devices/
+*.jpg
+*.png
+*.bmp
+*.gif

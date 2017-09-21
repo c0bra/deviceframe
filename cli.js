@@ -10,7 +10,7 @@ const getStream = require('get-stream');
 const globby = require('globby');
 const got = require('got');
 const inquirer = require('inquirer');
-const isStream = require('isStream');
+const isStream = require('is-stream');
 const isUrl = require('is-url-superb');
 const Jimp = require('jimp');
 const logSymbols = require('log-symbols');
@@ -18,7 +18,7 @@ const meow = require('meow');
 const mkdirp = require('mkdirp');
 const ProgressBar = require('progress');
 
-const framesUrl = 'https://s3-us-west-1.amazonaws.com/fbdesignresources/Devices/Facebook+Devices.zip';
+const framesUrl = 'https://gitcdn.xyz/repo/c0bra/deviceframe-frames/master/';
 
 const paths = envPaths('deviceframe');
 const frameCacheDir = path.join(paths.cache, 'frames');
@@ -64,12 +64,32 @@ function init() {
   // Find image files to frame from input
   globImageFiles(cli.input.filter(f => !isUrl(f)))
   .then(files => {
-    if (files.length === 0 && urls.length === 0) error('No image files or urls found');
+    if (files.length === 0 && urls.length === 0) error('No image files or urls specified');
 
     return [files, chooseFrames()];
   })
   .then(([files, frames]) => {
-    return frameIt(files[0], 'foo');
+    return frameIt(files[0], {
+      relPath: 'Phones/Apple iPhone 6s/Device/Apple iPhone 6s Gold.png',
+      category: 'Phones',
+      device: 'Apple iPhone 6s',
+      frame: {
+        top: 299,
+        left: 119,
+        bottom: 1634,
+        right: 870,
+        width: 751,
+        height: 1335,
+      },
+      name: 'Apple iPhone 6s Gold',
+      shadow: false,
+      tags: [
+        'apple',
+        'iphone',
+        '6s',
+        'gold',
+      ],
+    });
   });
 
   urls.forEach(url => {
@@ -138,7 +158,10 @@ function frameIt(img, frameConf) {
   })
   // Resize largest image to fit the other
   .then(([frame, jimg]) => {
-    const frameMax = Math.max(frameConf.height, frameConf.width);
+    let compLeft = frameConf.frame.left;
+    let compTop = frameConf.frame.top;
+
+    const frameMax = Math.max(frameConf.frame.height, frameConf.frame.width);
     const jimgMax = Math.max(jimg.bitmap.height, jimg.bitmap.width);
 
     // Frame is bigger, size it down to source image
@@ -146,44 +169,58 @@ function frameIt(img, frameConf) {
       // Resize frame so shortest dimension matches source image. Source image overflow will be clipped
       let rH = frame.bitmap.height;
       let rW = frame.bitmap.width;
-      if (frameConf.height > frameConf.width) {
-        const ratio = frame.bitmap.width / frameConf.width;
+      if (frameConf.frame.height > frameConf.frame.width) {
+        const ratio = jimg.bitmap.width / frameConf.frame.width;
+        console.log('w ratio', ratio);
         rW = Math.ceil(jimg.bitmap.width * ratio);
         rH = Jimp.AUTO;
       } else {
-        const ratio = frame.bitmap.height / frameConf.height;
+        const ratio = jimg.bitmap.height / frameConf.frame.height;
+        console.log('h ratio', ratio);
         rH = Math.ceil(jimg.bitmap.height * ratio);
         rW = Jimp.AUTO;
       }
 
-      frame = frame.resize(rW, rH);
+      frame.resize(rW, rH);
+
+      /*
+        left: 119
+        top: 299
+      */
+      // left: 85, top: 235
+
+      console.log('left ratio', frame.bitmap.width, frameConf.frame.width, (frame.bitmap.width / frameConf.frame.width));
+
+      // We resized the frame so there's a new compositing location on it
+      compLeft *= (frame.bitmap.width / frameConf.frame.width);
+      compTop *= (frame.bitmap.height / frameConf.frame.height);
     } else {
       // Source image is bigger, size it down to frame
       // Resize frame so shortest dimension matches
       let rH = jimg.bitmap.height;
       let rW = jimg.bitmap.width;
       if (rH > rW) {
-        rW = frameConf.width;
+        rW = frameConf.frame.width;
         rH = Jimp.AUTO;
       } else {
-        rH = frameConf.height;
+        rH = frameConf.frame.height;
         rW = Jimp.AUTO;
       }
 
       jimg = jimg.resize(rW, rH);
     }
 
-    return [frame, img];
+    return [frame, jimg, { left: compLeft, top: compTop }];
   })
-  .then(([frame, jimg]) => {
-    return frame.composite(jimg, frameConf.left, frameConf.top);
+  .then(([frame, jimg, compPos]) => {
+    return frame.composite(jimg, compPos.left, compPos.top);
   })
   .then(composite => {
     let imgPath = '';
 
     if (typeof img === 'string') {
       const p = path.parse(img);
-      imgPath = `${p.name}-${frameConf.name}${p.ext}`;
+      imgPath = `${p.name}-${frameConf.name}.png`;
     } else {
       imgPath = `Frame-${frameConf.name}.png`;
     }

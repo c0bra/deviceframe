@@ -4,10 +4,11 @@
   "description": "Frame app screenshots inside a device",
   "main": "index.js",
   "bin": {
-    "deviceframe": "./bin/deviceframe.js"
+    "deviceframe": "cli.js",
+    "dframe": "cli.js"
   },
   "scripts": {
-    "test": "npm test"
+    "test": "xo && nyc ava"
   },
   "repository": {
     "type": "git",
@@ -42,7 +43,11 @@
     "meow": "^3.7.0",
     "mkdirp": "^0.5.1",
     "pageres": "^4.5.1",
-    "progress": "^2.0.0",
+    "progress": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "nyc": "^11.2.1",
     "xo": "^0.18.2"
   },
   "xo": {
