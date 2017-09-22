@@ -158,6 +158,12 @@ function frameIt(img, frameConf) {
   })
   // Resize largest image to fit the other
   .then(([frame, jimg]) => {
+    const frameImageWidth = frame.bitmap.width;
+    const frameImageHeight = frame.bitmap.height;
+
+    const compLeftRatio = frameConf.frame.left / frameImageWidth;
+    const compTopRatio = frameConf.frame.top / frameImageHeight;
+
     let compLeft = frameConf.frame.left;
     let compTop = frameConf.frame.top;
 
@@ -183,17 +189,15 @@ function frameIt(img, frameConf) {
 
       frame.resize(rW, rH);
 
-      /*
-        left: 119
-        top: 299
-      */
-      // left: 85, top: 235
-
-      console.log('left ratio', frame.bitmap.width, frameConf.frame.width, (frame.bitmap.width / frameConf.frame.width));
-
       // We resized the frame so there's a new compositing location on it
-      compLeft *= (frame.bitmap.width / frameConf.frame.width);
-      compTop *= (frame.bitmap.height / frameConf.frame.height);
+      compLeft = Math.ceil(frame.bitmap.width * compLeftRatio);
+      compTop = Math.ceil(frame.bitmap.height * compTopRatio);
+
+      // Resize source image to fit new frame size
+      const newFrameWidth = frameConf.frame.width * (frame.bitmap.width / frameImageWidth);
+      const newFrameHeight = frameConf.frame.height * (frame.bitmap.height / frameImageHeight);
+
+      jimg.cover(newFrameWidth, newFrameHeight);
     } else {
       // Source image is bigger, size it down to frame
       // Resize frame so shortest dimension matches
@@ -207,7 +211,8 @@ function frameIt(img, frameConf) {
         rW = Jimp.AUTO;
       }
 
-      jimg = jimg.resize(rW, rH);
+      // jimg = jimg.resize(rW, rH);
+      jimg.cover(frameConf.frame.width, frameConf.frame.height);
     }
 
     return [frame, jimg, { left: compLeft, top: compTop }];
