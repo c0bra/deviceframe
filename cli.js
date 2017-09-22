@@ -17,6 +17,7 @@ const logSymbols = require('log-symbols');
 const meow = require('meow');
 const mkdirp = require('mkdirp');
 const ProgressBar = require('progress');
+const frameData = require('./data/frames.json');
 
 const framesUrl = 'https://gitcdn.xyz/repo/c0bra/deviceframe-frames/master/';
 
@@ -45,7 +46,9 @@ const cli = meow(`
   },
 });
 
-init();
+// init();
+
+chooseFrames();
 
 /* ------------------------------------------------------------------------- */
 
@@ -140,7 +143,22 @@ function downloadFrames() {
 }
 
 function chooseFrames() {
-
+  inquirer.registerPrompt('autocomplete', require('inquirer-autocomplete-prompt'));
+  inquirer.prompt({
+    type: 'autocomplete',
+    name: 'frames',
+    message: 'Select the frames you want to use',
+    source: (answers, input) => {
+      input = input || '';
+      input = input.toLowerCase();
+      return Promise.resolve(
+        frameData.map(f => f.name.toLowerCase()).filter(name => name.indexOf(input) !== -1)
+      );
+    },
+  })
+  .then(answers => {
+    console.log('ANSWERS', answers);
+  });
 }
 
 function frameIt(img, frameConf) {

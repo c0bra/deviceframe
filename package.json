@@ -35,6 +35,7 @@
     "globby": "^6.1.0",
     "got": "^7.1.0",
     "inquirer": "^3.3.0",
+    "inquirer-autocomplete-prompt": "^0.11.1",
     "is-stream": "^1.1.0",
     "is-url-superb": "^2.0.0",
     "jimp": "^0.2.28",
