@@ -17,6 +17,7 @@ const logSymbols = require('log-symbols');
 const meow = require('meow');
 const mkdirp = require('mkdirp');
 const ProgressBar = require('progress');
+const some = require('lodash/some');
 const frameData = require('./data/frames.json');
 
 const framesUrl = 'https://gitcdn.xyz/repo/c0bra/deviceframe-frames/master/';
@@ -26,6 +27,7 @@ const frameCacheDir = path.join(paths.cache, 'frames');
 
 /* ------ */
 
+// Help text
 const cli = meow(`
 	Usage
 	  $ dframe <image>
@@ -46,75 +48,100 @@ const cli = meow(`
   },
 });
 
-// init();
+/*
+  1. Init (read in cache dir and conf)
+  2. Process image paths, urls and confirm w/ user
+  3. Prompt user for frames
+  4. Process each image through each frame, writing each out
+*/
 
-chooseFrames();
+Promise.resolve()
+.then(init)
+.then(processInputs)
+.then(chooseFrames)
+.then(downloadFrames)
+.then(frameImages);
 
 /* ------------------------------------------------------------------------- */
 
 function init() {
+  // Add shadow suffix on to frame name
+  frameData.forEach(frame => {
+    if (frame.shadow) frame.name = `${frame.name} [shadow]`;
+  });
+
   mkdirp(frameCacheDir, err => {
     if (err) console.error(chalk.red(err));
 
     const files = fs.readdirSync(frameCacheDir);
-    if (!files || files.length === 0) {
-      setup();
-    }
+    return files;
   });
+}
 
+function processInputs() {
   const urls = cli.input.filter(f => isUrl(f));
 
   // Find image files to frame from input
-  globImageFiles(cli.input.filter(f => !isUrl(f)))
+  return globImageFiles(cli.input.filter(f => !isUrl(f)))
   .then(files => {
     if (files.length === 0 && urls.length === 0) error('No image files or urls specified');
 
-    return [files, chooseFrames()];
+    return files;
+  });
+}
+
+function chooseFrames() {
+  inquirer.registerPrompt('autocomplete', require('inquirer-autocomplete-prompt'));
+  return inquirer.prompt({
+    type: 'autocomplete',
+    name: 'frames',
+    message: 'Select the frames you want to use',
+    source: (answers, input) => {
+      input = input || '';
+      input = input.toLowerCase();
+      return Promise.resolve(
+        frameData.map(f => f.name.toLowerCase()).filter(name => name.indexOf(input) !== -1)
+      );
+    },
   })
-  .then(([files, frames]) => {
-    return frameIt(files[0], {
-      relPath: 'Phones/Apple iPhone 6s/Device/Apple iPhone 6s Gold.png',
-      category: 'Phones',
-      device: 'Apple iPhone 6s',
-      frame: {
-        top: 299,
-        left: 119,
-        bottom: 1634,
-        right: 870,
-        width: 751,
-        height: 1335,
-      },
-      name: 'Apple iPhone 6s Gold',
-      shadow: false,
-      tags: [
-        'apple',
-        'iphone',
-        '6s',
-        'gold',
-      ],
+  .then(answers => {
+    return frameData.filter(frame => {
+      return some(answers, a => a === frame.name.toLowerCase());
+    });
+  });
+}
+
+function frameImages(files, urls, frames) {
+  let ps = files.map(file => {
+    return frames.map(frame => {
+      return frameIt(file, frame);
     });
   });
 
-  urls.forEach(url => {
-    frameIt(url, 'foo');
-  });
+  console.log('ps', ps);
+
+  ps = ps.concat(
+    urls.map(url => {
+      return frames.map(frame => frameIt(url, frame));
+    })
+  );
+
+  return ps;
 }
 
-function setup() {
-  inquirer.prompt([{
-    name: 'download',
-    type: 'confirm',
-    message: `Looks like we're running for the first time. deviceframe needs to download the frameset images. This is about 185MB. Sound good?`,
-    default: true,
-  }]).then(answers => {
-    if (answers.download) downloadFrames();
-  });
-}
+// function setup() {
+//   inquirer.prompt([{
+//     name: 'download',
+//     type: 'confirm',
+//     message: `Looks like we're running for the first time. deviceframe needs to download the frameset images. This is about 185MB. Sound good?`,
+//     default: true,
+//   }]).then(answers => {
+//     if (answers.download) downloadFrames();
+//   });
+// }
 
 function globImageFiles(inputs) {
   if (!inputs || inputs.length === 0) return Promise.resolve([]);
-
-  console.log('inputs', inputs, Array.isArray(inputs));
 
   const ps = inputs.map(file => {
     return globby(file);
@@ -140,25 +167,6 @@ function downloadFrames() {
     bar.tick(progress.percent * 100);
   })
   .pipe(fs.createWriteStream(path.join(frameCacheDir, 'frames.zip')));
-}
-
-function chooseFrames() {
-  inquirer.registerPrompt('autocomplete', require('inquirer-autocomplete-prompt'));
-  inquirer.prompt({
-    type: 'autocomplete',
-    name: 'frames',
-    message: 'Select the frames you want to use',
-    source: (answers, input) => {
-      input = input || '';
-      input = input.toLowerCase();
-      return Promise.resolve(
-        frameData.map(f => f.name.toLowerCase()).filter(name => name.indexOf(input) !== -1)
-      );
-    },
-  })
-  .then(answers => {
-    console.log('ANSWERS', answers);
-  });
 }
 
 function frameIt(img, frameConf) {
