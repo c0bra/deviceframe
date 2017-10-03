@@ -13,6 +13,7 @@ const inquirer = require('inquirer');
 const isStream = require('is-stream');
 const isUrl = require('is-url-superb');
 const Jimp = require('jimp');
+const keypress = require('keypress');
 const logSymbols = require('log-symbols');
 const meow = require('meow');
 const mkdirp = require('mkdirp');
@@ -24,6 +25,8 @@ const framesUrl = 'https://gitcdn.xyz/repo/c0bra/deviceframe-frames/master/';
 
 const paths = envPaths('deviceframe');
 const frameCacheDir = path.join(paths.cache, 'frames');
+
+keypress(process.stdin);
 
 /* ------ */
 
@@ -57,10 +60,16 @@ const cli = meow(`
 
 Promise.resolve()
 .then(init)
-.then(processInputs)
-.then(chooseFrames)
-.then(downloadFrames)
-.then(frameImages);
+.then(confirmInputs)
+.then(([files, urls]) => {
+  return chooseFrames()
+  .then(frames => [files, urls, frames]);
+})
+.then(([files, urls, frames]) => {
+  return downloadFrames(frames)
+  .then(frames => [files, urls, frames]);
+})
+.then(([files, urls, frames]) => frameImages(files, urls, frames));
 
 /* ------------------------------------------------------------------------- */
 
@@ -78,7 +87,7 @@ function init() {
   });
 }
 
-function processInputs() {
+function confirmInputs() {
   const urls = cli.input.filter(f => isUrl(f));
 
   // Find image files to frame from input
@@ -86,16 +95,20 @@ function processInputs() {
   .then(files => {
     if (files.length === 0 && urls.length === 0) error('No image files or urls specified');
 
-    return files;
+    return [files, urls];
   });
 }
 
 function chooseFrames() {
   inquirer.registerPrompt('autocomplete', require('inquirer-autocomplete-prompt'));
-  return inquirer.prompt({
+
+  // TODO: inputs are doubling somehow...
+  const ui = new inquirer.ui.BottomBar();
+
+  const prompt = inquirer.prompt({
     type: 'autocomplete',
     name: 'frames',
-    message: 'Select the frames you want to use',
+    message: 'Select the frames you want to use (esc to continue)',
     source: (answers, input) => {
       input = input || '';
       input = input.toLowerCase();
@@ -109,24 +122,31 @@ function chooseFrames() {
       return some(answers, a => a === frame.name.toLowerCase());
     });
   });
+
+  // listen for the "keypress" event
+  process.stdin.on('keypress', (ch, key) => {
+    if (key && key.name === 'escape') {
+      ui.close();
+    }
+  });
+
+  return prompt;
 }
 
 function frameImages(files, urls, frames) {
-  let ps = files.map(file => {
+  let promises = files.map(file => {
     return frames.map(frame => {
       return frameIt(file, frame);
     });
   });
 
-  console.log('ps', ps);
-
-  ps = ps.concat(
+  promises = promises.concat(
     urls.map(url => {
       return frames.map(frame => frameIt(url, frame));
     })
   );
 
-  return ps;
+  return promises;
 }
 
 // function setup() {
@@ -150,7 +170,26 @@ function globImageFiles(inputs) {
   return Promise.all(ps).then(results => flatten(results));
 }
 
-function downloadFrames() {
+function downloadFrames(frames) {
+  // console.log('frames', frames);
+  const promises = [];
+
+  for (const frame of frames) {
+    const frameCachePath = path.join(frameCacheDir, frame.relPath);
+
+    if (fs.existsSync(frameCachePath)) {
+      frame.path = frameCachePath;
+      promises.push(frame);
+    } else {
+      frame.url = path.join(framesUrl, frame.relPath);
+      promises.push(downloadFrame(frame));
+    }
+  }
+
+  return Promise.all(promises).then(results => flatten(results));
+}
+
+function downloadFrame(frame) {
   const bar = new ProgressBar('  downloading [:bar] :rate/bps :percent :etas', {
     complete: '=',
     incomplete: ' ',
@@ -158,15 +197,22 @@ function downloadFrames() {
     total: 100,
   });
 
-  return got.stream(framesUrl)
-  .on('response', response => {
-    console.log(response);
-  })
-  .on('downloadProgress', progress => {
-    console.log('progress.percent', progress.percent);
-    bar.tick(progress.percent * 100);
-  })
-  .pipe(fs.createWriteStream(path.join(frameCacheDir, 'frames.zip')));
+  frame.path = path.join(frameCacheDir, frame.relPath);
+
+  return new Promise((resolve, reject) => {
+    got.stream(frame.url)
+      .on('response', (response) => {
+        resolve(frame);
+      })
+      .on('downloadProgress', progress => {
+        // console.log('progress.percent', progress.percent);
+        bar.tick(progress.percent * 100);
+      })
+      .on('error', error => {
+        reject(error);
+      })
+      .pipe(fs.createWriteStream(frame.path));
+  });
 }
 
 function frameIt(img, frameConf) {
@@ -203,12 +249,10 @@ function frameIt(img, frameConf) {
       let rW = frame.bitmap.width;
       if (frameConf.frame.height > frameConf.frame.width) {
         const ratio = jimg.bitmap.width / frameConf.frame.width;
-        console.log('w ratio', ratio);
         rW = Math.ceil(jimg.bitmap.width * ratio);
         rH = Jimp.AUTO;
       } else {
         const ratio = jimg.bitmap.height / frameConf.frame.height;
-        console.log('h ratio', ratio);
         rH = Math.ceil(jimg.bitmap.height * ratio);
         rW = Jimp.AUTO;
       }
@@ -257,6 +301,7 @@ function frameIt(img, frameConf) {
     }
 
     composite.write(imgPath);
+    console.log(chalk.bold('> ') + chalk.green('Wrote: ') + imgPath);
   });
 }
 
