@@ -13,7 +13,7 @@ const inquirer = require('inquirer');
 const isStream = require('is-stream');
 const isUrl = require('is-url-superb');
 const Jimp = require('jimp');
-const keypress = require('keypress');
+const readline = require('readline');
 const logSymbols = require('log-symbols');
 const meow = require('meow');
 const mkdirp = require('mkdirp');
@@ -26,7 +26,8 @@ const framesUrl = 'https://gitcdn.xyz/repo/c0bra/deviceframe-frames/master/';
 const paths = envPaths('deviceframe');
 const frameCacheDir = path.join(paths.cache, 'frames');
 
-keypress(process.stdin);
+// rutils.keypress(process.stdin);
+readline.emitKeypressEvents(process.stdin);
 
 /* ------ */
 
@@ -102,35 +103,42 @@ function confirmInputs() {
 function chooseFrames() {
   inquirer.registerPrompt('autocomplete', require('inquirer-autocomplete-prompt'));
 
-  // TODO: inputs are doubling somehow...
-  const ui = new inquirer.ui.BottomBar();
+  return new Promise(resolve => {
+    // TODO: inputs are doubling somehow...
+    const ui = new inquirer.ui.BottomBar();
 
-  const prompt = inquirer.prompt({
-    type: 'autocomplete',
-    name: 'frames',
-    message: 'Select the frames you want to use (esc to continue)',
-    source: (answers, input) => {
-      input = input || '';
-      input = input.toLowerCase();
-      return Promise.resolve(
-        frameData.map(f => f.name.toLowerCase()).filter(name => name.indexOf(input) !== -1)
-      );
-    },
-  })
-  .then(answers => {
-    return frameData.filter(frame => {
-      return some(answers, a => a === frame.name.toLowerCase());
+    let frames = [];
+
+    function prompter() {
+      inquirer.prompt({
+        type: 'autocomplete',
+        name: 'frames',
+        message: 'Add the frames you want to use (ESC to complete)',
+        source: (answers, input) => {
+          input = input || '';
+          input = input.toLowerCase();
+          return Promise.resolve(
+            frameData.map(f => f.name.toLowerCase()).filter(name => name.indexOf(input) !== -1)
+          );
+        },
+      })
+      .then(answers => {
+        frames = frames.concat(frameData.filter(frame => some(answers, a => a === frame.name.toLowerCase())));
+        ui.updateBottomBar(`Frames: [${frames.map(f => f.name).join(', ')}]`);
+        prompter();
+      });
+    }
+
+    prompter();
+
+    // Resolve promise on ESC key
+    process.stdin.on('keypress', (ch, key) => {
+      if (key && key.name === 'escape') {
+        ui.close();
+        resolve(frames);
+      }
     });
   });
-
-  // listen for the "keypress" event
-  process.stdin.on('keypress', (ch, key) => {
-    if (key && key.name === 'escape') {
-      ui.close();
-    }
-  });
-
-  return prompt;
 }
 
 function frameImages(files, urls, frames) {
