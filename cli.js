@@ -104,13 +104,13 @@ function chooseFrames() {
   inquirer.registerPrompt('autocomplete', require('inquirer-autocomplete-prompt'));
 
   return new Promise(resolve => {
-    // TODO: inputs are doubling somehow...
     const ui = new inquirer.ui.BottomBar();
 
     let frames = [];
+    let prompt = null;
 
     function prompter() {
-      inquirer.prompt({
+      prompt = inquirer.prompt({
         type: 'autocomplete',
         name: 'frames',
         message: 'Add the frames you want to use (ESC to complete)',
@@ -121,10 +121,11 @@ function chooseFrames() {
             frameData.map(f => f.name.toLowerCase()).filter(name => name.indexOf(input) !== -1)
           );
         },
-      })
-      .then(answers => {
+      });
+
+      prompt.then(answers => {
         frames = frames.concat(frameData.filter(frame => some(answers, a => a === frame.name.toLowerCase())));
-        ui.updateBottomBar(`Frames: [${frames.map(f => f.name).join(', ')}]`);
+        ui.log.write(`Frames: [${frames.map(f => f.name).join(', ')}]\n`);
         prompter();
       });
     }
@@ -134,7 +135,8 @@ function chooseFrames() {
     // Resolve promise on ESC key
     process.stdin.on('keypress', (ch, key) => {
       if (key && key.name === 'escape') {
-        ui.close();
+        prompt.ui.close();
+        console.log('\n');
         resolve(frames);
       }
     });
