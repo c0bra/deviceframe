@@ -2,6 +2,8 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
+const readline = require('readline');
+const url = require('url');
 const conf = require('conf');
 const chalk = require('chalk');
 const envPaths = require('env-paths');
@@ -13,20 +15,20 @@ const inquirer = require('inquirer');
 const isStream = require('is-stream');
 const isUrl = require('is-url-superb');
 const Jimp = require('jimp');
-const readline = require('readline');
 const logSymbols = require('log-symbols');
 const meow = require('meow');
 const mkdirp = require('mkdirp');
 const ProgressBar = require('progress');
 const some = require('lodash/some');
+const typeis = require('type-is');
 const frameData = require('./data/frames.json');
 
 const framesUrl = 'https://gitcdn.xyz/repo/c0bra/deviceframe-frames/master/';
 
 const paths = envPaths('deviceframe');
 const frameCacheDir = path.join(paths.cache, 'frames');
+const webCacheDir = path.join(paths.cache, 'web');
 
-// rutils.keypress(process.stdin);
 readline.emitKeypressEvents(process.stdin);
 
 /* ------ */
@@ -83,8 +85,13 @@ function init() {
   mkdirp(frameCacheDir, err => {
     if (err) console.error(chalk.red(err));
 
-    const files = fs.readdirSync(frameCacheDir);
-    return files;
+    // NOTE: not used
+    // const files = fs.readdirSync(frameCacheDir);
+    // return files;
+  });
+
+  mkdirp(webCacheDir, err => {
+    if (err) console.error(chalk.red(err));
   });
 }
 
@@ -226,8 +233,31 @@ function downloadFrame(frame) {
 }
 
 function frameIt(img, frameConf) {
+  // Get the writeable file name for the image
+  let imgPath = '';
+  if (typeof img === 'string') {
+    const p = path.parse(img);
+    imgPath = `${p.name}-${frameConf.name}.png`;
+  } else {
+    imgPath = `Frame-${frameConf.name}.png`;
+  }
+
   if (isStream(img)) {
     img = getStream.buffer(img);
+  } else if (isUrl(img)) {
+    // Check if url is for an image or for a webpage
+    // NOTE: for urls we need to cache them
+    const imgUrl = img;
+    img = got(img, { encoding: null })
+    .then(response => {
+      console.log(response.headers);
+      if (typeis(response, ['image/*'])) {
+        return response.body;
+      }
+
+      console.log('URL is not an image, so screenshot it and the right dimension!');
+      process.exit(0);
+    });
   }
 
   // Read in image and frame
@@ -301,15 +331,6 @@ function frameIt(img, frameConf) {
     return frame.composite(jimg, compPos.left, compPos.top);
   })
   .then(composite => {
-    let imgPath = '';
-
-    if (typeof img === 'string') {
-      const p = path.parse(img);
-      imgPath = `${p.name}-${frameConf.name}.png`;
-    } else {
-      imgPath = `Frame-${frameConf.name}.png`;
-    }
-
     composite.write(imgPath);
     console.log(chalk.bold('> ') + chalk.green('Wrote: ') + imgPath);
   });

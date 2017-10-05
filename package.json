@@ -44,7 +44,8 @@
     "meow": "^3.7.0",
     "mkdirp": "^0.5.1",
     "pageres": "^4.5.1",
-    "progress": "^2.0.0"
+    "progress": "^2.0.0",
+    "type-is": "^1.6.15"
   },
   "devDependencies": {
     "ava": "^0.22.0",
