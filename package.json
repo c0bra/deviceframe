@@ -43,8 +43,8 @@
     "log-symbols": "^2.0.0",
     "meow": "^3.7.0",
     "mkdirp": "^0.5.1",
-    "pageres": "^4.5.1",
     "progress": "^2.0.0",
+    "screenshot-stream": "^4.2.0",
     "type-is": "^1.6.15"
   },
   "devDependencies": {

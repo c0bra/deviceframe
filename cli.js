@@ -19,6 +19,7 @@ const logSymbols = require('log-symbols');
 const meow = require('meow');
 const mkdirp = require('mkdirp');
 const ProgressBar = require('progress');
+const screenshot = require('screenshot-stream');
 const some = require('lodash/some');
 const typeis = require('type-is');
 const frameData = require('./data/frames.json');
@@ -251,12 +252,13 @@ function frameIt(img, frameConf) {
     img = got(img, { encoding: null })
     .then(response => {
       console.log(response.headers);
-      if (typeis(response, ['image/*'])) {
-        return response.body;
-      }
+      if (typeis(response, ['image/*'])) return response.body;
 
       console.log('URL is not an image, so screenshot it and the right dimension!');
-      process.exit(0);
+
+      const dim = [frameConf.frame.width, frameConf.frame.height].join('x');
+      const stream = screenshot(imgUrl, dim);
+      return getStream.buffer(stream);
     });
   }
 
