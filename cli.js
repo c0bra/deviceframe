@@ -22,6 +22,7 @@ const ProgressBar = require('progress');
 const screenshot = require('screenshot-stream');
 const some = require('lodash/some');
 const typeis = require('type-is');
+const uniq = require('lodash/uniq');
 const frameData = require('./data/frames.json');
 
 const framesUrl = 'https://gitcdn.xyz/repo/c0bra/deviceframe-frames/master/';
@@ -132,7 +133,8 @@ function chooseFrames() {
       });
 
       prompt.then(answers => {
-        frames = frames.concat(frameData.filter(frame => some(answers, a => a === frame.name.toLowerCase())));
+        const foundFrames = frameData.filter(frame => some(answers, a => a === frame.name.toLowerCase()));
+        frames = uniq(frames.concat(foundFrames));
         ui.log.write(`Frames: [${frames.map(f => f.name).join(', ')}]\n`);
         prompter();
       });
@@ -234,6 +236,7 @@ function downloadFrame(frame) {
 }
 
 function frameIt(img, frameConf) {
+  // TODO: use filenamify here?
   // Get the writeable file name for the image
   let imgPath = '';
   if (typeof img === 'string') {
@@ -251,14 +254,21 @@ function frameIt(img, frameConf) {
     const imgUrl = img;
     img = got(img, { encoding: null })
     .then(response => {
-      console.log(response.headers);
       if (typeis(response, ['image/*'])) return response.body;
 
       console.log('URL is not an image, so screenshot it and the right dimension!');
-
       const dim = [frameConf.frame.width, frameConf.frame.height].join('x');
-      const stream = screenshot(imgUrl, dim);
-      return getStream.buffer(stream);
+
+      // TODO: need to set useragent here. Maybe we can guess from device name?
+      // '375x667'
+      // 'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1'
+      const stream = screenshot(imgUrl, '375x667', { crop: true });
+      const bufPromise = getStream.buffer(stream);
+      // bufPromise.then(buf => {
+      //   fs.writeFileSync('test.png', buf, { encoding: 'binary' });
+      // });
+
+      return bufPromise;
     });
   }
 
@@ -291,11 +301,11 @@ function frameIt(img, frameConf) {
       let rW = frame.bitmap.width;
       if (frameConf.frame.height > frameConf.frame.width) {
         const ratio = jimg.bitmap.width / frameConf.frame.width;
-        rW = Math.ceil(jimg.bitmap.width * ratio);
+        rW = Math.ceil(rW * ratio);
         rH = Jimp.AUTO;
       } else {
         const ratio = jimg.bitmap.height / frameConf.frame.height;
-        rH = Math.ceil(jimg.bitmap.height * ratio);
+        rH = Math.ceil(rH * ratio);
         rW = Jimp.AUTO;
       }
 
