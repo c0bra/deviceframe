@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Apple iMac",
+    "pixelRatio": 1
+  },
+  {
+    "name": "Apple iMac Retina",
+    "pixelRatio": 2
+  },
+  {
+    "name": "Apple iPad Air 2",
+    "pixelRatio": 2
+  },
+  {
+    "name": "Apple iPad Mini 4",
+    "pixelRatio": 2
+  },
+  {
+    "name": "Apple iPad Pro",
+    "pixelRatio": 2
+  },
+  {
+    "name": "Apple iPhone 5c",
+    "pixelRatio": 2
+  },
+  {
+    "name": "Apple iPhone 5s",
+    "pixelRatio": 2
+  },
+  {
+    "name": "Apple iPhone 6s",
+    "pixelRatio": 2
+  },
+  {
+    "name": "Apple iPhone 6s Plus",
+    "pixelRatio": 3
+  },
+  {
+    "name": "Apple iPhone 7",
+    "pixelRatio": 2
+  },
+  {
+    "name": "Apple iPhone 7 Plus",
+    "pixelRatio": 3
+  },
+  {
+    "name": "Apple iPhone SE",
+    "pixelRatio": 1
+  },
+  {
+    "name": "Apple Macbook",
+    "pixelRatio": 2
+  },
+  {
+    "name": "Apple Macbook Air",
+    "pixelRatio": 1
+  },
+  {
+    "name": "Apple Macbook Pro",
+    "pixelRatio": 2
+  },
+  {
+    "name": "Apple Thunderbolt Display",
+    "pixelRatio": ""
+  },
+  {
+    "name": "Apple Watch",
+    "pixelRatio": 2
+  },
+  {
+    "name": "Apple Watch 2",
+    "pixelRatio": 2
+  },
+  {
+    "name": "Dell UltraSharp HD 5K Monitor",
+    "pixelRatio": ""
+  },
+  {
+    "name": "Dell UltraSharp Monitor",
+    "pixelRatio": ""
+  },
+  {
+    "name": "Dell XPS 13",
+    "pixelRatio": ""
+  },
+  {
+    "name": "Dell XPS 15",
+    "pixelRatio": ""
+  },
+  {
+    "name": "Google Pixel",
+    "pixelRatio": 2.6
+  },
+  {
+    "name": "HTC One A9",
+    "pixelRatio": 3
+  },
+  {
+    "name": "HTC One M8",
+    "pixelRatio": 3
+  },
+  {
+    "name": "Huawei P8",
+    "pixelRatio": 3
+  },
+  {
+    "name": "Microsoft Lumia 950",
+    "pixelRatio": 4
+  },
+  {
+    "name": "Microsoft Surface 3",
+    "pixelRatio": 1.5
+  },
+  {
+    "name": "Microsoft Surface Book",
+    "pixelRatio": 2
+  },
+  {
+    "name": "Microsoft Surface Pro 4",
+    "pixelRatio": 2
+  },
+  {
+    "name": "Motorola Moto 360",
+    "pixelRatio": ""
+  },
+  {
+    "name": "Motorola Moto E",
+    "pixelRatio": 1
+  },
+  {
+    "name": "Motorola Moto G",
+    "pixelRatio": 2
+  },
+  {
+    "name": "Nexus 4",
+    "pixelRatio": 2
+  },
+  {
+    "name": "Nexus 5X",
+    "pixelRatio": 2.6
+  },
+  {
+    "name": "Nexus 6P",
+    "pixelRatio": 3.5
+  },
+  {
+    "name": "Nexus 9",
+    "pixelRatio": 2
+  },
+  {
+    "name": "Nokia 220",
+    "pixelRatio": 1
+  },
+  {
+    "name": "Nokia 230",
+    "pixelRatio": 1
+  },
+  {
+    "name": "Nokia Asha 230",
+    "pixelRatio": 1
+  },
+  {
+    "name": "Nokia C3-00",
+    "pixelRatio": 1
+  },
+  {
+    "name": "Samsung Galaxy Grand Prime",
+    "pixelRatio": 1.5
+  },
+  {
+    "name": "Samsung Galaxy Note 5",
+    "pixelRatio": 3.5
+  },
+  {
+    "name": "Samsung Galaxy S Duos",
+    "pixelRatio": 1.5
+  },
+  {
+    "name": "Samsung Galaxy S3",
+    "pixelRatio": 2
+  },
+  {
+    "name": "Samsung Galaxy S5",
+    "pixelRatio": 3
+  },
+  {
+    "name": "Samsung Galaxy S7",
+    "pixelRatio": 4
+  },
+  {
+    "name": "Samsung Galaxy Y",
+    "pixelRatio": 0.75
+  },
+  {
+    "name": "Sony SmartWatch 3",
+    "pixelRatio": ""
+  },
+  {
+    "name": "Sony W850C",
+    "pixelRatio": ""
+  }
+]

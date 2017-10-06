@@ -18,7 +18,8 @@
             "iphone",
             "6s",
             "gold"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 6s/Device/Apple iPhone 6s Rose Gold.png",
@@ -40,7 +41,8 @@
             "6s",
             "rose",
             "gold"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 6s/Device/Apple iPhone 6s Silver.png",
@@ -61,7 +63,8 @@
             "iphone",
             "6s",
             "silver"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 6s/Device/Apple iPhone 6s Space Gray.png",
@@ -83,7 +86,8 @@
             "6s",
             "space",
             "gray"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 6s/Device with Shadow/Apple iPhone 6s Gold.png",
@@ -104,7 +108,8 @@
             "iphone",
             "6s",
             "gold"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 6s/Device with Shadow/Apple iPhone 6s Rose Gold.png",
@@ -126,7 +131,8 @@
             "6s",
             "rose",
             "gold"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 6s/Device with Shadow/Apple iPhone 6s Silver.png",
@@ -147,7 +153,8 @@
             "iphone",
             "6s",
             "silver"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 6s/Device with Shadow/Apple iPhone 6s Space Gray.png",
@@ -169,7 +176,8 @@
             "6s",
             "space",
             "gray"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 5c/Device with Shadow/Apple iPhone 5c Blue.png",
@@ -190,7 +198,8 @@
             "iphone",
             "5c",
             "blue"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 5c/Device with Shadow/Apple iPhone 5c Green.png",
@@ -211,7 +220,8 @@
             "iphone",
             "5c",
             "green"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 5c/Device with Shadow/Apple iPhone 5c Red.png",
@@ -232,7 +242,8 @@
             "iphone",
             "5c",
             "red"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 5c/Device with Shadow/Apple iPhone 5c White.png",
@@ -253,7 +264,8 @@
             "iphone",
             "5c",
             "white"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 5c/Device with Shadow/Apple iPhone 5c Yellow.png",
@@ -274,7 +286,8 @@
             "iphone",
             "5c",
             "yellow"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 5c/Device/Apple iPhone 5c Blue.png",
@@ -295,7 +308,8 @@
             "iphone",
             "5c",
             "blue"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 5c/Device/Apple iPhone 5c Green.png",
@@ -316,7 +330,8 @@
             "iphone",
             "5c",
             "green"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 5c/Device/Apple iPhone 5c Red.png",
@@ -337,7 +352,8 @@
             "iphone",
             "5c",
             "red"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 5c/Device/Apple iPhone 5c White.png",
@@ -358,7 +374,8 @@
             "iphone",
             "5c",
             "white"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 5c/Device/Apple iPhone 5c Yellow.png",
@@ -379,7 +396,8 @@
             "iphone",
             "5c",
             "yellow"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 5s/Device/Apple iPhone 5s Gold.png",
@@ -400,7 +418,8 @@
             "iphone",
             "5s",
             "gold"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 5s/Device/Apple iPhone 5s Silver.png",
@@ -421,7 +440,8 @@
             "iphone",
             "5s",
             "silver"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 5s/Device/Apple iPhone 5s Space Gray.png",
@@ -443,7 +463,8 @@
             "5s",
             "space",
             "gray"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 5s/Device with Shadow/Apple iPhone 5s Gold.png",
@@ -464,7 +485,8 @@
             "iphone",
             "5s",
             "gold"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 5s/Device with Shadow/Apple iPhone 5s Silver.png",
@@ -485,7 +507,8 @@
             "iphone",
             "5s",
             "silver"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 5s/Device with Shadow/Apple iPhone 5s Space Gray.png",
@@ -507,7 +530,8 @@
             "5s",
             "space",
             "gray"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 6s Plus/Device/Apple iPhone 6s Plus Gold.png",
@@ -529,7 +553,8 @@
             "6s",
             "plus",
             "gold"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Apple iPhone 6s Plus/Device/Apple iPhone 6s Plus Rose Gold.png",
@@ -552,7 +577,8 @@
             "plus",
             "rose",
             "gold"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Apple iPhone 6s Plus/Device/Apple iPhone 6s Plus Silver.png",
@@ -574,7 +600,8 @@
             "6s",
             "plus",
             "silver"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Apple iPhone 6s Plus/Device/Apple iPhone 6s Plus Space Gray.png",
@@ -597,7 +624,8 @@
             "plus",
             "space",
             "gray"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Apple iPhone 6s Plus/Device with Shadow/Apple iPhone 6s Plus Gold.png",
@@ -619,7 +647,8 @@
             "6s",
             "plus",
             "gold"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Apple iPhone 6s Plus/Device with Shadow/Apple iPhone 6s Plus Rose Gold.png",
@@ -642,7 +671,8 @@
             "plus",
             "rose",
             "gold"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Apple iPhone 6s Plus/Device with Shadow/Apple iPhone 6s Plus Silver.png",
@@ -664,7 +694,8 @@
             "6s",
             "plus",
             "silver"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Apple iPhone 6s Plus/Device with Shadow/Apple iPhone 6s Plus Space Gray.png",
@@ -687,7 +718,8 @@
             "plus",
             "space",
             "gray"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Apple iPhone 7/Device with Shadow/Apple iPhone 7 Gold.png",
@@ -708,7 +740,8 @@
             "iphone",
             "7",
             "gold"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 7/Device with Shadow/Apple iPhone 7 Jet Black.png",
@@ -730,7 +763,8 @@
             "7",
             "jet",
             "black"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 7/Device with Shadow/Apple iPhone 7 Matte Black.png",
@@ -752,7 +786,8 @@
             "7",
             "matte",
             "black"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 7/Device with Shadow/Apple iPhone 7 Rose Gold.png",
@@ -774,7 +809,8 @@
             "7",
             "rose",
             "gold"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 7/Device with Shadow/Apple iPhone 7 Silver.png",
@@ -795,7 +831,8 @@
             "iphone",
             "7",
             "silver"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 7/Device/Apple iPhone 7 Gold.png",
@@ -816,7 +853,8 @@
             "iphone",
             "7",
             "gold"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 7/Device/Apple iPhone 7 Jet Black.png",
@@ -838,7 +876,8 @@
             "7",
             "jet",
             "black"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 7/Device/Apple iPhone 7 Matte Black.png",
@@ -860,7 +899,8 @@
             "7",
             "matte",
             "black"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 7/Device/Apple iPhone 7 Rose Gold.png",
@@ -882,7 +922,8 @@
             "7",
             "rose",
             "gold"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 7/Device/Apple iPhone 7 Silver.png",
@@ -903,7 +944,8 @@
             "iphone",
             "7",
             "silver"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Apple iPhone 7 Plus/Device/Apple iPhone 7 Plus Gold.png",
@@ -925,7 +967,8 @@
             "7",
             "plus",
             "gold"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Apple iPhone 7 Plus/Device/Apple iPhone 7 Plus Jet Black.png",
@@ -948,7 +991,8 @@
             "plus",
             "jet",
             "black"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Apple iPhone 7 Plus/Device/Apple iPhone 7 Plus Matte Black.png",
@@ -971,7 +1015,8 @@
             "plus",
             "matte",
             "black"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Apple iPhone 7 Plus/Device/Apple iPhone 7 Plus Rose Gold.png",
@@ -994,7 +1039,8 @@
             "plus",
             "rose",
             "gold"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Apple iPhone 7 Plus/Device/Apple iPhone 7 Plus Silver.png",
@@ -1016,7 +1062,8 @@
             "7",
             "plus",
             "silver"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Apple iPhone 7 Plus/Device with Shadow/Apple iPhone 7 Plus Gold.png",
@@ -1038,7 +1085,8 @@
             "7",
             "plus",
             "gold"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Apple iPhone 7 Plus/Device with Shadow/Apple iPhone 7 Plus Jet Black.png",
@@ -1061,7 +1109,8 @@
             "plus",
             "jet",
             "black"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Apple iPhone 7 Plus/Device with Shadow/Apple iPhone 7 Plus Matte Black.png",
@@ -1084,7 +1133,8 @@
             "plus",
             "matte",
             "black"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Apple iPhone 7 Plus/Device with Shadow/Apple iPhone 7 Plus Rose Gold.png",
@@ -1107,7 +1157,8 @@
             "plus",
             "rose",
             "gold"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Apple iPhone 7 Plus/Device with Shadow/Apple iPhone 7 Plus Silver.png",
@@ -1129,7 +1180,8 @@
             "7",
             "plus",
             "silver"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Apple iPhone SE/Device/Apple iPhone SE Gold.png",
@@ -1150,7 +1202,8 @@
             "iphone",
             "se",
             "gold"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Apple iPhone SE/Device/Apple iPhone SE Rose Gold.png",
@@ -1172,7 +1225,8 @@
             "se",
             "rose",
             "gold"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Apple iPhone SE/Device/Apple iPhone SE Silver.png",
@@ -1193,7 +1247,8 @@
             "iphone",
             "se",
             "silver"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Apple iPhone SE/Device/Apple iPhone SE Space Gray.png",
@@ -1215,7 +1270,8 @@
             "se",
             "space",
             "gray"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Apple iPhone SE/Device with Shadow/Apple iPhone SE Gold.png",
@@ -1236,7 +1292,8 @@
             "iphone",
             "se",
             "gold"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Apple iPhone SE/Device with Shadow/Apple iPhone SE Rose Gold.png",
@@ -1258,7 +1315,8 @@
             "se",
             "rose",
             "gold"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Apple iPhone SE/Device with Shadow/Apple iPhone SE Silver.png",
@@ -1279,7 +1337,8 @@
             "iphone",
             "se",
             "silver"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Apple iPhone SE/Device with Shadow/Apple iPhone SE Space Gray.png",
@@ -1301,7 +1360,8 @@
             "se",
             "space",
             "gray"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Google Pixel/Device with Shadows/Google Pixel Quite Black.png",
@@ -1322,7 +1382,8 @@
             "pixel",
             "quite",
             "black"
-        ]
+        ],
+        "pixelRatio": 2.6
     },
     {
         "relPath": "Phones/Google Pixel/Device with Shadows/Google Pixel Really Blue.png",
@@ -1343,7 +1404,8 @@
             "pixel",
             "really",
             "blue"
-        ]
+        ],
+        "pixelRatio": 2.6
     },
     {
         "relPath": "Phones/Google Pixel/Device with Shadows/Google Pixel Very Silver.png",
@@ -1364,7 +1426,8 @@
             "pixel",
             "very",
             "silver"
-        ]
+        ],
+        "pixelRatio": 2.6
     },
     {
         "relPath": "Phones/Google Pixel/Device/Google Pixel Quite Black.png",
@@ -1385,7 +1448,8 @@
             "pixel",
             "quite",
             "black"
-        ]
+        ],
+        "pixelRatio": 2.6
     },
     {
         "relPath": "Phones/Google Pixel/Device/Google Pixel Really Blue.png",
@@ -1406,7 +1470,8 @@
             "pixel",
             "really",
             "blue"
-        ]
+        ],
+        "pixelRatio": 2.6
     },
     {
         "relPath": "Phones/Google Pixel/Device/Google Pixel Very Silver.png",
@@ -1427,7 +1492,8 @@
             "pixel",
             "very",
             "silver"
-        ]
+        ],
+        "pixelRatio": 2.6
     },
     {
         "relPath": "Phones/HTC One A9/Device/HTC One A9 Black.png",
@@ -1448,7 +1514,8 @@
             "one",
             "a9",
             "black"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/HTC One A9/Device/HTC One A9 White.png",
@@ -1469,7 +1536,8 @@
             "one",
             "a9",
             "white"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/HTC One A9/Device with Shadow/HTC One A9 Black.png",
@@ -1490,7 +1558,8 @@
             "one",
             "a9",
             "black"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/HTC One A9/Device with Shadow/HTC One A9 White.png",
@@ -1511,7 +1580,8 @@
             "one",
             "a9",
             "white"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/HTC One M8/Device/HTC One M8 Black.png",
@@ -1532,7 +1602,8 @@
             "one",
             "m8",
             "black"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/HTC One M8/Device/HTC One M8 Gold.png",
@@ -1553,7 +1624,8 @@
             "one",
             "m8",
             "gold"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/HTC One M8/Device/HTC One M8 Silver.png",
@@ -1574,7 +1646,8 @@
             "one",
             "m8",
             "silver"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/HTC One M8/Device with Shadow/HTC One M8 Black.png",
@@ -1595,7 +1668,8 @@
             "one",
             "m8",
             "black"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/HTC One M8/Device with Shadow/HTC One M8 Gold.png",
@@ -1616,7 +1690,8 @@
             "one",
             "m8",
             "gold"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/HTC One M8/Device with Shadow/HTC One M8 Silver.png",
@@ -1637,7 +1712,8 @@
             "one",
             "m8",
             "silver"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Huawei P8/Device/Huawei P8 Black.png",
@@ -1657,7 +1733,8 @@
             "huawei",
             "p8",
             "black"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Huawei P8/Device/Huawei P8 White.png",
@@ -1677,7 +1754,8 @@
             "huawei",
             "p8",
             "white"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Huawei P8/Device with Shadow/Huawei P8 Black.png",
@@ -1697,7 +1775,8 @@
             "huawei",
             "p8",
             "black"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Huawei P8/Device with Shadow/Huawei P8 White.png",
@@ -1717,7 +1796,8 @@
             "huawei",
             "p8",
             "white"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Motorola Moto E/Device with Shadow/Motorola Moto E Black.png",
@@ -1738,7 +1818,8 @@
             "moto",
             "e",
             "black"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Motorola Moto E/Device with Shadow/Motorola Moto E White.png",
@@ -1759,7 +1840,8 @@
             "moto",
             "e",
             "white"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Motorola Moto E/Device/Motorola Moto E Black.png",
@@ -1780,7 +1862,8 @@
             "moto",
             "e",
             "black"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Motorola Moto E/Device/Motorola Moto E White.png",
@@ -1801,7 +1884,8 @@
             "moto",
             "e",
             "white"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Microsoft Lumia 950/Device/Microsoft Lumia 950 Black.png",
@@ -1822,7 +1906,8 @@
             "lumia",
             "950",
             "black"
-        ]
+        ],
+        "pixelRatio": 4
     },
     {
         "relPath": "Phones/Microsoft Lumia 950/Device/Microsoft Lumia 950 White.png",
@@ -1843,7 +1928,8 @@
             "lumia",
             "950",
             "white"
-        ]
+        ],
+        "pixelRatio": 4
     },
     {
         "relPath": "Phones/Microsoft Lumia 950/Device with Shadow/Microsoft Lumia 950 Black.png",
@@ -1864,7 +1950,8 @@
             "lumia",
             "950",
             "black"
-        ]
+        ],
+        "pixelRatio": 4
     },
     {
         "relPath": "Phones/Microsoft Lumia 950/Device with Shadow/Microsoft Lumia 950 White.png",
@@ -1885,7 +1972,8 @@
             "lumia",
             "950",
             "white"
-        ]
+        ],
+        "pixelRatio": 4
     },
     {
         "relPath": "Phones/Nexus 5X/Device/Nexus 5x.png",
@@ -1904,7 +1992,8 @@
         "tags": [
             "nexus",
             "5x"
-        ]
+        ],
+        "pixelRatio": 2.6
     },
     {
         "relPath": "Phones/Nexus 5X/Device with Shadow/Nexus 5x.png",
@@ -1923,7 +2012,8 @@
         "tags": [
             "nexus",
             "5x"
-        ]
+        ],
+        "pixelRatio": 2.6
     },
     {
         "relPath": "Phones/Motorola Moto G/Device/Motorola Moto G.png",
@@ -1943,7 +2033,8 @@
             "motorola",
             "moto",
             "g"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Motorola Moto G/Device with Shadow/Motorola Moto G.png",
@@ -1963,7 +2054,8 @@
             "motorola",
             "moto",
             "g"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Nexus 4/Device/Nexus 4.png",
@@ -1982,7 +2074,8 @@
         "tags": [
             "nexus",
             "4"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Nexus 4/Device with Shadow/Nexus 4.png",
@@ -2001,7 +2094,8 @@
         "tags": [
             "nexus",
             "4"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Nexus 6P/Device/Nexus 6P.png",
@@ -2020,7 +2114,8 @@
         "tags": [
             "nexus",
             "6p"
-        ]
+        ],
+        "pixelRatio": 3.5
     },
     {
         "relPath": "Phones/Nexus 6P/Device with Shadow/Nexus 6P.png",
@@ -2039,7 +2134,8 @@
         "tags": [
             "nexus",
             "6p"
-        ]
+        ],
+        "pixelRatio": 3.5
     },
     {
         "relPath": "Phones/Nokia 220/Device/Nokia 220 Black.png",
@@ -2059,7 +2155,8 @@
             "nokia",
             "220",
             "black"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia 220/Device/Nokia 220 Blue.png",
@@ -2079,7 +2176,8 @@
             "nokia",
             "220",
             "blue"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia 220/Device/Nokia 220 Red.png",
@@ -2099,7 +2197,8 @@
             "nokia",
             "220",
             "red"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia 220/Device/Nokia 220 White.png",
@@ -2119,7 +2218,8 @@
             "nokia",
             "220",
             "white"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia 220/Device/Nokia 220 Yellow.png",
@@ -2139,7 +2239,8 @@
             "nokia",
             "220",
             "yellow"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia 220/Device with Shadow/Nokia 220 Black.png",
@@ -2159,7 +2260,8 @@
             "nokia",
             "220",
             "black"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia 220/Device with Shadow/Nokia 220 Blue.png",
@@ -2179,7 +2281,8 @@
             "nokia",
             "220",
             "blue"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia 220/Device with Shadow/Nokia 220 Red.png",
@@ -2199,7 +2302,8 @@
             "nokia",
             "220",
             "red"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia 220/Device with Shadow/Nokia 220 White.png",
@@ -2219,7 +2323,8 @@
             "nokia",
             "220",
             "white"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia 220/Device with Shadow/Nokia 220 Yellow.png",
@@ -2239,7 +2344,8 @@
             "nokia",
             "220",
             "yellow"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia 230/Device/Nokia 230 Black.png",
@@ -2259,7 +2365,8 @@
             "nokia",
             "230",
             "black"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia 230/Device/Nokia 230 White.png",
@@ -2279,7 +2386,8 @@
             "nokia",
             "230",
             "white"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia 230/Device with Shadow/Nokia 230 Black.png",
@@ -2299,7 +2407,8 @@
             "nokia",
             "230",
             "black"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia 230/Device with Shadow/Nokia 230 White.png",
@@ -2319,7 +2428,8 @@
             "nokia",
             "230",
             "white"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia C3-00/Device with Shadow/Nokia C3-00.png",
@@ -2338,7 +2448,8 @@
         "tags": [
             "nokia",
             "c3-00"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia C3-00/Device/Nokia C3-00.png",
@@ -2357,7 +2468,8 @@
         "tags": [
             "nokia",
             "c3-00"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Samsung Galaxy Note 5/Device/Samsung Galaxy Note 5 Black.png",
@@ -2379,7 +2491,8 @@
             "note",
             "5",
             "black"
-        ]
+        ],
+        "pixelRatio": 3.5
     },
     {
         "relPath": "Phones/Samsung Galaxy Note 5/Device/Samsung Galaxy Note 5 Gold.png",
@@ -2401,7 +2514,8 @@
             "note",
             "5",
             "gold"
-        ]
+        ],
+        "pixelRatio": 3.5
     },
     {
         "relPath": "Phones/Samsung Galaxy Note 5/Device/Samsung Galaxy Note 5 Pink.png",
@@ -2423,7 +2537,8 @@
             "note",
             "5",
             "pink"
-        ]
+        ],
+        "pixelRatio": 3.5
     },
     {
         "relPath": "Phones/Samsung Galaxy Note 5/Device/Samsung Galaxy Note 5 Silver Titanium.png",
@@ -2446,7 +2561,8 @@
             "5",
             "silver",
             "titanium"
-        ]
+        ],
+        "pixelRatio": 3.5
     },
     {
         "relPath": "Phones/Samsung Galaxy Note 5/Device/Samsung Galaxy Note 5 White.png",
@@ -2468,7 +2584,8 @@
             "note",
             "5",
             "white"
-        ]
+        ],
+        "pixelRatio": 3.5
     },
     {
         "relPath": "Phones/Samsung Galaxy Note 5/Device with Shadow/Samsung Galaxy Note 5 Black.png",
@@ -2490,7 +2607,8 @@
             "note",
             "5",
             "black"
-        ]
+        ],
+        "pixelRatio": 3.5
     },
     {
         "relPath": "Phones/Samsung Galaxy Note 5/Device with Shadow/Samsung Galaxy Note 5 Gold.png",
@@ -2512,7 +2630,8 @@
             "note",
             "5",
             "gold"
-        ]
+        ],
+        "pixelRatio": 3.5
     },
     {
         "relPath": "Phones/Samsung Galaxy Note 5/Device with Shadow/Samsung Galaxy Note 5 Pink.png",
@@ -2534,7 +2653,8 @@
             "note",
             "5",
             "pink"
-        ]
+        ],
+        "pixelRatio": 3.5
     },
     {
         "relPath": "Phones/Samsung Galaxy Note 5/Device with Shadow/Samsung Galaxy Note 5 Silver Titanium.png",
@@ -2557,7 +2677,8 @@
             "5",
             "silver",
             "titanium"
-        ]
+        ],
+        "pixelRatio": 3.5
     },
     {
         "relPath": "Phones/Samsung Galaxy Note 5/Device with Shadow/Samsung Galaxy Note 5 White.png",
@@ -2579,7 +2700,8 @@
             "note",
             "5",
             "white"
-        ]
+        ],
+        "pixelRatio": 3.5
     },
     {
         "relPath": "Phones/Samsung Galaxy Grand Prime/Device/Samsung Galaxy Grand Prime Black.png",
@@ -2601,7 +2723,8 @@
             "grand",
             "prime",
             "black"
-        ]
+        ],
+        "pixelRatio": 1.5
     },
     {
         "relPath": "Phones/Samsung Galaxy Grand Prime/Device/Samsung Galaxy Grand Prime Gold.png",
@@ -2623,7 +2746,8 @@
             "grand",
             "prime",
             "gold"
-        ]
+        ],
+        "pixelRatio": 1.5
     },
     {
         "relPath": "Phones/Samsung Galaxy Grand Prime/Device/Samsung Galaxy Grand Prime White.png",
@@ -2645,7 +2769,8 @@
             "grand",
             "prime",
             "white"
-        ]
+        ],
+        "pixelRatio": 1.5
     },
     {
         "relPath": "Phones/Samsung Galaxy Grand Prime/Device with Shadow/Samsung Galaxy Grand Prime Black.png",
@@ -2667,7 +2792,8 @@
             "grand",
             "prime",
             "black"
-        ]
+        ],
+        "pixelRatio": 1.5
     },
     {
         "relPath": "Phones/Samsung Galaxy Grand Prime/Device with Shadow/Samsung Galaxy Grand Prime Gold.png",
@@ -2689,7 +2815,8 @@
             "grand",
             "prime",
             "gold"
-        ]
+        ],
+        "pixelRatio": 1.5
     },
     {
         "relPath": "Phones/Samsung Galaxy Grand Prime/Device with Shadow/Samsung Galaxy Grand Prime White.png",
@@ -2711,7 +2838,8 @@
             "grand",
             "prime",
             "white"
-        ]
+        ],
+        "pixelRatio": 1.5
     },
     {
         "relPath": "Phones/Nokia Asha 230/Device/Nokia Asha 230 Black.png",
@@ -2732,7 +2860,8 @@
             "asha",
             "230",
             "black"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia Asha 230/Device/Nokia Asha 230 Blue.png",
@@ -2753,7 +2882,8 @@
             "asha",
             "230",
             "blue"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia Asha 230/Device/Nokia Asha 230 Green.png",
@@ -2774,7 +2904,8 @@
             "asha",
             "230",
             "green"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia Asha 230/Device/Nokia Asha 230 Red.png",
@@ -2795,7 +2926,8 @@
             "asha",
             "230",
             "red"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia Asha 230/Device/Nokia Asha 230 White.png",
@@ -2816,7 +2948,8 @@
             "asha",
             "230",
             "white"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia Asha 230/Device/Nokia Asha 230 Yellow.png",
@@ -2837,7 +2970,8 @@
             "asha",
             "230",
             "yellow"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia Asha 230/Device with Shadow/Nokia Asha 230 230 White.png",
@@ -2859,7 +2993,8 @@
             "230",
             "230",
             "white"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia Asha 230/Device with Shadow/Nokia Asha 230 Black.png",
@@ -2880,7 +3015,8 @@
             "asha",
             "230",
             "black"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia Asha 230/Device with Shadow/Nokia Asha 230 Blue.png",
@@ -2901,7 +3037,8 @@
             "asha",
             "230",
             "blue"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia Asha 230/Device with Shadow/Nokia Asha 230 Green.png",
@@ -2922,7 +3059,8 @@
             "asha",
             "230",
             "green"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia Asha 230/Device with Shadow/Nokia Asha 230 Red.png",
@@ -2943,7 +3081,8 @@
             "asha",
             "230",
             "red"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Nokia Asha 230/Device with Shadow/Nokia Asha 230 Yellow.png",
@@ -2964,7 +3103,8 @@
             "asha",
             "230",
             "yellow"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Phones/Samsung Galaxy S3/Device with Shadow/Samsung Galaxy S3.png",
@@ -2984,7 +3124,8 @@
             "samsung",
             "galaxy",
             "s3"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Samsung Galaxy S3/Device/Samsung Galaxy S3.png",
@@ -3004,7 +3145,8 @@
             "samsung",
             "galaxy",
             "s3"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Phones/Samsung Galaxy S Duos/Device/Samsung Galaxy S Duos.png",
@@ -3025,7 +3167,8 @@
             "galaxy",
             "s",
             "duos"
-        ]
+        ],
+        "pixelRatio": 1.5
     },
     {
         "relPath": "Phones/Samsung Galaxy S Duos/Device with Shadow/Samsung Galaxy S Duos.png",
@@ -3046,7 +3189,8 @@
             "galaxy",
             "s",
             "duos"
-        ]
+        ],
+        "pixelRatio": 1.5
     },
     {
         "relPath": "Phones/Samsung Galaxy S5/Device/Samsung Galaxy S5 Black.png",
@@ -3067,7 +3211,8 @@
             "galaxy",
             "s5",
             "black"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Samsung Galaxy S5/Device/Samsung Galaxy S5 White.png",
@@ -3088,7 +3233,8 @@
             "galaxy",
             "s5",
             "white"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Samsung Galaxy S5/Device with Shadow/Samsung Galaxy S5 Black.png",
@@ -3109,7 +3255,8 @@
             "galaxy",
             "s5",
             "black"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Samsung Galaxy S5/Device with Shadow/Samsung Galaxy S5 White.png",
@@ -3130,7 +3277,8 @@
             "galaxy",
             "s5",
             "white"
-        ]
+        ],
+        "pixelRatio": 3
     },
     {
         "relPath": "Phones/Samsung Galaxy S7/Device/Samsung Galaxy S7 Black.png",
@@ -3151,7 +3299,8 @@
             "galaxy",
             "s7",
             "black"
-        ]
+        ],
+        "pixelRatio": 4
     },
     {
         "relPath": "Phones/Samsung Galaxy S7/Device/Samsung Galaxy S7 Gold.png",
@@ -3172,7 +3321,8 @@
             "galaxy",
             "s7",
             "gold"
-        ]
+        ],
+        "pixelRatio": 4
     },
     {
         "relPath": "Phones/Samsung Galaxy S7/Device/Samsung Galaxy S7 Silver.png",
@@ -3193,7 +3343,8 @@
             "galaxy",
             "s7",
             "silver"
-        ]
+        ],
+        "pixelRatio": 4
     },
     {
         "relPath": "Phones/Samsung Galaxy S7/Device/Samsung Galaxy S7 White.png",
@@ -3214,7 +3365,8 @@
             "galaxy",
             "s7",
             "white"
-        ]
+        ],
+        "pixelRatio": 4
     },
     {
         "relPath": "Phones/Samsung Galaxy S7/Device with Shadow/Samsung Galaxy S7 Black.png",
@@ -3235,7 +3387,8 @@
             "galaxy",
             "s7",
             "black"
-        ]
+        ],
+        "pixelRatio": 4
     },
     {
         "relPath": "Phones/Samsung Galaxy S7/Device with Shadow/Samsung Galaxy S7 Gold.png",
@@ -3256,7 +3409,8 @@
             "galaxy",
             "s7",
             "gold"
-        ]
+        ],
+        "pixelRatio": 4
     },
     {
         "relPath": "Phones/Samsung Galaxy S7/Device with Shadow/Samsung Galaxy S7 Silver.png",
@@ -3277,7 +3431,8 @@
             "galaxy",
             "s7",
             "silver"
-        ]
+        ],
+        "pixelRatio": 4
     },
     {
         "relPath": "Phones/Samsung Galaxy S7/Device with Shadow/Samsung Galaxy S7 White.png",
@@ -3298,7 +3453,8 @@
             "galaxy",
             "s7",
             "white"
-        ]
+        ],
+        "pixelRatio": 4
     },
     {
         "relPath": "Phones/Samsung Galaxy Y/Device/Samsung Galaxy Y Black.png",
@@ -3319,7 +3475,8 @@
             "galaxy",
             "y",
             "black"
-        ]
+        ],
+        "pixelRatio": 0.75
     },
     {
         "relPath": "Phones/Samsung Galaxy Y/Device/Samsung Galaxy Y White.png",
@@ -3340,7 +3497,8 @@
             "galaxy",
             "y",
             "white"
-        ]
+        ],
+        "pixelRatio": 0.75
     },
     {
         "relPath": "Phones/Samsung Galaxy Y/Device with Shadow/Samsung Galaxy Y Black.png",
@@ -3361,7 +3519,8 @@
             "galaxy",
             "y",
             "black"
-        ]
+        ],
+        "pixelRatio": 0.75
     },
     {
         "relPath": "Phones/Samsung Galaxy Y/Device with Shadow/Samsung Galaxy Y White.png",
@@ -3382,7 +3541,8 @@
             "galaxy",
             "y",
             "white"
-        ]
+        ],
+        "pixelRatio": 0.75
     },
     {
         "relPath": "Tablets/Apple iPad Air 2/Device/Apple iPad Air 2 Gold.png",
@@ -3404,7 +3564,8 @@
             "air",
             "2",
             "gold"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Apple iPad Air 2/Device/Apple iPad Air 2 Silver.png",
@@ -3426,7 +3587,8 @@
             "air",
             "2",
             "silver"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Apple iPad Air 2/Device/Apple iPad Air 2 Space Gray.png",
@@ -3449,7 +3611,8 @@
             "2",
             "space",
             "gray"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Apple iPad Air 2/Device with Shadow/Apple iPad Air 2 Gold.png",
@@ -3471,7 +3634,8 @@
             "air",
             "2",
             "gold"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Apple iPad Air 2/Device with Shadow/Apple iPad Air 2 Silver.png",
@@ -3493,7 +3657,8 @@
             "air",
             "2",
             "silver"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Apple iPad Air 2/Device with Shadow/Apple iPad Air 2 Space Gray.png",
@@ -3516,7 +3681,8 @@
             "2",
             "space",
             "gray"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Apple iPad Mini 4/Device/Apple iPad Mini 4 Gold.png",
@@ -3538,7 +3704,8 @@
             "mini",
             "4",
             "gold"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Apple iPad Mini 4/Device/Apple iPad Mini 4 Silver.png",
@@ -3560,7 +3727,8 @@
             "mini",
             "4",
             "silver"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Apple iPad Mini 4/Device/Apple iPad Mini 4 Space Gray.png",
@@ -3583,7 +3751,8 @@
             "4",
             "space",
             "gray"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Apple iPad Mini 4/Device with Shadow/Apple iPad Mini 4 Gold.png",
@@ -3605,7 +3774,8 @@
             "mini",
             "4",
             "gold"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Apple iPad Mini 4/Device with Shadow/Apple iPad Mini 4 Silver.png",
@@ -3627,7 +3797,8 @@
             "mini",
             "4",
             "silver"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Apple iPad Mini 4/Device with Shadow/Apple iPad Mini 4 Space Gray.png",
@@ -3650,7 +3821,8 @@
             "4",
             "space",
             "gray"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Apple iPad Pro/Device/Apple iPad Pro Gold.png",
@@ -3671,7 +3843,8 @@
             "ipad",
             "pro",
             "gold"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Apple iPad Pro/Device/Apple iPad Pro Space Gray.png",
@@ -3693,7 +3866,8 @@
             "pro",
             "space",
             "gray"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Apple iPad Pro/Device/Apple iPad Pro Silver.png",
@@ -3714,7 +3888,8 @@
             "ipad",
             "pro",
             "silver"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Apple iPad Pro/Device with Shadow/Apple iPad Pro Gold.png",
@@ -3735,7 +3910,8 @@
             "ipad",
             "pro",
             "gold"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Apple iPad Pro/Device with Shadow/Apple iPad Pro Silver.png",
@@ -3756,7 +3932,8 @@
             "ipad",
             "pro",
             "silver"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Apple iPad Pro/Device with Shadow/Apple iPad Pro Space Gray.png",
@@ -3778,7 +3955,8 @@
             "pro",
             "space",
             "gray"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Microsoft Surface 3/Device/Microsoft Surface Pro 3.png",
@@ -3799,7 +3977,8 @@
             "surface",
             "pro",
             "3"
-        ]
+        ],
+        "pixelRatio": 1.5
     },
     {
         "relPath": "Tablets/Microsoft Surface 3/Device with Shadow/Microsoft Surface Pro 3.png",
@@ -3820,7 +3999,8 @@
             "surface",
             "pro",
             "3"
-        ]
+        ],
+        "pixelRatio": 1.5
     },
     {
         "relPath": "Tablets/Microsoft Surface Pro 4/Device/Microsoft Surface Pro 4.png",
@@ -3841,7 +4021,8 @@
             "surface",
             "pro",
             "4"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Microsoft Surface Pro 4/Device with Shadow/Microsoft Surface Pro 4.png",
@@ -3862,7 +4043,8 @@
             "surface",
             "pro",
             "4"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Nexus 9/Device/Nexus 9.png",
@@ -3881,7 +4063,8 @@
         "tags": [
             "nexus",
             "9"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Tablets/Nexus 9/Device with Shadow/Nexus 9.png",
@@ -3900,7 +4083,8 @@
         "tags": [
             "nexus",
             "9"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Computers/Apple Macbook/Device with Shadow/Apple-Macbook-Gold.png",
@@ -3918,7 +4102,8 @@
         "shadow": true,
         "tags": [
             "apple-macbook-gold"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Computers/Apple Macbook/Device with Shadow/Apple-Macbook-Space-Grey.png",
@@ -3936,7 +4121,8 @@
         "shadow": true,
         "tags": [
             "apple-macbook-space-grey"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Computers/Apple Macbook/Device/Apple-Macbook-Gold.png",
@@ -3954,7 +4140,8 @@
         "shadow": false,
         "tags": [
             "apple-macbook-gold"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Computers/Apple Macbook/Device/Apple-Macbook-Space-Grey.png",
@@ -3972,7 +4159,8 @@
         "shadow": false,
         "tags": [
             "apple-macbook-space-grey"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Computers/Apple iMac Retina/Device with shadow/Apple iMac Retina.png",
@@ -3992,7 +4180,8 @@
             "apple",
             "imac",
             "retina"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Computers/Apple iMac Retina/Device/Apple iMac Retina.png",
@@ -4012,7 +4201,8 @@
             "apple",
             "imac",
             "retina"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Computers/Apple iMac/Device/Apple iMac.png",
@@ -4031,7 +4221,8 @@
         "tags": [
             "apple",
             "imac"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Computers/Apple iMac/Device with shadow/Apple iMac.png",
@@ -4050,7 +4241,8 @@
         "tags": [
             "apple",
             "imac"
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Computers/Dell XPS 13/Device/Dell XPS 13\".png",
@@ -4070,7 +4262,8 @@
             "dell",
             "xps",
             "13\""
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Computers/Dell XPS 13/Device with shadow/Dell XPS 13\".png",
@@ -4090,7 +4283,8 @@
             "dell",
             "xps",
             "13\""
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Computers/Dell XPS 15/Device with shadow/Dell XPS 15\".png",
@@ -4110,7 +4304,8 @@
             "dell",
             "xps",
             "15\""
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Computers/Dell XPS 15/Device/Dell XPS 15\".png",
@@ -4130,7 +4325,8 @@
             "dell",
             "xps",
             "15\""
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Computers/Microsoft Surface Book/Device/Microsoft Surface Book.png",
@@ -4150,7 +4346,8 @@
             "microsoft",
             "surface",
             "book"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Computers/Microsoft Surface Book/Device with shadow/Microsoft Surface Book.png",
@@ -4170,7 +4367,8 @@
             "microsoft",
             "surface",
             "book"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Computers/Apple Macbook Pro/13\"/Device/Apple Macbook Pro 13\".png",
@@ -4191,7 +4389,8 @@
             "macbook",
             "pro",
             "13\""
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Computers/Apple Macbook Pro/13\"/Device with shadow/Apple Macbook Pro 13\".png",
@@ -4212,7 +4411,8 @@
             "macbook",
             "pro",
             "13\""
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Computers/Apple Macbook Pro/15\"/Device with shadow/Apple Macbook Pro 15\".png",
@@ -4233,7 +4433,8 @@
             "macbook",
             "pro",
             "15\""
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Computers/Apple Macbook Pro/15\"/Device/Apple Macbook Pro 15\".png",
@@ -4254,7 +4455,8 @@
             "macbook",
             "pro",
             "15\""
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Computers/Apple Macbook Air/13\"/Device/Apple Macbook Air 13\".png",
@@ -4275,7 +4477,8 @@
             "macbook",
             "air",
             "13\""
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Computers/Apple Macbook Air/13\"/Device with shadow/Apple Macbook Air 13\".png",
@@ -4296,7 +4499,8 @@
             "macbook",
             "air",
             "13\""
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Computers/Apple Macbook Air/11\"/Device/Apple Macbook Air 11\".png",
@@ -4317,7 +4521,8 @@
             "macbook",
             "air",
             "11\""
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Computers/Apple Macbook Air/11\"/Device with shadow/Apple Macbook Air 11\".png",
@@ -4338,7 +4543,8 @@
             "macbook",
             "air",
             "11\""
-        ]
+        ],
+        "pixelRatio": 1
     },
     {
         "relPath": "Displays/Apple Thunderbolt Display/Device with shadow/Apple Thunderbolt Display.png",
@@ -4358,7 +4564,8 @@
             "apple",
             "thunderbolt",
             "display"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Displays/Apple Thunderbolt Display/Device/Apple Thunderbolt Display.png",
@@ -4378,7 +4585,8 @@
             "apple",
             "thunderbolt",
             "display"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Displays/Dell UltraSharp HD 5K Monitor/Device/Dell UltraSharp 5K Monitor 27\" 90deg.png",
@@ -4401,7 +4609,8 @@
             "monitor",
             "27\"",
             "90deg"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Displays/Dell UltraSharp HD 5K Monitor/Device/Dell UltraSharp 5K Monitor 27\".png",
@@ -4423,7 +4632,8 @@
             "5k",
             "monitor",
             "27\""
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Displays/Dell UltraSharp HD 5K Monitor/Device with shadow/Dell UltraSharp 5K Monitor 27\" 90deg.png",
@@ -4446,7 +4656,8 @@
             "monitor",
             "27\"",
             "90deg"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Displays/Dell UltraSharp HD 5K Monitor/Device with shadow/Dell UltraSharp 5K Monitor 27\".png",
@@ -4468,7 +4679,8 @@
             "5k",
             "monitor",
             "27\""
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Displays/Sony W850C/Device/Sony W850C.png",
@@ -4487,7 +4699,8 @@
         "tags": [
             "sony",
             "w850c"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Displays/Sony W850C/Device with shadow/Snony W850C.png",
@@ -4506,7 +4719,8 @@
         "tags": [
             "snony",
             "w850c"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Displays/Dell UltraSharp Monitor/24\"/Device/Dell UltraSharp 24\" 90deg.png",
@@ -4527,7 +4741,8 @@
             "ultrasharp",
             "24\"",
             "90deg"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Displays/Dell UltraSharp Monitor/24\"/Device/Dell UltraSharp 24\".png",
@@ -4547,7 +4762,8 @@
             "dell",
             "ultrasharp",
             "24\""
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Displays/Dell UltraSharp Monitor/24\"/Device with shadow/Dell UltraSharp 24\" 90deg.png",
@@ -4568,7 +4784,8 @@
             "ultrasharp",
             "24\"",
             "90deg"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Displays/Dell UltraSharp Monitor/24\"/Device with shadow/Dell UltraSharp 24\".png",
@@ -4588,7 +4805,8 @@
             "dell",
             "ultrasharp",
             "24\""
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Displays/Dell UltraSharp Monitor/27\"/Device/Dell UltraSharp 27\" 90deg.png",
@@ -4609,7 +4827,8 @@
             "ultrasharp",
             "27\"",
             "90deg"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Displays/Dell UltraSharp Monitor/27\"/Device/Dell UltraSharp 27\".png",
@@ -4629,7 +4848,8 @@
             "dell",
             "ultrasharp",
             "27\""
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Displays/Dell UltraSharp Monitor/27\"/Device with shadow/Dell UltraSharp 27\" 90deg.png",
@@ -4650,7 +4870,8 @@
             "ultrasharp",
             "27\"",
             "90deg"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Displays/Dell UltraSharp Monitor/27\"/Device with shadow/Dell UltraSharp 27\".png",
@@ -4670,7 +4891,8 @@
             "dell",
             "ultrasharp",
             "27\""
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Sony SmartWatch 3/Device Closed/Sony SmartWatch 3 Black Closed.png",
@@ -4692,7 +4914,8 @@
             "3",
             "black",
             "closed"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Sony SmartWatch 3/Device Closed/Sony SmartWatch 3 White Closed.png",
@@ -4714,7 +4937,8 @@
             "3",
             "white",
             "closed"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Sony SmartWatch 3/Device Open/Sony SmartWatch 3 Black Open.png",
@@ -4736,7 +4960,8 @@
             "3",
             "black",
             "open"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Sony SmartWatch 3/Device Open/Sony SmartWatch 3 White Open.png",
@@ -4758,7 +4983,8 @@
             "3",
             "white",
             "open"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Men Black + Cognac Closed.png",
@@ -4783,7 +5009,8 @@
             "+",
             "cognac",
             "closed"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Men Black + Black Closed.png",
@@ -4808,7 +5035,8 @@
             "+",
             "black",
             "closed"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Men Gold + Black Closed.png",
@@ -4833,7 +5061,8 @@
             "+",
             "black",
             "closed"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Men Gold + Cognac Closed.png",
@@ -4858,7 +5087,8 @@
             "+",
             "cognac",
             "closed"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Men Silver + Black Closed.png",
@@ -4883,7 +5113,8 @@
             "+",
             "black",
             "closed"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Men Silver + Cognac Closed.png",
@@ -4908,7 +5139,8 @@
             "+",
             "cognac",
             "closed"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Women Gold + Blush Closed.png",
@@ -4933,7 +5165,8 @@
             "+",
             "blush",
             "closed"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Women Gold + Stone Closed.png",
@@ -4958,7 +5191,8 @@
             "+",
             "stone",
             "closed"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Women Rose Gold + Blush Closed.png",
@@ -4984,7 +5218,8 @@
             "+",
             "blush",
             "closed"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Women Rose Gold + Stone Grey Closed.png",
@@ -5011,7 +5246,8 @@
             "stone",
             "grey",
             "closed"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Women Silver + Blush Closed.png",
@@ -5036,7 +5272,8 @@
             "+",
             "blush",
             "closed"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Closed/Motorola Moto 360 Women Silver + Stone Grey Closed.png",
@@ -5062,7 +5299,8 @@
             "stone",
             "grey",
             "closed"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Men Black + Black Open.png",
@@ -5087,7 +5325,8 @@
             "+",
             "black",
             "open"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Men Black + Cognac Open.png",
@@ -5112,7 +5351,8 @@
             "+",
             "cognac",
             "open"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Men Gold + Black Open.png",
@@ -5137,7 +5377,8 @@
             "+",
             "black",
             "open"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Men Gold + Cognac Open.png",
@@ -5162,7 +5403,8 @@
             "+",
             "cognac",
             "open"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Men Silver + Black Open.png",
@@ -5187,7 +5429,8 @@
             "+",
             "black",
             "open"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Men Silver + Cognac Open.png",
@@ -5212,7 +5455,8 @@
             "+",
             "cognac",
             "open"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Women Gold + Blush Open.png",
@@ -5237,7 +5481,8 @@
             "+",
             "blush",
             "open"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Women Gold + Stone Open.png",
@@ -5262,7 +5507,8 @@
             "+",
             "stone",
             "open"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Women Rose Gold + Blush Open.png",
@@ -5288,7 +5534,8 @@
             "+",
             "blush",
             "open"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Women Rose Gold + Stone Grey Open.png",
@@ -5315,7 +5562,8 @@
             "stone",
             "grey",
             "open"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Women Silver + Blush Open.png",
@@ -5340,7 +5588,8 @@
             "+",
             "blush",
             "open"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Motorola Moto 360/Device Open/Motorola Moto 360 Women Silver + Stone Grey Open.png",
@@ -5366,7 +5615,8 @@
             "stone",
             "grey",
             "open"
-        ]
+        ],
+        "pixelRatio": ""
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Black Steel + Black Closed.png",
@@ -5391,7 +5641,8 @@
             "+",
             "black",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Gold + Black Leather Closed.png",
@@ -5416,7 +5667,8 @@
             "black",
             "leather",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Gold + Midnight Blue Closed.png",
@@ -5441,7 +5693,8 @@
             "midnight",
             "blue",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Rose Gold + Black Leather Closed.png",
@@ -5467,7 +5720,8 @@
             "black",
             "leather",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Rose Gold + Lavender Closed.png",
@@ -5492,7 +5746,8 @@
             "+",
             "lavender",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + Blue Closed.png",
@@ -5517,7 +5772,8 @@
             "+",
             "blue",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + Fog Closed.png",
@@ -5542,7 +5798,8 @@
             "+",
             "fog",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + Green Closed.png",
@@ -5567,7 +5824,8 @@
             "+",
             "green",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + Red Closed.png",
@@ -5592,7 +5850,8 @@
             "+",
             "red",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + Walnut Closed.png",
@@ -5617,7 +5876,8 @@
             "+",
             "walnut",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + White Closed.png",
@@ -5642,7 +5902,8 @@
             "+",
             "white",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum Gold + Antique White Closed.png",
@@ -5669,7 +5930,8 @@
             "antique",
             "white",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum Rose Gold + Stone Closed.png",
@@ -5696,7 +5958,8 @@
             "+",
             "stone",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Sport Space Gray + Black Closed.png",
@@ -5722,7 +5985,8 @@
             "+",
             "black",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Stainless Steel + Black Leather Closed.png",
@@ -5748,7 +6012,8 @@
             "black",
             "leather",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Closed/Apple Watch 38mm Steel + White Closed.png",
@@ -5772,7 +6037,8 @@
             "+",
             "white",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Black Steel + Black Open.png",
@@ -5797,7 +6063,8 @@
             "+",
             "black",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Gold + Midnight Blue Open.png",
@@ -5822,7 +6089,8 @@
             "midnight",
             "blue",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Rose Gold + Lavender Open.png",
@@ -5847,7 +6115,8 @@
             "+",
             "lavender",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum + Fog Open.png",
@@ -5872,7 +6141,8 @@
             "+",
             "fog",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum + Blue Open.png",
@@ -5897,7 +6167,8 @@
             "+",
             "blue",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum + Green Open.png",
@@ -5922,7 +6193,8 @@
             "+",
             "green",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum + Red Open .png",
@@ -5948,7 +6220,8 @@
             "red",
             "open",
             ""
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum + Walnut Open.png",
@@ -5973,7 +6246,8 @@
             "+",
             "walnut",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum + White Open.png",
@@ -5998,7 +6272,8 @@
             "+",
             "white",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum Gold + Antique White Open.png",
@@ -6025,7 +6300,8 @@
             "antique",
             "white",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Aluminum Rose Gold + Stone Open.png",
@@ -6052,7 +6328,8 @@
             "+",
             "stone",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Sport Space Gray + Black Open.png",
@@ -6078,7 +6355,8 @@
             "+",
             "black",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/38mm/Device Open/Apple Watch 38mm Steel + White Open.png",
@@ -6102,7 +6380,8 @@
             "+",
             "white",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Black Steel + Black Open.png",
@@ -6127,7 +6406,8 @@
             "+",
             "black",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Gold + Midnight Blue Open.png",
@@ -6152,7 +6432,8 @@
             "midnight",
             "blue",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Rose Gold + Lavender Open.png",
@@ -6177,7 +6458,8 @@
             "+",
             "lavender",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum + Blue Open.png",
@@ -6202,7 +6484,8 @@
             "+",
             "blue",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum + Fog Open.png",
@@ -6227,7 +6510,8 @@
             "+",
             "fog",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum + Green Open.png",
@@ -6252,7 +6536,8 @@
             "+",
             "green",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum + Red Open .png",
@@ -6278,7 +6563,8 @@
             "red",
             "open",
             ""
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum + Walnut Open.png",
@@ -6303,7 +6589,8 @@
             "+",
             "walnut",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum + White Open.png",
@@ -6328,7 +6615,8 @@
             "+",
             "white",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum Gold + Antique White Open.png",
@@ -6355,7 +6643,8 @@
             "antique",
             "white",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Aluminum Rose Gold + Stone Open.png",
@@ -6382,7 +6671,8 @@
             "+",
             "stone",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Sport Space Gray + Black Open.png",
@@ -6408,7 +6698,8 @@
             "+",
             "black",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Open/Apple Watch 42mm Steel + White Open.png",
@@ -6432,7 +6723,8 @@
             "+",
             "white",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Black Steel + Black Closed.png",
@@ -6457,7 +6749,8 @@
             "+",
             "black",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Gold + Black Leather Closed.png",
@@ -6482,7 +6775,8 @@
             "black",
             "leather",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Gold + Midnight Blue Closed.png",
@@ -6507,7 +6801,8 @@
             "midnight",
             "blue",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Rose Gold + Black Leather Closed.png",
@@ -6533,7 +6828,8 @@
             "black",
             "leather",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Rose Gold + Lavender Closed.png",
@@ -6558,7 +6854,8 @@
             "+",
             "lavender",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum + Blue Closed.png",
@@ -6583,7 +6880,8 @@
             "+",
             "blue",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum + Fog Closed.png",
@@ -6608,7 +6906,8 @@
             "+",
             "fog",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum + Green Closed.png",
@@ -6633,7 +6932,8 @@
             "+",
             "green",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum + Red Closed.png",
@@ -6658,7 +6958,8 @@
             "+",
             "red",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum + Walnut Closed.png",
@@ -6683,7 +6984,8 @@
             "+",
             "walnut",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum + White Closed.png",
@@ -6708,7 +7010,8 @@
             "+",
             "white",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum Gold + Antique White Closed.png",
@@ -6735,7 +7038,8 @@
             "antique",
             "white",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Aluminum Rose Gold + Stone Closed.png",
@@ -6762,7 +7066,8 @@
             "+",
             "stone",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Sport Space Gray + Black Closed.png",
@@ -6788,7 +7093,8 @@
             "+",
             "black",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Stainless Steel + Black Leather Closed.png",
@@ -6814,7 +7120,8 @@
             "black",
             "leather",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch/Device/42mm/Device Closed/Apple Watch 42mm Steel + White Closed.png",
@@ -6838,7 +7145,8 @@
             "+",
             "white",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Edition Closed.png",
@@ -6860,7 +7168,8 @@
             "42mm",
             "edition",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Rose Gold Aluminum + Midnight Blue Closed.png",
@@ -6887,7 +7196,8 @@
             "midnight",
             "blue",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Gold Aluminum + Cocoa Closed.png",
@@ -6912,7 +7222,8 @@
             "+",
             "cocoa",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Concrete Closed.png",
@@ -6937,7 +7248,8 @@
             "+",
             "concrete",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Flat Silver Volt Nike Closed.png",
@@ -6965,7 +7277,8 @@
             "volt",
             "nike",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Flat Silver White Nike Closed.png",
@@ -6993,7 +7306,8 @@
             "white",
             "nike",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Green Closed.png",
@@ -7018,7 +7332,8 @@
             "+",
             "green",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Light Pink Closed.png",
@@ -7044,7 +7359,8 @@
             "light",
             "pink",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Ocean Blue Closed.png",
@@ -7070,7 +7386,8 @@
             "ocean",
             "blue",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Pink Sand Closed.png",
@@ -7096,7 +7413,8 @@
             "pink",
             "sand",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Red Closed.png",
@@ -7121,7 +7439,8 @@
             "+",
             "red",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Turquoise Closed.png",
@@ -7146,7 +7465,8 @@
             "+",
             "turquoise",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + White Closed.png",
@@ -7171,7 +7491,8 @@
             "+",
             "white",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Silver Aluminum + Yellow Closed.png",
@@ -7196,7 +7517,8 @@
             "+",
             "yellow",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Space Black Steel + Black Closed.png",
@@ -7222,7 +7544,8 @@
             "+",
             "black",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Space Gray Aluminum + Black Closed.png",
@@ -7248,7 +7571,8 @@
             "+",
             "black",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Space Gray Aluminum + Black Cool Gray Nike Closed.png",
@@ -7277,7 +7601,8 @@
             "gray",
             "nike",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Space Gray Aluminum + Black Volt Nike Closed.png",
@@ -7305,7 +7630,8 @@
             "volt",
             "nike",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Closed/Apple Watch 42mm Steel + White Closed.png",
@@ -7329,7 +7655,8 @@
             "+",
             "white",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Edition Open.png",
@@ -7351,7 +7678,8 @@
             "42mm",
             "edition",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Rose Gold Aluminum + Midnight Blue Open.png",
@@ -7378,7 +7706,8 @@
             "midnight",
             "blue",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Cocoa Open.png",
@@ -7403,7 +7732,8 @@
             "+",
             "cocoa",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Concrete Open.png",
@@ -7428,7 +7758,8 @@
             "+",
             "concrete",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Flat Silver Volt Nike Open.png",
@@ -7456,7 +7787,8 @@
             "volt",
             "nike",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Flat Silver White Nike Open.png",
@@ -7484,7 +7816,8 @@
             "white",
             "nike",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Green Open.png",
@@ -7509,7 +7842,8 @@
             "+",
             "green",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Light Pink Open.png",
@@ -7535,7 +7869,8 @@
             "light",
             "pink",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Ocean Blue Open.png",
@@ -7561,7 +7896,8 @@
             "ocean",
             "blue",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Pink Sand Open.png",
@@ -7587,7 +7923,8 @@
             "pink",
             "sand",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Red Open .png",
@@ -7613,7 +7950,8 @@
             "red",
             "open",
             ""
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Turquoise Open.png",
@@ -7638,7 +7976,8 @@
             "+",
             "turquoise",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + White Open.png",
@@ -7663,7 +8002,8 @@
             "+",
             "white",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Silver Aluminum + Yellow Open.png",
@@ -7688,7 +8028,8 @@
             "+",
             "yellow",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Space Black Steel + Black Open.png",
@@ -7714,7 +8055,8 @@
             "+",
             "black",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Space Gray Aluminum + Black Cool Gray Nike Open.png",
@@ -7743,7 +8085,8 @@
             "gray",
             "nike",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Space Gray Aluminum + Black Open.png",
@@ -7769,7 +8112,8 @@
             "+",
             "black",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Steel + White Open.png",
@@ -7793,7 +8137,8 @@
             "+",
             "white",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/42mm/Device Open/Apple Watch 42mm Space Gray Aluminum + Black Volt Nike Open.png",
@@ -7821,7 +8166,8 @@
             "volt",
             "nike",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Black Steel + Black Closed.png",
@@ -7846,7 +8192,8 @@
             "+",
             "black",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Edition Closed.png",
@@ -7868,7 +8215,8 @@
             "38mm",
             "edition",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Rose Gold Aluminum + Midnight Blue Closed.png",
@@ -7895,7 +8243,8 @@
             "midnight",
             "blue",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Cocoa Closed.png",
@@ -7920,7 +8269,8 @@
             "+",
             "cocoa",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Concrete Closed.png",
@@ -7945,7 +8295,8 @@
             "+",
             "concrete",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Flat Silver Volt Nike Closed.png",
@@ -7973,7 +8324,8 @@
             "volt",
             "nike",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Flat Silver White Nike Closed.png",
@@ -8001,7 +8353,8 @@
             "white",
             "nike",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Ocean Blue Closed.png",
@@ -8027,7 +8380,8 @@
             "ocean",
             "blue",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Red Closed.png",
@@ -8052,7 +8406,8 @@
             "+",
             "red",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Turquoise Closed.png",
@@ -8077,7 +8432,8 @@
             "+",
             "turquoise",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + White Closed.png",
@@ -8102,7 +8458,8 @@
             "+",
             "white",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Silver Aluminum + Yellow Closed.png",
@@ -8127,7 +8484,8 @@
             "+",
             "yellow",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Space Gray Aluminum + Black Closed.png",
@@ -8153,7 +8511,8 @@
             "+",
             "black",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Space Gray Aluminum + Black Cool Gray Nike Closed.png",
@@ -8182,7 +8541,8 @@
             "gray",
             "nike",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Space Gray Aluminum + Black Volt Nike Closed.png",
@@ -8210,7 +8570,8 @@
             "volt",
             "nike",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Sport Aluminum + Walnut Closed.png",
@@ -8235,7 +8596,8 @@
             "+",
             "walnut",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Closed/Apple Watch 38mm Steel + White Closed.png",
@@ -8259,7 +8621,8 @@
             "+",
             "white",
             "closed"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Black Steel + Black Open.png",
@@ -8284,7 +8647,8 @@
             "+",
             "black",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Edition Open.png",
@@ -8306,7 +8670,8 @@
             "38mm",
             "edition",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Rose Gold Aluminum + Midnight Blue Open.png",
@@ -8333,7 +8698,8 @@
             "midnight",
             "blue",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Cocoa Open.png",
@@ -8358,7 +8724,8 @@
             "+",
             "cocoa",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Concrete Open.png",
@@ -8383,7 +8750,8 @@
             "+",
             "concrete",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Flat Silver Volt Nike Open.png",
@@ -8411,7 +8779,8 @@
             "volt",
             "nike",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Flat Silver White Nike Open.png",
@@ -8439,7 +8808,8 @@
             "white",
             "nike",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Ocean Blue Open.png",
@@ -8465,7 +8835,8 @@
             "ocean",
             "blue",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Pink Sand Open.png",
@@ -8491,7 +8862,8 @@
             "pink",
             "sand",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Red Open.png",
@@ -8516,7 +8888,8 @@
             "+",
             "red",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Turquoise Open.png",
@@ -8541,7 +8914,8 @@
             "+",
             "turquoise",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + White Open.png",
@@ -8566,7 +8940,8 @@
             "+",
             "white",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Silver Aluminum + Yellow Open.png",
@@ -8591,7 +8966,8 @@
             "+",
             "yellow",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Space Gray Aluminum + Black Cool Gray Nike Open.png",
@@ -8620,7 +8996,8 @@
             "gray",
             "nike",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Space Gray Aluminum + Black Open.png",
@@ -8646,7 +9023,8 @@
             "+",
             "black",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Space Gray Aluminum + Black Volt Nike Open.png",
@@ -8674,7 +9052,8 @@
             "volt",
             "nike",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     },
     {
         "relPath": "Watches/Apple Watch 2/Device/38mm/Device Open/Apple Watch 38mm Steel + White Open.png",
@@ -8698,6 +9077,7 @@
             "+",
             "white",
             "open"
-        ]
+        ],
+        "pixelRatio": 2
     }
 ]

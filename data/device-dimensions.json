@@ -1,0 +1,822 @@
+[
+  {
+    "name": "Apple iPhone X",
+    "width": 1125,
+    "height": 2436,
+    "cssWidth": 375,
+    "cssHeight": 812,
+    "pixelRatio": 3,
+    "physPPI": 458,
+    "cssPPI": 288
+  },
+  {
+    "name": "Apple iPhone 6+, 6s+, 7+, 8+",
+    "width": 1080,
+    "height": 1920,
+    "cssWidth": 414,
+    "cssHeight": 736,
+    "pixelRatio": 3,
+    "physPPI": 401,
+    "cssPPI": 288
+  },
+  {
+    "name": "Apple iPhone 7, iPhone 8",
+    "width": 750,
+    "height": 1334,
+    "cssWidth": 375,
+    "cssHeight": 667,
+    "pixelRatio": 2,
+    "physPPI": 326,
+    "cssPPI": 192
+  },
+  {
+    "name": "Apple iPhone 6, 6s",
+    "width": 750,
+    "height": 1334,
+    "cssWidth": 375,
+    "cssHeight": 667,
+    "pixelRatio": 2,
+    "physPPI": 326,
+    "cssPPI": 192
+  },
+  {
+    "name": "Apple iPhone 5",
+    "width": 640,
+    "height": 1136,
+    "cssWidth": 320,
+    "cssHeight": 568,
+    "pixelRatio": 2,
+    "physPPI": 326,
+    "cssPPI": 192
+  },
+  {
+    "name": "Apple iPhone 4",
+    "width": 640,
+    "height": 960,
+    "cssWidth": 320,
+    "cssHeight": 480,
+    "pixelRatio": 2,
+    "physPPI": 326,
+    "cssPPI": 192
+  },
+  {
+    "name": "Apple iPhone 3",
+    "width": 320,
+    "height": 480,
+    "cssWidth": 320,
+    "cssHeight": 480,
+    "pixelRatio": 1,
+    "physPPI": 163,
+    "cssPPI": 96
+  },
+  {
+    "name": "Apple iPod Touch",
+    "width": 640,
+    "height": 1136,
+    "cssWidth": 320,
+    "cssHeight": 568,
+    "pixelRatio": 2,
+    "physPPI": 326,
+    "cssPPI": 192
+  },
+  {
+    "name": "LG G5",
+    "width": 1440,
+    "height": 2560,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 4,
+    "physPPI": 538,
+    "cssPPI": 384
+  },
+  {
+    "name": "LG G4",
+    "width": 1440,
+    "height": 2560,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 4,
+    "physPPI": 538,
+    "cssPPI": 384
+  },
+  {
+    "name": "LG G3",
+    "width": 1440,
+    "height": 2560,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 4,
+    "physPPI": 538,
+    "cssPPI": 384
+  },
+  {
+    "name": "LG Optimus G",
+    "width": 768,
+    "height": 1280,
+    "cssWidth": 384,
+    "cssHeight": 640,
+    "pixelRatio": 2,
+    "physPPI": 318,
+    "cssPPI": 192
+  },
+  {
+    "name": "Samsung Galaxy S8+",
+    "width": 1440,
+    "height": 2960,
+    "cssWidth": 360,
+    "cssHeight": 740,
+    "pixelRatio": 4,
+    "physPPI": 529,
+    "cssPPI": 384
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "width": 1440,
+    "height": 2960,
+    "cssWidth": 360,
+    "cssHeight": 740,
+    "pixelRatio": 4,
+    "physPPI": 568,
+    "cssPPI": 384
+  },
+  {
+    "name": "Samsung Galaxy S7, S7 edge",
+    "width": 1440,
+    "height": 2560,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 4,
+    "physPPI": 534,
+    "cssPPI": 384
+  },
+  {
+    "name": "Samsung Galaxy S6",
+    "width": 1440,
+    "height": 2560,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 4,
+    "physPPI": 577,
+    "cssPPI": 384
+  },
+  {
+    "name": "Samsung Galaxy S5",
+    "width": 1080,
+    "height": 1920,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 3,
+    "physPPI": 441,
+    "cssPPI": 288
+  },
+  {
+    "name": "Samsung Galaxy S4",
+    "width": 1080,
+    "height": 1920,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 3,
+    "physPPI": 441,
+    "cssPPI": 288
+  },
+  {
+    "name": "Samsung Galaxy S4 mini",
+    "width": 540,
+    "height": 960,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 1.5,
+    "physPPI": 256,
+    "cssPPI": 144
+  },
+  {
+    "name": "Samsung Galaxy S3",
+    "width": 720,
+    "height": 1280,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 2,
+    "physPPI": 306,
+    "cssPPI": 192
+  },
+  {
+    "name": "Samsung Galaxy S3 mini",
+    "width": 480,
+    "height": 800,
+    "cssWidth": 320,
+    "cssHeight": 533,
+    "pixelRatio": 1.5,
+    "physPPI": 233,
+    "cssPPI": 144
+  },
+  {
+    "name": "Samsung Galaxy S2",
+    "width": 480,
+    "height": 800,
+    "cssWidth": 320,
+    "cssHeight": 533,
+    "pixelRatio": 1.5,
+    "physPPI": 217,
+    "cssPPI": 144
+  },
+  {
+    "name": "Samsung Galaxy S",
+    "width": 480,
+    "height": 800,
+    "cssWidth": 320,
+    "cssHeight": 533,
+    "pixelRatio": 1.5,
+    "physPPI": 233,
+    "cssPPI": 144
+  },
+  {
+    "name": "Samsung Galaxy Nexus",
+    "width": 720,
+    "height": 1200,
+    "cssWidth": 360,
+    "cssHeight": 600,
+    "pixelRatio": 2,
+    "physPPI": 316,
+    "cssPPI": 192
+  },
+  {
+    "name": "Samsung Galaxy Note 8",
+    "width": 1440,
+    "height": 2960,
+    "cssWidth": 360,
+    "cssHeight": 740,
+    "pixelRatio": 4,
+    "physPPI": 521,
+    "cssPPI": 384
+  },
+  {
+    "name": "Samsung Galaxy Note 4",
+    "width": 1440,
+    "height": 2560,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 4,
+    "physPPI": 515,
+    "cssPPI": 384
+  },
+  {
+    "name": "Samsung Galaxy Note 3",
+    "width": 1080,
+    "height": 1920,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 3,
+    "physPPI": 386,
+    "cssPPI": 288
+  },
+  {
+    "name": "Samsung Galaxy Note 2",
+    "width": 720,
+    "height": 1280,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 2,
+    "physPPI": 267,
+    "cssPPI": 192
+  },
+  {
+    "name": "Samsung Galaxy Note",
+    "width": 800,
+    "height": 1280,
+    "cssWidth": 400,
+    "cssHeight": 640,
+    "pixelRatio": 2,
+    "physPPI": 285,
+    "cssPPI": 192
+  },
+  {
+    "name": "LG Nexus 5",
+    "width": 1080,
+    "height": 1920,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 3,
+    "physPPI": 445,
+    "cssPPI": 288
+  },
+  {
+    "name": "LG Nexus 4",
+    "width": 768,
+    "height": 1280,
+    "cssWidth": 384,
+    "cssHeight": 640,
+    "pixelRatio": 2,
+    "physPPI": 320,
+    "cssPPI": 192
+  },
+  {
+    "name": "Microsoft Lumia 1520",
+    "width": 1080,
+    "height": 1920,
+    "cssWidth": 432,
+    "cssHeight": 768,
+    "pixelRatio": 2.5,
+    "physPPI": 367,
+    "cssPPI": 240
+  },
+  {
+    "name": "Microsoft Lumia 1020",
+    "width": 768,
+    "height": 1280,
+    "cssWidth": 320,
+    "cssHeight": 480,
+    "pixelRatio": 2.4,
+    "physPPI": 332,
+    "cssPPI": 220
+  },
+  {
+    "name": "Microsoft Lumia 925",
+    "width": 768,
+    "height": 1280,
+    "cssWidth": 320,
+    "cssHeight": 480,
+    "pixelRatio": 2.4,
+    "physPPI": 332,
+    "cssPPI": 220
+  },
+  {
+    "name": "Microsoft Lumia 920",
+    "width": 768,
+    "height": 1280,
+    "cssWidth": 320,
+    "cssHeight": 480,
+    "pixelRatio": 2.4,
+    "physPPI": 332,
+    "cssPPI": 220
+  },
+  {
+    "name": "Microsoft Lumia 900",
+    "width": 480,
+    "height": 800,
+    "cssWidth": 320,
+    "cssHeight": 480,
+    "pixelRatio": 1.5,
+    "physPPI": 217,
+    "cssPPI": 144
+  },
+  {
+    "name": "Microsoft Lumia 830",
+    "width": 720,
+    "height": 1280,
+    "cssWidth": 320,
+    "cssHeight": 480,
+    "pixelRatio": 2,
+    "physPPI": 294,
+    "cssPPI": 192
+  },
+  {
+    "name": "Microsoft Lumia 620",
+    "width": 480,
+    "height": 800,
+    "cssWidth": 320,
+    "cssHeight": 480,
+    "pixelRatio": 1.5,
+    "physPPI": 252,
+    "cssPPI": 144
+  },
+  {
+    "name": "Motorola Nexus 6",
+    "width": 1440,
+    "height": 2560,
+    "cssWidth": 412,
+    "cssHeight": 690,
+    "pixelRatio": 3.5,
+    "physPPI": 493,
+    "cssPPI": 336
+  },
+  {
+    "name": "HTC One",
+    "width": 1080,
+    "height": 1920,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 3,
+    "physPPI": 468,
+    "cssPPI": 288
+  },
+  {
+    "name": "HTC 8X",
+    "width": 720,
+    "height": 1280,
+    "cssWidth": 320,
+    "cssHeight": 480,
+    "pixelRatio": 3,
+    "physPPI": 341,
+    "cssPPI": 288
+  },
+  {
+    "name": "HTC Evo 3D",
+    "width": 540,
+    "height": 960,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 1.5,
+    "physPPI": 256,
+    "cssPPI": 144
+  },
+  {
+    "name": "Sony Xperia Z3",
+    "width": 1080,
+    "height": 1920,
+    "cssWidth": 360,
+    "cssHeight": 598,
+    "pixelRatio": 3,
+    "physPPI": 424,
+    "cssPPI": 288
+  },
+  {
+    "name": "Sony Xperia Z",
+    "width": 1080,
+    "height": 1920,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 3,
+    "physPPI": 443,
+    "cssPPI": 288
+  },
+  {
+    "name": "Sony Xperia S",
+    "width": 720,
+    "height": 1280,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 2,
+    "physPPI": 342,
+    "cssPPI": 192
+  },
+  {
+    "name": "Sony Xperia P",
+    "width": 540,
+    "height": 960,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 1.5,
+    "physPPI": 275,
+    "cssPPI": 144
+  },
+  {
+    "name": "Xiaomi Mi 4",
+    "width": 1080,
+    "height": 1920,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 3,
+    "physPPI": 441,
+    "cssPPI": 288
+  },
+  {
+    "name": "Xiaomi Mi 3",
+    "width": 1080,
+    "height": 1920,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 3,
+    "physPPI": 441,
+    "cssPPI": 288
+  },
+  {
+    "name": "Lenovo K900",
+    "width": 1080,
+    "height": 1920,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 3,
+    "physPPI": 401,
+    "cssPPI": 288
+  },
+  {
+    "name": "Pantech Vega n°6",
+    "width": 1080,
+    "height": 1920,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 3,
+    "physPPI": 373,
+    "cssPPI": 288
+  },
+  {
+    "name": "Blackberry Leap",
+    "width": 720,
+    "height": 1280,
+    "cssWidth": 390,
+    "cssHeight": 695,
+    "pixelRatio": 2,
+    "physPPI": 294,
+    "cssPPI": 177
+  },
+  {
+    "name": "Blackberry Passport",
+    "width": 1440,
+    "height": 1440,
+    "cssWidth": 504,
+    "cssHeight": 504,
+    "pixelRatio": 3,
+    "physPPI": 453,
+    "cssPPI": 274
+  },
+  {
+    "name": "Blackberry Classic",
+    "width": 720,
+    "height": 720,
+    "cssWidth": 390,
+    "cssHeight": 390,
+    "pixelRatio": 1.8,
+    "physPPI": 294,
+    "cssPPI": 177
+  },
+  {
+    "name": "Blackberry Q10",
+    "width": 720,
+    "height": 720,
+    "cssWidth": 346,
+    "cssHeight": 346,
+    "pixelRatio": 2,
+    "physPPI": 328,
+    "cssPPI": 192
+  },
+  {
+    "name": "Blackberry Z30",
+    "width": 720,
+    "height": 1280,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 2,
+    "physPPI": 295,
+    "cssPPI": 192
+  },
+  {
+    "name": "Blackberry Z10",
+    "width": 768,
+    "height": 1280,
+    "cssWidth": 384,
+    "cssHeight": 640,
+    "pixelRatio": 2,
+    "physPPI": 355,
+    "cssPPI": 192
+  },
+  {
+    "name": "Blackberry Torch 9800",
+    "width": 360,
+    "height": 480,
+    "cssWidth": 360,
+    "cssHeight": 480,
+    "pixelRatio": 1,
+    "physPPI": 187,
+    "cssPPI": 96
+  },
+  {
+    "name": "ZTE Grand S",
+    "width": 1080,
+    "height": 1920,
+    "cssWidth": 360,
+    "cssHeight": 640,
+    "pixelRatio": 3,
+    "physPPI": 441,
+    "cssPPI": 288
+  },
+  {
+    "name": "ZTE Open (Firefox OS)",
+    "width": 480,
+    "height": 720,
+    "cssWidth": 320,
+    "cssHeight": 480,
+    "pixelRatio": 1.5,
+    "physPPI": 165,
+    "cssPPI": 144
+  },
+  {
+    "name": "Apple iPad Pro",
+    "width": 2048,
+    "height": 2732,
+    "cssWidth": 1024,
+    "cssHeight": 1366,
+    "pixelRatio": 2,
+    "physPPI": 265,
+    "cssPPI": 192
+  },
+  {
+    "name": "Apple iPad Pro 9.7",
+    "width": 1536,
+    "height": 2048,
+    "cssWidth": 768,
+    "cssHeight": 1024,
+    "pixelRatio": 2,
+    "physPPI": 264,
+    "cssPPI": 192
+  },
+  {
+    "name": "Apple iPad 3, 4, Air, Air2",
+    "width": 1536,
+    "height": 2048,
+    "cssWidth": 768,
+    "cssHeight": 1024,
+    "pixelRatio": 2,
+    "physPPI": 264,
+    "cssPPI": 192
+  },
+  {
+    "name": "Apple iPad 1, 2",
+    "width": 768,
+    "height": 1024,
+    "cssWidth": 768,
+    "cssHeight": 1024,
+    "pixelRatio": 1,
+    "physPPI": 132,
+    "cssPPI": 96
+  },
+  {
+    "name": "Apple iPad mini 2, 3, 4",
+    "width": 1536,
+    "height": 2048,
+    "cssWidth": 768,
+    "cssHeight": 1024,
+    "pixelRatio": 2,
+    "physPPI": 326,
+    "cssPPI": 192
+  },
+  {
+    "name": "Apple iPad mini",
+    "width": 768,
+    "height": 1024,
+    "cssWidth": 768,
+    "cssHeight": 1024,
+    "pixelRatio": 1,
+    "physPPI": 163,
+    "cssPPI": 96
+  },
+  {
+    "name": "Samsung Galaxy Tab 3 10",
+    "width": 800,
+    "height": 1280,
+    "cssWidth": 800,
+    "cssHeight": 1280,
+    "pixelRatio": 1,
+    "physPPI": 149,
+    "cssPPI": 96
+  },
+  {
+    "name": "Samsung Galaxy Tab 2 10",
+    "width": 800,
+    "height": 1280,
+    "cssWidth": 800,
+    "cssHeight": 1280,
+    "pixelRatio": 1,
+    "physPPI": 149,
+    "cssPPI": 96
+  },
+  {
+    "name": "Samsung Galaxy Tab (8.9\")",
+    "width": 800,
+    "height": 1280,
+    "cssWidth": 800,
+    "cssHeight": 1280,
+    "pixelRatio": 1,
+    "physPPI": 170,
+    "cssPPI": 96
+  },
+  {
+    "name": "Samsung Galaxy Tab 2 (7\")",
+    "width": 600,
+    "height": 1024,
+    "cssWidth": 600,
+    "cssHeight": 1024,
+    "pixelRatio": 1,
+    "physPPI": 170,
+    "cssPPI": 96
+  },
+  {
+    "name": "Samsung Nexus 10",
+    "width": 1600,
+    "height": 2560,
+    "cssWidth": 800,
+    "cssHeight": 1280,
+    "pixelRatio": 2,
+    "physPPI": 300,
+    "cssPPI": 192
+  },
+  {
+    "name": "HTC Nexus 9",
+    "width": 1538,
+    "height": 2048,
+    "cssWidth": 768,
+    "cssHeight": 1024,
+    "pixelRatio": 2,
+    "physPPI": 281,
+    "cssPPI": 192
+  },
+  {
+    "name": "Asus Nexus 7 (v2)",
+    "width": 1080,
+    "height": 1920,
+    "cssWidth": 600,
+    "cssHeight": 960,
+    "pixelRatio": 2,
+    "physPPI": 323,
+    "cssPPI": 192
+  },
+  {
+    "name": "Asus Nexus 7 (v1)",
+    "width": 800,
+    "height": 1280,
+    "cssWidth": 604,
+    "cssHeight": 966,
+    "pixelRatio": 1.325,
+    "physPPI": 216,
+    "cssPPI": 127
+  },
+  {
+    "name": "LG G Pad 8.3",
+    "width": 1200,
+    "height": 1920,
+    "cssWidth": 600,
+    "cssHeight": 960,
+    "pixelRatio": 2,
+    "physPPI": 273,
+    "cssPPI": 192
+  },
+  {
+    "name": "Amazon Kindle Fire HD 8.9",
+    "width": 1200,
+    "height": 1920,
+    "cssWidth": 800,
+    "cssHeight": 1280,
+    "pixelRatio": 1.5,
+    "physPPI": 254,
+    "cssPPI": 144
+  },
+  {
+    "name": "Amazon Kindle Fire HD 7",
+    "width": 800,
+    "height": 1280,
+    "cssWidth": 480,
+    "cssHeight": 800,
+    "pixelRatio": 1.5,
+    "physPPI": 216,
+    "cssPPI": 144
+  },
+  {
+    "name": "Amazon Kindle Fire",
+    "width": 600,
+    "height": 1024,
+    "cssWidth": 600,
+    "cssHeight": 1024,
+    "pixelRatio": 1,
+    "physPPI": 167,
+    "cssPPI": 96
+  },
+  {
+    "name": "Microsoft Surface Pro 3",
+    "width": 1440,
+    "height": 2160,
+    "cssWidth": 1024,
+    "cssHeight": 1440,
+    "pixelRatio": "1.5 / 1.4",
+    "physPPI": 216,
+    "cssPPI": 144
+  },
+  {
+    "name": "Microsoft Surface Pro 2",
+    "width": 1080,
+    "height": 1920,
+    "cssWidth": 720,
+    "cssHeight": 1280,
+    "pixelRatio": 1.5,
+    "physPPI": 207,
+    "cssPPI": 144
+  },
+  {
+    "name": "Microsoft Surface Pro",
+    "width": 1080,
+    "height": 1920,
+    "cssWidth": 720,
+    "cssHeight": 1280,
+    "pixelRatio": 1.5,
+    "physPPI": 207,
+    "cssPPI": 144
+  },
+  {
+    "name": "Microsoft Surface",
+    "width": 768,
+    "height": 1366,
+    "cssWidth": 768,
+    "cssHeight": 1366,
+    "pixelRatio": 1,
+    "physPPI": 148,
+    "cssPPI": 96
+  },
+  {
+    "name": "Blackberry Playbook",
+    "width": 600,
+    "height": 1024,
+    "cssWidth": 600,
+    "cssHeight": 1024,
+    "pixelRatio": 1,
+    "physPPI": 169,
+    "cssPPI": 96
+  }
+]
