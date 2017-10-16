@@ -147,7 +147,7 @@ function chooseFrames() {
       prompt.then(answers => {
         const foundFrames = frameData.filter(frame => some(answers, a => a === frame.name.toLowerCase()));
         frames = uniq(frames.concat(foundFrames));
-        ui.log.write(`Frames: [${frames.map(f => f.name).join(', ')}]\n`);
+        ui.log.write(chalk.magenta(`\nFrames: [${frames.map(f => chalk.bold(f.name)).join(', ')}]\n`));
         prompter();
       });
     }

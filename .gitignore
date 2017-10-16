@@ -58,9 +58,3 @@ typings/
 .env
 
 .DS_Store
-
-*.jpg
-*.jpeg
-*.png
-*.bmp
-*.gif
