@@ -10,9 +10,12 @@
 
 # Use it
 
-Pass in filenames, file globs, URLs to websites or URLs to images.
+<div align="center">
+  <img src="animation.gif">
+</div>
 
-For website URLs
+<br>
+Pass in filenames, file globs, URLs to websites or URLs to images.
 
 ```
 $ dframe cat.jpeg
