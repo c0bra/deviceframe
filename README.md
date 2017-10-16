@@ -1,17 +1,8 @@
-<h1 align="center">
-	<br>
-	<br>
-	<img width="400" src="logo.png" alt="deviceframe">
-	<br>
-	<br>
-	<br>
-</h1>
-
->  Put device frames around your mobile/web/progressive app screenshots.
-
 <div align="center">
   <img src="example.png">
 </div>
+
+>  Put device frames around your mobile/web/progressive app screenshots.
 
 # Get it
 
