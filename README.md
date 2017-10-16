@@ -10,7 +10,7 @@
 >  Put device frames around your mobile/web/progressive app screenshots.
 
 <div align="center">
-  ![example](example.png)
+  <img src="example.png">
 </div>
 
 # Get it
