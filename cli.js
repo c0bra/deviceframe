@@ -37,24 +37,36 @@ readline.emitKeypressEvents(process.stdin);
 
 // Help text
 const cli = meow(`
-	Usage
-	  $ dframe <image>
+  	Usage
+      # Pass in any number of image files (globs allows), image urls, or website urls:
+      $ dframe <image>
+      $ dframe <url
+      $ dframe <ul> <image> <url> <image url> <image>
 
-	Options
-    --delay             Delay webpage capturing in seconds
-	  --output, -o        Output directory
+  	Options
+      --delay             Delay webpage capturing in seconds
+  	  --output, -o        Output directory (default: current working directory)
 
-  Examples
-    $ dframe cat.png
-    $ dframe cat.png dog.png horse.jpg
-    $ dframe *.png cat-*.jpeg
-    $ dframe http://localhost:8080 --delay 2
-`, {
-  alias: {
-    o: 'output',
-    h: 'help',
-  },
-});
+    Examples
+      $ dframe cat.png
+      $ dframe cat.png dog.png horse.jpg
+      $ dframe *.png cat-*.jpeg
+      $ dframe https://github.com/c0bra/deviceframe --delay 2
+      $ dframe cat.png https://github.com/c0bra/deviceframe *.bmp https://i.imgur.com/aw2bc01.jpg
+  `,
+  {
+    alias: {
+      h: 'help',
+    },
+    flags: {
+      output: {
+        type: 'string',
+        alias: 'o',
+        default: '.',
+      },
+    },
+  }
+);
 
 /*
   1. Init (read in cache dir and conf)
@@ -238,13 +250,15 @@ function downloadFrame(frame) {
 function frameIt(img, frameConf) {
   // TODO: use filenamify here?
   // Get the writeable file name for the image
-  let imgPath = '';
+  let imgName = '';
   if (typeof img === 'string') {
     const p = path.parse(img);
-    imgPath = `${p.name}-${frameConf.name}.png`;
+    imgName = `${p.name}-${frameConf.name}.png`;
   } else {
-    imgPath = `Frame-${frameConf.name}.png`;
+    imgName = `Frame-${frameConf.name}.png`;
   }
+
+  const imgPath = path.join(cli.flags.output, imgName);
 
   if (isStream(img)) {
     img = getStream.buffer(img);
@@ -256,13 +270,14 @@ function frameIt(img, frameConf) {
     .then(response => {
       if (typeis(response, ['image/*'])) return response.body;
 
-      console.log('URL is not an image, so screenshot it and the right dimension!');
-      const dim = [frameConf.frame.width, frameConf.frame.height].join('x');
+      // Scale image size for device pixel density
+      const w = frameConf.frame.width / (frameConf.pixelRatio || 1);
+      const h = frameConf.frame.height / (frameConf.pixelRatio || 1);
+      const dim = [w, h].join('x');
 
-      // TODO: need to set useragent here. Maybe we can guess from device name?
-      // '375x667'
-      // 'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1'
-      const stream = screenshot(imgUrl, '375x667', { crop: true });
+      // TODO: need to dynamically choose device user-agent from a list, or store them with the frames
+      const ua = 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1';
+      const stream = screenshot(imgUrl, dim, { crop: true, userAgent: ua });
       const bufPromise = getStream.buffer(stream);
       // bufPromise.then(buf => {
       //   fs.writeFileSync('test.png', buf, { encoding: 'binary' });
@@ -353,6 +368,7 @@ function cacheSettings(settings) {
 }
 
 function error(msg) {
+  console.log(cli.help);
   console.error(logSymbols.error + ' ' + chalk.red(msg));
   process.exit(1);
 }

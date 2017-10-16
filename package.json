@@ -41,7 +41,7 @@
     "jimp": "^0.2.28",
     "lodash": "^4.17.4",
     "log-symbols": "^2.0.0",
-    "meow": "^3.7.0",
+    "meow": "https://github.com/sindresorhus/meow#554119b",
     "mkdirp": "^0.5.1",
     "progress": "^2.0.0",
     "screenshot-stream": "^4.2.0",
