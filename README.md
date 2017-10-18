@@ -38,7 +38,7 @@ For website URLs, deviceframe will load the page with the aspect ratio and pixel
 Here's Product Hunt's website on a Macbook Air, iPad, and iPhone:
 
 <div align="center">
-  <img src="3device.png">
+  <img src="multi-shot.png">
 </div>
 
 # Devices
