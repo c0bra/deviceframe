@@ -256,7 +256,7 @@ function downloadFrame(frame) {
   return new Promise((resolve, reject) => {
     got.stream(frame.url, {
       headers: {
-        'user-agent': `deviceframe/${cli.pkg.version} (https://github.com/c0bra/deviceframe)`,
+        'user-agent': `deviceframe/${cli.pkg.version} (${cli.pkg.repo})`,
       },
     })
     .on('end', () => {
@@ -303,8 +303,8 @@ function frameIt(img, frameConf) {
       if (typeis(response, ['image/*'])) return response.body;
 
       // Scale image size for device pixel density
-      const w = frameConf.frame.width / (frameConf.pixelRatio || 1);
-      const h = frameConf.frame.height / (frameConf.pixelRatio || 1);
+      const w = Math.floor(frameConf.frame.width / (frameConf.pixelRatio || 1));
+      const h = Math.floor(frameConf.frame.height / (frameConf.pixelRatio || 1));
       const dim = [w, h].join('x');
 
       const spinner = ora(`Screenshotting ${imgUrl} at ${dim}`).start();
