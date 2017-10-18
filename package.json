@@ -8,6 +8,7 @@
     "dframe": "cli.js"
   },
   "scripts": {
+    "lint": "xo",
     "test": "xo && nyc ava"
   },
   "repository": {
@@ -43,6 +44,7 @@
     "log-symbols": "^2.0.0",
     "meow": "https://github.com/sindresorhus/meow#554119b",
     "mkdirp": "^0.5.1",
+    "ora": "^1.3.0",
     "progress": "^2.0.0",
     "screenshot-stream": "^4.2.0",
     "type-is": "^1.6.15"

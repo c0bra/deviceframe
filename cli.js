@@ -3,8 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const readline = require('readline');
-const url = require('url');
-const conf = require('conf');
+// const conf = require('conf');
 const chalk = require('chalk');
 const envPaths = require('env-paths');
 const flatten = require('lodash/flatten');
@@ -18,6 +17,7 @@ const Jimp = require('jimp');
 const logSymbols = require('log-symbols');
 const meow = require('meow');
 const mkdirp = require('mkdirp');
+const ora = require('ora');
 const ProgressBar = require('progress');
 const screenshot = require('screenshot-stream');
 const some = require('lodash/some');
@@ -25,8 +25,7 @@ const typeis = require('type-is');
 const uniq = require('lodash/uniq');
 const frameData = require('./data/frames.json');
 
-// const framesUrl = 'https://gitcdn.xyz/repo/c0bra/deviceframe-frames/master/';
-const framesUrl = 'https://cdn.rawgit.com/c0bra/deviceframe-frames/master/';
+const framesUrl = 'https://gitcdn.xyz/repo/c0bra/deviceframe-frames/1.0.0/';
 
 const paths = envPaths('deviceframe');
 const frameCacheDir = path.join(paths.cache, 'frames');
@@ -227,7 +226,7 @@ function downloadFrames(frames) {
       promises.push(frame);
     } else {
       if (fs.existsSync(frameCachePath)) fs.unlink(frameCachePath);
-      frame.url = path.join(framesUrl, encodeURIComponent(frame.relPath));
+      frame.url = framesUrl + encodeURIComponent(frame.relPath);
       promises.push(downloadFrame(frame));
     }
   }
@@ -236,9 +235,9 @@ function downloadFrames(frames) {
 }
 
 function downloadFrame(frame) {
-  debug('Downloading frame');
+  debug(`Downloading frame ${frame.url}`);
 
-  const bar = new ProgressBar('  downloading [:bar] :rate/bps :percent :etas', {
+  const bar = new ProgressBar('Downloading frame [:bar] :rate/bps :percent :etas', {
     complete: '=',
     incomplete: ' ',
     width: 20,
@@ -260,16 +259,17 @@ function downloadFrame(frame) {
         'user-agent': `deviceframe/${cli.pkg.version} (https://github.com/c0bra/deviceframe)`,
       },
     })
-    .on('response', () => {
+    .on('end', () => {
       bar.tick(100);
       resolve(frame);
     })
     .on('downloadProgress', progress => {
-      // console.log('progress.percent', progress.percent);
+      console.log('progress.percent', progress.percent);
       bar.tick(progress.percent * 100);
     })
     .on('error', error => {
       if (fs.existsSync(frame.path)) fs.unlink(frame.path);
+      console.log(require('util').inspect(error, { depth: null }));
       reject(error);
     })
     .pipe(fs.createWriteStream(frame.path));
@@ -307,12 +307,17 @@ function frameIt(img, frameConf) {
       const h = frameConf.frame.height / (frameConf.pixelRatio || 1);
       const dim = [w, h].join('x');
 
-      debug(`Screenshotting website ${imgUrl} at ${dim}`);
+      const spinner = ora(`Screenshotting ${imgUrl} at ${dim}`).start();
 
       // TODO: need to dynamically choose device user-agent from a list, or store them with the frames
       const ua = 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1';
       const stream = screenshot(imgUrl, dim, { crop: true, userAgent: ua })
-        .on('error', err => error(err));
+        .on('error', err => {
+          spinner.fail();
+          error(err);
+        })
+        .on('end', () => spinner.succeed());
+
       const bufPromise = getStream.buffer(stream);
       // bufPromise.then(buf => {
       //   fs.writeFileSync('test.png', buf, { encoding: 'binary' });
