@@ -15,7 +15,7 @@
 </div>
 
 <br>
-Pass in filenames, file globs, URLs to websites or URLs to images.
+Pass in filenames, file globs, websites urls, or image urls. In any combination or order.
 
 ```
 $ dframe cat.jpg
@@ -24,6 +24,8 @@ $ dframe http://githbub.com dog.png https://i.imgur.com/aw2bc01.jpg *.bmp
 ```
 
 deviceframe will prompt you for the frames you want to use. You can select multiple frames and search by typing. Once you have selected all the frames you want to use, hit ESC.
+
+The frames will be downloaded from a CDN and cached locally in case you want to re-use them.
 
 # Mobile Apps
 
@@ -39,10 +41,10 @@ For website URLs, deviceframe will load the page with the aspect ratio and pixel
 
 # Devices
 
-* 166 phones (Apple, Google, Samsung, HTC, Motorola)
-* 26 tablets (iPad, Surface, Nexus 9)
-* 35 computers (Apple, Dell, Microsoft)
-* 27 monitors
+* 166 phone + color combinations (Apple, Google, Samsung, HTC, Motorola)
+* 6 tablets (iPad, Surface, Nexus 9)
+* 9 computers (Apple, Dell, Microsoft)
+* 5 monitors
 * 4 watches (Apple Watch 1+2, Moto 360, Sony SmartWatch 3) either open or closed.
 
 # Notes
