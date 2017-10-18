@@ -27,6 +27,9 @@ deviceframe will prompt you for the frames you want to use. You can select multi
 
 For website URLs, deviceframe will load the page with the aspect ratio and pixel density of selected device(s).
 
+# Notes
+
+* deviceframe caches frame images in a cache directory using [env-paths](https://github.com/sindresorhus/env-paths)
 
 # TODO
 

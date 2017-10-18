@@ -25,7 +25,8 @@ const typeis = require('type-is');
 const uniq = require('lodash/uniq');
 const frameData = require('./data/frames.json');
 
-const framesUrl = 'https://gitcdn.xyz/repo/c0bra/deviceframe-frames/master/';
+// const framesUrl = 'https://gitcdn.xyz/repo/c0bra/deviceframe-frames/master/';
+const framesUrl = 'https://cdn.rawgit.com/c0bra/deviceframe-frames/master/';
 
 const paths = envPaths('deviceframe');
 const frameCacheDir = path.join(paths.cache, 'frames');
@@ -37,15 +38,16 @@ readline.emitKeypressEvents(process.stdin);
 
 // Help text
 const cli = meow(`
-  	Usage
+    Usage
       # Pass in any number of image files (globs allows), image urls, or website urls:
       $ dframe <image>
       $ dframe <url
       $ dframe <ul> <image> <url> <image url> <image>
 
-  	Options
+    Options
       --delay             Delay webpage capturing in seconds
-  	  --output, -o        Output directory (default: current working directory)
+      --output, -o        Output directory (default: current working directory)
+      --debug, -d
 
     Examples
       $ dframe cat.png
@@ -63,6 +65,11 @@ const cli = meow(`
         type: 'string',
         alias: 'o',
         default: '.',
+      },
+      debug: {
+        type: 'boolean',
+        alias: 'd',
+        default: false,
       },
     },
   }
@@ -84,13 +91,16 @@ Promise.resolve()
 })
 .then(([files, urls, frames]) => {
   return downloadFrames(frames)
-  .then(frames => [files, urls, frames]);
+  .then(frames => [files, urls, frames])
+  .catch(err => error(err));
 })
-.then(([files, urls, frames]) => frameImages(files, urls, frames));
+.then(([files, urls, frames]) => frameImages(files, urls, frames))
+.catch(err => error(err));
 
 /* ------------------------------------------------------------------------- */
 
 function init() {
+  debug('Init...');
   // Add shadow suffix on to frame name
   frameData.forEach(frame => {
     if (frame.shadow) frame.name = `${frame.name} [shadow]`;
@@ -115,13 +125,15 @@ function confirmInputs() {
   // Find image files to frame from input
   return globImageFiles(cli.input.filter(f => !isUrl(f)))
   .then(files => {
-    if (files.length === 0 && urls.length === 0) error('No image files or urls specified');
+    if (files.length === 0 && urls.length === 0) error('No image files or urls specified', true);
 
     return [files, urls];
   });
 }
 
 function chooseFrames() {
+  debug('Choosing frames');
+
   inquirer.registerPrompt('autocomplete', require('inquirer-autocomplete-prompt'));
 
   return new Promise(resolve => {
@@ -203,17 +215,19 @@ function globImageFiles(inputs) {
 }
 
 function downloadFrames(frames) {
+  debug('Downloading frames');
   // console.log('frames', frames);
   const promises = [];
 
   for (const frame of frames) {
     const frameCachePath = path.join(frameCacheDir, frame.relPath);
 
-    if (fs.existsSync(frameCachePath)) {
+    if (fs.existsSync(frameCachePath) && fs.statSync(frameCachePath).size > 0) {
       frame.path = frameCachePath;
       promises.push(frame);
     } else {
-      frame.url = path.join(framesUrl, frame.relPath);
+      if (fs.existsSync(frameCachePath)) fs.unlink(frameCachePath);
+      frame.url = path.join(framesUrl, encodeURIComponent(frame.relPath));
       promises.push(downloadFrame(frame));
     }
   }
@@ -222,6 +236,8 @@ function downloadFrames(frames) {
 }
 
 function downloadFrame(frame) {
+  debug('Downloading frame');
+
   const bar = new ProgressBar('  downloading [:bar] :rate/bps :percent :etas', {
     complete: '=',
     incomplete: ' ',
@@ -229,25 +245,40 @@ function downloadFrame(frame) {
     total: 100,
   });
 
+  bar.tick();
+
+  debug('frame.url', frame.url);
+
   frame.path = path.join(frameCacheDir, frame.relPath);
 
+  const downloadDir = path.parse(frame.path).dir;
+  mkdirp.sync(downloadDir);
+
   return new Promise((resolve, reject) => {
-    got.stream(frame.url)
-      .on('response', (response) => {
-        resolve(frame);
-      })
-      .on('downloadProgress', progress => {
-        // console.log('progress.percent', progress.percent);
-        bar.tick(progress.percent * 100);
-      })
-      .on('error', error => {
-        reject(error);
-      })
-      .pipe(fs.createWriteStream(frame.path));
+    got.stream(frame.url, {
+      headers: {
+        'user-agent': `deviceframe/${cli.pkg.version} (https://github.com/c0bra/deviceframe)`,
+      },
+    })
+    .on('response', () => {
+      bar.tick(100);
+      resolve(frame);
+    })
+    .on('downloadProgress', progress => {
+      // console.log('progress.percent', progress.percent);
+      bar.tick(progress.percent * 100);
+    })
+    .on('error', error => {
+      if (fs.existsSync(frame.path)) fs.unlink(frame.path);
+      reject(error);
+    })
+    .pipe(fs.createWriteStream(frame.path));
   });
 }
 
 function frameIt(img, frameConf) {
+  debug('Framing images');
+
   // TODO: use filenamify here?
   // Get the writeable file name for the image
   let imgName = '';
@@ -266,6 +297,7 @@ function frameIt(img, frameConf) {
     // Check if url is for an image or for a webpage
     // NOTE: for urls we need to cache them
     const imgUrl = img;
+    debug(`Checking for image: ${imgUrl}`);
     img = got(img, { encoding: null })
     .then(response => {
       if (typeis(response, ['image/*'])) return response.body;
@@ -275,28 +307,38 @@ function frameIt(img, frameConf) {
       const h = frameConf.frame.height / (frameConf.pixelRatio || 1);
       const dim = [w, h].join('x');
 
+      debug(`Screenshotting website ${imgUrl} at ${dim}`);
+
       // TODO: need to dynamically choose device user-agent from a list, or store them with the frames
       const ua = 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1';
-      const stream = screenshot(imgUrl, dim, { crop: true, userAgent: ua });
+      const stream = screenshot(imgUrl, dim, { crop: true, userAgent: ua })
+        .on('error', err => error(err));
       const bufPromise = getStream.buffer(stream);
       // bufPromise.then(buf => {
       //   fs.writeFileSync('test.png', buf, { encoding: 'binary' });
       // });
 
       return bufPromise;
-    });
+    })
+    .catch(err => error(err));
   }
 
   // Read in image and frame
   return Promise.resolve(img)
   .then(imgData => {
+    const framePath = path.join(frameCacheDir, frameConf.relPath);
+
+    debug(`Reading in frame from ${framePath}`);
+
     return Promise.all([
-      Jimp.read(path.join(frameCacheDir, frameConf.relPath)),
+      Jimp.read(framePath),
       Jimp.read(imgData),
     ]);
   })
   // Resize largest image to fit the other
   .then(([frame, jimg]) => {
+    debug('Resizing frame/image');
+
     const frameImageWidth = frame.bitmap.width;
     const frameImageHeight = frame.bitmap.height;
 
@@ -355,20 +397,27 @@ function frameIt(img, frameConf) {
     return [frame, jimg, { left: compLeft, top: compTop }];
   })
   .then(([frame, jimg, compPos]) => {
+    debug('Compositing...');
     return frame.composite(jimg, compPos.left, compPos.top);
   })
   .then(composite => {
+    debug('Saving...');
     composite.write(imgPath);
     console.log(chalk.bold('> ') + chalk.green('Wrote: ') + imgPath);
-  });
+  })
+  .catch(err => error(err));
 }
 
 function cacheSettings(settings) {
   // TODO: write settings to ~/.deviceframe/settings.json
 }
 
-function error(msg) {
-  console.log(cli.help);
-  console.error(logSymbols.error + ' ' + chalk.red(msg));
+function error(msg, usage) {
+  if (usage) console.log(cli.help);
+  console.error('\n' + logSymbols.error + ' ' + chalk.red(msg));
   process.exit(1);
+}
+
+function debug(...args) {
+  if (cli.flags.debug) console.log(chalk.green(...args));
 }
