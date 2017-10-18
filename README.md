@@ -35,6 +35,8 @@ The frames will be downloaded from a CDN and cached locally in case you want to 
 
 For website URLs, deviceframe will load the page with the aspect ratio and pixel density of selected device(s).
 
+Here's Product Hunt's website on a Macbook Air, iPad, and iPhone:
+
 <div align="center">
   <img src="3device.png">
 </div>
