@@ -27,7 +27,24 @@ deviceframe will prompt you for the frames you want to use. You can select multi
 
 The frames will be downloaded from a CDN and cached locally in case you want to re-use them.
 
+If you want to use it non-interactively you can pass frames in with the `--frame flag`:
+
+```
+$ dframe cat.jpg --frame "iphone 6"
+$ dframe cat.jpg --frame "iphone 7 silver" --frame "iphone 5 blue"
+```
+
+You can also use one flag and separate the devices by commas:
+
+```
+$ dframe cat.jpg --frame "iphone 6s, macbook air"
+```
+
 # Mobile Apps
+
+* TODO: add how-to with
+
+# Hybrid Apps
 
 
 

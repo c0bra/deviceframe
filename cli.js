@@ -118,7 +118,7 @@ if (cli.flags.frame) {
     keys: ['name'],
   });
 
-  let results = [];
+  const results = [];
   cli.flags.frame.forEach(f => {
     // See if we can match exactly
     const exact = find(frameData, { name: f });
@@ -127,7 +127,7 @@ if (cli.flags.frame) {
       results.push(exact);
     } else {
       const res = fuse.search(f);
-      if (res) results = results.concat(res);
+      if (res) results.push(res[0]);
     }
   });
 
