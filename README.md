@@ -42,11 +42,21 @@ $ dframe cat.jpg --frame "iphone 6s, macbook air"
 
 # Mobile Apps
 
-* TODO: add how-to with
+_Coming Soon_
 
 # Hybrid Apps
 
+Make a screenshot of an Ionic app locally:
 
+```
+$ ionic serve
+```
+
+In another terminal:
+
+```
+$ dframe --delay 5 http://localhost:8100
+```
 
 # Websites
 
