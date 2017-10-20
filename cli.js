@@ -7,6 +7,8 @@ const readline = require('readline');
 const chalk = require('chalk');
 const envPaths = require('env-paths');
 const flatten = require('lodash/flatten');
+const find = require('lodash/find');
+const Fuse = require('fuse.js');
 const getStream = require('get-stream');
 const globby = require('globby');
 const got = require('got');
@@ -25,7 +27,8 @@ const typeis = require('type-is');
 const uniq = require('lodash/uniq');
 const frameData = require('./data/frames.json');
 
-const framesUrl = 'https://gitcdn.xyz/repo/c0bra/deviceframe-frames/1.0.0/';
+// const framesUrl = 'https://gitcdn.xyz/repo/c0bra/deviceframe-frames/1.0.0/';
+const framesUrl = 'https://cdn.rawgit.com/c0bra/deviceframe-frames/1.0.0/';
 
 const paths = envPaths('deviceframe');
 const frameCacheDir = path.join(paths.cache, 'frames');
@@ -46,7 +49,9 @@ const cli = meow(`
     Options
       --delay             Delay webpage capturing in seconds
       --output, -o        Output directory (default: current working directory)
-      --debug, -d
+      --debug, -d         Log debug info
+      --devices           List all available devices
+      --frame             Supply a frame to use. Fuzzy matches. Use multiple --frame switches for multiple frames or use commas. See below for examples.
 
     Examples
       $ dframe cat.png
@@ -54,12 +59,21 @@ const cli = meow(`
       $ dframe *.png cat-*.jpeg
       $ dframe https://github.com/c0bra/deviceframe --delay 2
       $ dframe cat.png https://github.com/c0bra/deviceframe *.bmp https://i.imgur.com/aw2bc01.jpg
+      $ dframe cat.png --frame "iPhone 7"
+      $ dframe cat.png --frame "iPhone 6" --frame "iPhone 7"
+      $ dframe cat.png --frame "iphone 6","iphone 7"
   `,
   {
-    alias: {
-      h: 'help',
-    },
     flags: {
+      help: {
+        alias: 'h',
+      },
+      delay: {
+        default: 0,
+      },
+      devices: {
+        default: false,
+      },
       output: {
         type: 'string',
         alias: 'o',
@@ -73,6 +87,54 @@ const cli = meow(`
     },
   }
 );
+
+// Log out list of devices
+if (cli.flags.devices) {
+  console.log(
+    uniq(frameData.map(x => x.device)).sort().join('\n')
+  );
+  process.exit(0);
+}
+
+// Parse frames args
+if (cli.flags.frame && typeof cli.flags.frame === 'string') {
+  cli.flags.frame = [].concat(cli.flags.frame.split(/,/).map(f => f.trim()));
+}
+
+// console.log('frames', cli.flags.frame); process.exit(0);
+
+// Find matching frames
+let frames = null;
+if (cli.flags.frame) {
+  const fuse = new Fuse(frameData, {
+    shouldSort: true,
+    tokenize: true,
+    matchAllTokens: true,
+    threshold: 0,
+    location: 0,
+    distance: 100,
+    maxPatternLength: 32,
+    minMatchCharLength: 1,
+    keys: ['name'],
+  });
+
+  let results = [];
+  cli.flags.frame.forEach(f => {
+    // See if we can match exactly
+    const exact = find(frameData, { name: f });
+
+    if (exact) {
+      results.push(exact);
+    } else {
+      const res = fuse.search(f);
+      if (res) results = results.concat(res);
+    }
+  });
+
+  frames = uniq(results);
+
+  if (!frames) error('Could not find any matching frames');
+}
 
 /*
   1. Init (read in cache dir and conf)
@@ -131,6 +193,8 @@ function confirmInputs() {
 }
 
 function chooseFrames() {
+  if (frames) return Promise.resolve(frames);
+
   debug('Choosing frames');
 
   inquirer.registerPrompt('autocomplete', require('inquirer-autocomplete-prompt'));
@@ -226,7 +290,7 @@ function downloadFrames(frames) {
       promises.push(frame);
     } else {
       if (fs.existsSync(frameCachePath)) fs.unlink(frameCachePath);
-      frame.url = framesUrl + encodeURIComponent(frame.relPath);
+      frame.url = framesUrl + frame.relPath; // encodeURIComponent(frame.relPath);
       promises.push(downloadFrame(frame));
     }
   }
@@ -245,8 +309,6 @@ function downloadFrame(frame) {
   });
 
   bar.tick();
-
-  debug('frame.url', frame.url);
 
   frame.path = path.join(frameCacheDir, frame.relPath);
 
@@ -311,7 +373,7 @@ function frameIt(img, frameConf) {
 
       // TODO: need to dynamically choose device user-agent from a list, or store them with the frames
       const ua = 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1';
-      const stream = screenshot(imgUrl, dim, { crop: true, userAgent: ua })
+      const stream = screenshot(imgUrl, dim, { crop: true, userAgent: ua, delay: cli.flags.delay })
         .on('error', err => {
           spinner.fail();
           error(err);

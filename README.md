@@ -43,6 +43,8 @@ Here's Product Hunt's website on a Macbook Air, iPad, and iPhone:
 
 # Devices
 
+Currently 50 unique devices. Run `dframe --devices` to get a list
+
 * 166 phone + color combinations (Apple, Google, Samsung, HTC, Motorola)
 * 6 tablets (iPad, Surface, Nexus 9)
 * 9 computers (Apple, Dell, Microsoft)
