@@ -4,6 +4,10 @@
 
 >  Put device frames around your mobile/web/progressive app screenshots.
 
+<div align="center">
+  <strong>This tool is in active development. If something seems off, file an issue!</strong>
+</div>
+
 # Get it
 
     npm install -g deviceframe
