@@ -475,9 +475,9 @@ function frameIt(img, frameConf) {
   .catch(err => error(err));
 }
 
-function cacheSettings(settings) {
-  // TODO: write settings to ~/.deviceframe/settings.json
-}
+// function cacheSettings(settings) {
+//   // TODO: write settings to ~/.deviceframe/settings.json
+// }
 
 function error(msg, usage) {
   if (usage) console.log(cli.help);
