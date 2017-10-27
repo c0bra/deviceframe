@@ -24,7 +24,7 @@ Pass in filenames, file globs, websites urls, or image urls. In any combination 
 ```
 $ dframe cat.jpg
 $ dframe http://github.com
-$ dframe http://githbub.com dog.png https://i.imgur.com/aw2bc01.jpg *.bmp
+$ dframe http://github.com dog.png https://i.imgur.com/aw2bc01.jpg *.bmp
 ```
 
 deviceframe will prompt you for the frames you want to use. You can select multiple frames and search by typing. Once you have selected all the frames you want to use, hit ESC.
