@@ -373,7 +373,7 @@ function frameIt(img, frameConf) {
 
       // TODO: need to dynamically choose device user-agent from a list, or store them with the frames
       const ua = 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1';
-      const stream = screenshot(imgUrl, dim, { crop: true, userAgent: ua, delay: cli.flags.delay })
+      const stream = screenshot(imgUrl, dim, { crop: false, userAgent: ua, delay: cli.flags.delay })
         .on('error', err => {
           spinner.fail();
           error(err);
@@ -385,8 +385,20 @@ function frameIt(img, frameConf) {
       //   fs.writeFileSync('test.png', buf, { encoding: 'binary' });
       // });
 
-      return bufPromise;
+      return Promise.all([bufPromise, w, h]);
     })
+    .then(([buf, w, h]) => new Promise((resolve, reject) => {
+      Jimp.read(buf)
+      .then(lenna => {
+        lenna.resize(w, Jimp.AUTO)
+        .crop(0, 0, w, h)
+        .getBuffer(Jimp.MIME_PNG, (err, result) => {
+          if (err) return reject(err);
+
+          resolve(result);
+        });
+      });
+    }))
     .catch(err => error(err));
   }
 
