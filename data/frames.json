@@ -12,7 +12,7 @@
             "height": 2238
         },
         "name": "Apple iPad Pro 10.5 Gold",
-        "pixelRatio": null,
+        "pixelRatio": 2,
         "shadow": true,
         "tags": [
             "apple",
@@ -35,7 +35,7 @@
             "height": 2238
         },
         "name": "Apple iPad Pro 10.5 Rose Gold",
-        "pixelRatio": null,
+        "pixelRatio": 2,
         "shadow": true,
         "tags": [
             "apple",
@@ -59,7 +59,7 @@
             "height": 2238
         },
         "name": "Apple iPad Pro 10.5 Silver",
-        "pixelRatio": null,
+        "pixelRatio": 2,
         "shadow": true,
         "tags": [
             "apple",
@@ -82,7 +82,7 @@
             "height": 2238
         },
         "name": "Apple iPad Pro 10.5 Space Gray",
-        "pixelRatio": null,
+        "pixelRatio": 2,
         "shadow": true,
         "tags": [
             "apple",

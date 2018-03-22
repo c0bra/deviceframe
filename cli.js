@@ -28,7 +28,7 @@ const uniq = require('lodash/uniq');
 const frameData = require('./data/frames.json');
 
 // const framesUrl = 'https://gitcdn.xyz/repo/c0bra/deviceframe-frames/1.0.0/';
-const framesUrl = 'https://cdn.rawgit.com/c0bra/deviceframe-frames/1.0.0/';
+const framesUrl = 'https://cdn.rawgit.com/c0bra/deviceframe-frames/1.0.2/';
 
 const paths = envPaths('deviceframe');
 const frameCacheDir = path.join(paths.cache, 'frames');
