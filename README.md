@@ -85,6 +85,7 @@ Currently 50 unique devices. Run `dframe --devices` to get a list
 # Notes
 
 * deviceframe caches frame images in a cache directory using [env-paths](https://github.com/sindresorhus/env-paths)
+* Pixel ratio information comes from https://mydevice.io/devices/
 
 # Attributions
 
