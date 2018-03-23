@@ -56,7 +56,7 @@
   "devDependencies": {
     "ava": "^0.22.0",
     "aws-sdk": "^2.213.1",
-    "deviceframe-frames": "https://github.com/c0bra/deviceframe-frames.git#1.0.2",
+    "deviceframe-frames": "https://github.com/c0bra/deviceframe-frames.git#1.0.3",
     "nyc": "^11.2.1",
     "recursive-readdir": "^2.2.2",
     "xo": "^0.18.2"

@@ -1233,9 +1233,9 @@ detect-indent@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/detect-indent/-/detect-indent-5.0.0.tgz#3871cc0a6a002e8c3e5b3cf7f336264675f06b9d"
 
-"deviceframe-frames@https://github.com/c0bra/deviceframe-frames.git#1.0.2":
+"deviceframe-frames@https://github.com/c0bra/deviceframe-frames.git#1.0.3":
   version "0.0.0"
-  resolved "https://github.com/c0bra/deviceframe-frames.git#df573a2df4a6cb7009096a7d2f3307e448425bb0"
+  resolved "https://github.com/c0bra/deviceframe-frames.git#4e56343c293930c531676e3c80df711278b9edcf"
 
 doctrine@1.5.0:
   version "1.5.0"
