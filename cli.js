@@ -27,9 +27,6 @@ const typeis = require('type-is');
 const uniq = require('lodash/uniq');
 const frameData = require('./data/frames.json');
 
-// const framesUrl = 'https://gitcdn.xyz/repo/c0bra/deviceframe-frames/1.0.0/';
-const framesUrl = 'https://cdn.rawgit.com/c0bra/deviceframe-frames/1.0.2/';
-
 const paths = envPaths('deviceframe');
 const frameCacheDir = path.join(paths.cache, 'frames');
 const webCacheDir = path.join(paths.cache, 'web');
@@ -87,6 +84,12 @@ const cli = meow(`
     },
   }
 );
+
+const framesRepo = cli.pkg.devDependencies['deviceframe-frames'];
+const framesVersion = framesRepo.match(/#(.+)$/)[1];
+
+// const framesUrl = 'https://gitcdn.xyz/repo/c0bra/deviceframe-frames/1.0.0/';
+const framesUrl = `https://cdn.rawgit.com/c0bra/deviceframe-frames/${framesVersion}/`;
 
 // Log out list of devices
 if (cli.flags.devices) {
@@ -473,11 +476,19 @@ function frameIt(img, frameConf) {
       jimg.cover(frameConf.frame.width, frameConf.frame.height);
     }
 
-    return [frame, jimg, { left: compLeft, top: compTop }];
+    return [frame, jimg, { left: compLeft, top: compTop }, frameConf];
   })
-  .then(([frame, jimg, compPos]) => {
+  .then(([frame, jimg, compPos, frameConf]) => {
     debug('Compositing...');
-    return frame.composite(jimg, compPos.left, compPos.top);
+
+    // Create a canvas the same as the frame size for the screenshot to be placed on at the frame top/left coordinates
+    const canvas = new Jimp(frame.bitmap.width, frame.bitmap.height);
+    jimg = canvas.composite(jimg, frameConf.frame.left, frameConf.frame.top);
+
+    // return frame.composite(jimg, compPos.left, compPos.top);
+    // return frame.composite(jimg, 0, 0);
+    return jimg.composite(frame, 0, 0);
+    // return jimg;
   })
   .then(composite => {
     debug('Saving...');
