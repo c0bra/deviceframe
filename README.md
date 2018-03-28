@@ -74,7 +74,7 @@ Here's Product Hunt's website on a Macbook Air, iPad, and iPhone:
 
 # Devices
 
-Currently 50 unique devices. Run `dframe --devices` to get a list
+Currently 52 unique devices. Run `dframe --devices` to get a list
 
 * 166 phone + color combinations (Apple, Google, Samsung, HTC, Motorola)
 * 6 tablets (iPad, Surface, Nexus 9)
@@ -86,6 +86,7 @@ Currently 50 unique devices. Run `dframe --devices` to get a list
 
 * deviceframe caches frame images in a cache directory using [env-paths](https://github.com/sindresorhus/env-paths)
 * Pixel ratio information comes from https://mydevice.io/devices/
+* iPhone X renders the image below the notch.
 
 # Attributions
 
