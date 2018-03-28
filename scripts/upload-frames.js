@@ -1,3 +1,5 @@
+// NOTE: this should not be needed anymore since we use the rawgit CDN
+
 const fs = require('fs');
 const path = require('path');
 const AWS = require('aws-sdk');

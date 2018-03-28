@@ -12,7 +12,7 @@
     "test": "xo && nyc ava",
     "frames": "npm run update-frames && npm run upload-frames",
     "update-frames": "node scripts/parse-frames",
-    "upload-frames": "node scripts/upload-frames"
+    "upload-frames": "echo \"THIS IS DEPRECATED AND UNNECESSARY\" && node scripts/upload-frames"
   },
   "repository": {
     "type": "git",
@@ -56,7 +56,7 @@
   "devDependencies": {
     "ava": "^0.22.0",
     "aws-sdk": "^2.213.1",
-    "deviceframe-frames": "https://github.com/c0bra/deviceframe-frames.git#1.0.3",
+    "deviceframe-frames": "https://github.com/c0bra/deviceframe-frames.git#2.0.0",
     "nyc": "^11.2.1",
     "recursive-readdir": "^2.2.2",
     "xo": "^0.18.2"

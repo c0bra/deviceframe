@@ -289,6 +289,7 @@ function downloadFrames(frames) {
     const frameCachePath = path.join(frameCacheDir, frame.relPath);
 
     if (fs.existsSync(frameCachePath) && fs.statSync(frameCachePath).size > 0) {
+      debug(`Frame found at ${frameCachePath}`);
       frame.path = frameCachePath;
       promises.push(frame);
     } else {
@@ -304,7 +305,7 @@ function downloadFrames(frames) {
 function downloadFrame(frame) {
   debug(`Downloading frame ${frame.url}`);
 
-  const bar = new ProgressBar('Downloading frame [:bar] :rate/bps :percent :etas', {
+  const bar = new ProgressBar(`Downloading frame ${chalk.green(frame.name)} [:bar] :rate/bps :percent :etas`, {
     complete: '=',
     incomplete: ' ',
     width: 20,
@@ -360,6 +361,10 @@ function frameIt(img, frameConf) {
     img = getStream.buffer(img);
   } else if (isUrl(img)) {
     // Check if url is for an image or for a webpage
+    const urlCachePath = path.join(webCacheDir, imgName);
+
+    debug(`Checking url cache: ${urlCachePath}`);
+
     // NOTE: for urls we need to cache them
     const imgUrl = img;
     debug(`Checking for image: ${imgUrl}`);
@@ -472,23 +477,19 @@ function frameIt(img, frameConf) {
         rW = Jimp.AUTO;
       }
 
-      // jimg = jimg.resize(rW, rH);
       jimg.cover(frameConf.frame.width, frameConf.frame.height);
     }
 
     return [frame, jimg, { left: compLeft, top: compTop }, frameConf];
   })
   .then(([frame, jimg, compPos, frameConf]) => {
-    debug('Compositing...');
+    debug(`Compositing... ${frameConf.frame.left} ${frameConf.frame.top}`);
 
     // Create a canvas the same as the frame size for the screenshot to be placed on at the frame top/left coordinates
     const canvas = new Jimp(frame.bitmap.width, frame.bitmap.height);
-    jimg = canvas.composite(jimg, frameConf.frame.left, frameConf.frame.top);
+    jimg = canvas.composite(jimg, compPos.left, compPos.top);
 
-    // return frame.composite(jimg, compPos.left, compPos.top);
-    // return frame.composite(jimg, 0, 0);
     return jimg.composite(frame, 0, 0);
-    // return jimg;
   })
   .then(composite => {
     debug('Saving...');

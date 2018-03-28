@@ -4,9 +4,9 @@
         "category": "Computers",
         "device": "Apple Macbook Air",
         "frame": {
-            "top": 102,
+            "top": 86,
             "left": 298,
-            "bottom": 871,
+            "bottom": 855,
             "right": 1665,
             "width": 1367,
             "height": 769
@@ -26,9 +26,9 @@
         "category": "Computers",
         "device": "Apple Macbook Air",
         "frame": {
-            "top": 102,
+            "top": 86,
             "left": 298,
-            "bottom": 871,
+            "bottom": 855,
             "right": 1665,
             "width": 1367,
             "height": 769
@@ -48,9 +48,9 @@
         "category": "Computers",
         "device": "Apple Macbook Air",
         "frame": {
-            "top": 102,
+            "top": 79,
             "left": 261,
-            "bottom": 1003,
+            "bottom": 980,
             "right": 1702,
             "width": 1441,
             "height": 901
@@ -70,9 +70,9 @@
         "category": "Computers",
         "device": "Apple Macbook Air",
         "frame": {
-            "top": 102,
+            "top": 79,
             "left": 261,
-            "bottom": 1003,
+            "bottom": 980,
             "right": 1702,
             "width": 1441,
             "height": 901
@@ -92,9 +92,9 @@
         "category": "Computers",
         "device": "Apple Macbook Pro",
         "frame": {
-            "top": 163,
+            "top": 135,
             "left": 426,
-            "bottom": 1764,
+            "bottom": 1736,
             "right": 2987,
             "width": 2561,
             "height": 1601
@@ -136,9 +136,9 @@
         "category": "Computers",
         "device": "Apple Macbook Pro",
         "frame": {
-            "top": 179,
+            "top": 132,
             "left": 451,
-            "bottom": 1981,
+            "bottom": 1934,
             "right": 3333,
             "width": 2882,
             "height": 1802
@@ -158,9 +158,9 @@
         "category": "Computers",
         "device": "Apple Macbook Pro",
         "frame": {
-            "top": 179,
+            "top": 132,
             "left": 451,
-            "bottom": 1981,
+            "bottom": 1934,
             "right": 3333,
             "width": 2882,
             "height": 1802
@@ -256,9 +256,9 @@
         "category": "Computers",
         "device": "Apple iMac Retina",
         "frame": {
-            "top": 296,
+            "top": 240,
             "left": 227,
-            "bottom": 3177,
+            "bottom": 3121,
             "right": 5348,
             "width": 5121,
             "height": 2881
@@ -277,9 +277,9 @@
         "category": "Computers",
         "device": "Apple iMac Retina",
         "frame": {
-            "top": 296,
+            "top": 240,
             "left": 227,
-            "bottom": 3177,
+            "bottom": 3121,
             "right": 5348,
             "width": 5121,
             "height": 2881
@@ -298,9 +298,9 @@
         "category": "Computers",
         "device": "Apple iMac",
         "frame": {
-            "top": 154,
+            "top": 121,
             "left": 113,
-            "bottom": 1595,
+            "bottom": 1562,
             "right": 2674,
             "width": 2561,
             "height": 1441
@@ -318,9 +318,9 @@
         "category": "Computers",
         "device": "Apple iMac",
         "frame": {
-            "top": 154,
+            "top": 121,
             "left": 113,
-            "bottom": 1595,
+            "bottom": 1562,
             "right": 2674,
             "width": 2561,
             "height": 1441
@@ -338,9 +338,9 @@
         "category": "Computers",
         "device": "Dell XPS 13",
         "frame": {
-            "top": 85,
+            "top": 61,
             "left": 316,
-            "bottom": 1886,
+            "bottom": 1862,
             "right": 3517,
             "width": 3201,
             "height": 1801
@@ -359,9 +359,9 @@
         "category": "Computers",
         "device": "Dell XPS 13",
         "frame": {
-            "top": 85,
+            "top": 61,
             "left": 316,
-            "bottom": 1886,
+            "bottom": 1862,
             "right": 3517,
             "width": 3201,
             "height": 1801
@@ -380,9 +380,9 @@
         "category": "Computers",
         "device": "Dell XPS 15",
         "frame": {
-            "top": 129,
+            "top": 56,
             "left": 676,
-            "bottom": 2291,
+            "bottom": 2218,
             "right": 4518,
             "width": 3842,
             "height": 2162
@@ -401,9 +401,9 @@
         "category": "Computers",
         "device": "Dell XPS 15",
         "frame": {
-            "top": 129,
+            "top": 56,
             "left": 676,
-            "bottom": 2291,
+            "bottom": 2218,
             "right": 4518,
             "width": 3842,
             "height": 2162
@@ -422,9 +422,9 @@
         "category": "Computers",
         "device": "Microsoft Surface Book",
         "frame": {
-            "top": 186,
+            "top": 158,
             "left": 573,
-            "bottom": 2187,
+            "bottom": 2159,
             "right": 3574,
             "width": 3001,
             "height": 2001
@@ -443,10 +443,10 @@
         "category": "Computers",
         "device": "Microsoft Surface Book",
         "frame": {
-            "top": 186,
-            "left": 573,
-            "bottom": 2187,
-            "right": 3574,
+            "top": 158,
+            "left": 548,
+            "bottom": 2159,
+            "right": 3549,
             "width": 3001,
             "height": 2001
         },
@@ -464,9 +464,9 @@
         "category": "Displays",
         "device": "Apple Thunderbolt Display",
         "frame": {
-            "top": 129,
+            "top": 113,
             "left": 113,
-            "bottom": 1570,
+            "bottom": 1554,
             "right": 2674,
             "width": 2561,
             "height": 1441
@@ -485,9 +485,9 @@
         "category": "Displays",
         "device": "Apple Thunderbolt Display",
         "frame": {
-            "top": 129,
+            "top": 113,
             "left": 113,
-            "bottom": 1570,
+            "bottom": 1554,
             "right": 2674,
             "width": 2561,
             "height": 1441
@@ -506,10 +506,10 @@
         "category": "Displays",
         "device": "Dell UltraSharp HD 5K Monitor",
         "frame": {
-            "top": 193,
-            "left": 280,
-            "bottom": 5314,
-            "right": 3161,
+            "top": 166,
+            "left": 209,
+            "bottom": 5287,
+            "right": 3090,
             "width": 2881,
             "height": 5121
         },
@@ -553,10 +553,10 @@
         "category": "Displays",
         "device": "Dell UltraSharp HD 5K Monitor",
         "frame": {
-            "top": 193,
-            "left": 280,
-            "bottom": 5314,
-            "right": 3161,
+            "top": 166,
+            "left": 209,
+            "bottom": 5287,
+            "right": 3090,
             "width": 2881,
             "height": 5121
         },
@@ -600,10 +600,10 @@
         "category": "Displays",
         "device": "Dell UltraSharp Monitor",
         "frame": {
-            "top": 43,
-            "left": 75,
-            "bottom": 1964,
-            "right": 1276,
+            "top": 26,
+            "left": 68,
+            "bottom": 1947,
+            "right": 1269,
             "width": 1201,
             "height": 1921
         },
@@ -622,9 +622,9 @@
         "category": "Displays",
         "device": "Dell UltraSharp Monitor",
         "frame": {
-            "top": 45,
+            "top": 26,
             "left": 26,
-            "bottom": 1246,
+            "bottom": 1227,
             "right": 1947,
             "width": 1921,
             "height": 1201
@@ -643,10 +643,10 @@
         "category": "Displays",
         "device": "Dell UltraSharp Monitor",
         "frame": {
-            "top": 43,
-            "left": 75,
-            "bottom": 1964,
-            "right": 1276,
+            "top": 26,
+            "left": 68,
+            "bottom": 1947,
+            "right": 1269,
             "width": 1201,
             "height": 1921
         },
@@ -686,10 +686,10 @@
         "category": "Displays",
         "device": "Dell UltraSharp Monitor",
         "frame": {
-            "top": 43,
-            "left": 88,
-            "bottom": 2604,
-            "right": 1529,
+            "top": 32,
+            "left": 79,
+            "bottom": 2593,
+            "right": 1520,
             "width": 1441,
             "height": 2561
         },
@@ -708,9 +708,9 @@
         "category": "Displays",
         "device": "Dell UltraSharp Monitor",
         "frame": {
-            "top": 58,
+            "top": 32,
             "left": 32,
-            "bottom": 1499,
+            "bottom": 1473,
             "right": 2593,
             "width": 2561,
             "height": 1441
@@ -729,10 +729,10 @@
         "category": "Displays",
         "device": "Dell UltraSharp Monitor",
         "frame": {
-            "top": 43,
-            "left": 88,
-            "bottom": 2604,
-            "right": 1529,
+            "top": 32,
+            "left": 79,
+            "bottom": 2593,
+            "right": 1520,
             "width": 1441,
             "height": 2561
         },
@@ -751,9 +751,9 @@
         "category": "Displays",
         "device": "Dell UltraSharp Monitor",
         "frame": {
-            "top": 58,
+            "top": 32,
             "left": 32,
-            "bottom": 1499,
+            "bottom": 1473,
             "right": 2593,
             "width": 2561,
             "height": 1441
@@ -772,9 +772,9 @@
         "category": "Displays",
         "device": "Sony W850C",
         "frame": {
-            "top": 21,
+            "top": 13,
             "left": 11,
-            "bottom": 743,
+            "bottom": 735,
             "right": 1292,
             "width": 1281,
             "height": 722
@@ -792,9 +792,9 @@
         "category": "Displays",
         "device": "Sony W850C",
         "frame": {
-            "top": 21,
+            "top": 13,
             "left": 11,
-            "bottom": 743,
+            "bottom": 735,
             "right": 1292,
             "width": 1281,
             "height": 722
@@ -1354,10 +1354,10 @@
         "category": "Phones",
         "device": "Apple iPhone 6s",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 1634,
-            "right": 870,
+            "top": 227,
+            "left": 60,
+            "bottom": 1562,
+            "right": 811,
             "width": 751,
             "height": 1335
         },
@@ -1376,10 +1376,10 @@
         "category": "Phones",
         "device": "Apple iPhone 6s",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 1634,
-            "right": 870,
+            "top": 227,
+            "left": 60,
+            "bottom": 1562,
+            "right": 811,
             "width": 751,
             "height": 1335
         },
@@ -1399,10 +1399,10 @@
         "category": "Phones",
         "device": "Apple iPhone 6s",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 1634,
-            "right": 870,
+            "top": 227,
+            "left": 60,
+            "bottom": 1562,
+            "right": 811,
             "width": 751,
             "height": 1335
         },
@@ -1421,10 +1421,10 @@
         "category": "Phones",
         "device": "Apple iPhone 6s",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 1634,
-            "right": 870,
+            "top": 227,
+            "left": 60,
+            "bottom": 1562,
+            "right": 811,
             "width": 751,
             "height": 1335
         },
@@ -1444,10 +1444,10 @@
         "category": "Phones",
         "device": "Apple iPhone 6s",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 1634,
-            "right": 870,
+            "top": 227,
+            "left": 60,
+            "bottom": 1562,
+            "right": 811,
             "width": 751,
             "height": 1335
         },
@@ -1466,10 +1466,10 @@
         "category": "Phones",
         "device": "Apple iPhone 6s",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 1634,
-            "right": 870,
+            "top": 227,
+            "left": 60,
+            "bottom": 1562,
+            "right": 811,
             "width": 751,
             "height": 1335
         },
@@ -1489,10 +1489,10 @@
         "category": "Phones",
         "device": "Apple iPhone 6s",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 1634,
-            "right": 870,
+            "top": 227,
+            "left": 60,
+            "bottom": 1562,
+            "right": 811,
             "width": 751,
             "height": 1335
         },
@@ -1511,10 +1511,10 @@
         "category": "Phones",
         "device": "Apple iPhone 6s",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 1634,
-            "right": 870,
+            "top": 227,
+            "left": 60,
+            "bottom": 1562,
+            "right": 811,
             "width": 751,
             "height": 1335
         },
@@ -1534,10 +1534,10 @@
         "category": "Phones",
         "device": "Apple iPhone 7 Plus",
         "frame": {
-            "top": 599,
-            "left": 299,
-            "bottom": 2808,
-            "right": 1542,
+            "top": 379,
+            "left": 103,
+            "bottom": 2588,
+            "right": 1346,
             "width": 1243,
             "height": 2209
         },
@@ -1557,10 +1557,10 @@
         "category": "Phones",
         "device": "Apple iPhone 7 Plus",
         "frame": {
-            "top": 599,
-            "left": 299,
-            "bottom": 2808,
-            "right": 1542,
+            "top": 379,
+            "left": 103,
+            "bottom": 2588,
+            "right": 1346,
             "width": 1243,
             "height": 2209
         },
@@ -1581,10 +1581,10 @@
         "category": "Phones",
         "device": "Apple iPhone 7 Plus",
         "frame": {
-            "top": 599,
-            "left": 299,
-            "bottom": 2808,
-            "right": 1542,
+            "top": 379,
+            "left": 103,
+            "bottom": 2588,
+            "right": 1346,
             "width": 1243,
             "height": 2209
         },
@@ -1605,10 +1605,10 @@
         "category": "Phones",
         "device": "Apple iPhone 7 Plus",
         "frame": {
-            "top": 599,
-            "left": 299,
-            "bottom": 2808,
-            "right": 1542,
+            "top": 379,
+            "left": 103,
+            "bottom": 2588,
+            "right": 1346,
             "width": 1243,
             "height": 2209
         },
@@ -1629,10 +1629,10 @@
         "category": "Phones",
         "device": "Apple iPhone 7 Plus",
         "frame": {
-            "top": 599,
-            "left": 299,
-            "bottom": 2808,
-            "right": 1542,
+            "top": 379,
+            "left": 103,
+            "bottom": 2588,
+            "right": 1346,
             "width": 1243,
             "height": 2209
         },
@@ -1652,10 +1652,10 @@
         "category": "Phones",
         "device": "Apple iPhone 7 Plus",
         "frame": {
-            "top": 599,
-            "left": 299,
-            "bottom": 2808,
-            "right": 1542,
+            "top": 379,
+            "left": 103,
+            "bottom": 2588,
+            "right": 1346,
             "width": 1243,
             "height": 2209
         },
@@ -1675,10 +1675,10 @@
         "category": "Phones",
         "device": "Apple iPhone 7 Plus",
         "frame": {
-            "top": 599,
-            "left": 299,
-            "bottom": 2808,
-            "right": 1542,
+            "top": 379,
+            "left": 103,
+            "bottom": 2588,
+            "right": 1346,
             "width": 1243,
             "height": 2209
         },
@@ -1699,10 +1699,10 @@
         "category": "Phones",
         "device": "Apple iPhone 7 Plus",
         "frame": {
-            "top": 599,
-            "left": 299,
-            "bottom": 2808,
-            "right": 1542,
+            "top": 379,
+            "left": 103,
+            "bottom": 2588,
+            "right": 1346,
             "width": 1243,
             "height": 2209
         },
@@ -1723,10 +1723,10 @@
         "category": "Phones",
         "device": "Apple iPhone 7 Plus",
         "frame": {
-            "top": 599,
-            "left": 299,
-            "bottom": 2808,
-            "right": 1542,
+            "top": 379,
+            "left": 103,
+            "bottom": 2588,
+            "right": 1346,
             "width": 1243,
             "height": 2209
         },
@@ -1747,10 +1747,10 @@
         "category": "Phones",
         "device": "Apple iPhone 7 Plus",
         "frame": {
-            "top": 599,
-            "left": 299,
-            "bottom": 2808,
-            "right": 1542,
+            "top": 379,
+            "left": 103,
+            "bottom": 2588,
+            "right": 1346,
             "width": 1243,
             "height": 2209
         },
@@ -1770,10 +1770,10 @@
         "category": "Phones",
         "device": "Apple iPhone 7",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 1634,
-            "right": 870,
+            "top": 227,
+            "left": 60,
+            "bottom": 1562,
+            "right": 811,
             "width": 751,
             "height": 1335
         },
@@ -1792,10 +1792,10 @@
         "category": "Phones",
         "device": "Apple iPhone 7",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 1634,
-            "right": 870,
+            "top": 227,
+            "left": 60,
+            "bottom": 1562,
+            "right": 811,
             "width": 751,
             "height": 1335
         },
@@ -1815,10 +1815,10 @@
         "category": "Phones",
         "device": "Apple iPhone 7",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 1634,
-            "right": 870,
+            "top": 227,
+            "left": 60,
+            "bottom": 1562,
+            "right": 811,
             "width": 751,
             "height": 1335
         },
@@ -1838,10 +1838,10 @@
         "category": "Phones",
         "device": "Apple iPhone 7",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 1634,
-            "right": 870,
+            "top": 227,
+            "left": 60,
+            "bottom": 1562,
+            "right": 811,
             "width": 751,
             "height": 1335
         },
@@ -1861,10 +1861,10 @@
         "category": "Phones",
         "device": "Apple iPhone 7",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 1634,
-            "right": 870,
+            "top": 227,
+            "left": 60,
+            "bottom": 1562,
+            "right": 811,
             "width": 751,
             "height": 1335
         },
@@ -1883,10 +1883,10 @@
         "category": "Phones",
         "device": "Apple iPhone 7",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 1634,
-            "right": 870,
+            "top": 227,
+            "left": 60,
+            "bottom": 1562,
+            "right": 811,
             "width": 751,
             "height": 1335
         },
@@ -1905,10 +1905,10 @@
         "category": "Phones",
         "device": "Apple iPhone 7",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 1634,
-            "right": 870,
+            "top": 227,
+            "left": 60,
+            "bottom": 1562,
+            "right": 811,
             "width": 751,
             "height": 1335
         },
@@ -1928,10 +1928,10 @@
         "category": "Phones",
         "device": "Apple iPhone 7",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 1634,
-            "right": 870,
+            "top": 227,
+            "left": 60,
+            "bottom": 1562,
+            "right": 811,
             "width": 751,
             "height": 1335
         },
@@ -1951,10 +1951,10 @@
         "category": "Phones",
         "device": "Apple iPhone 7",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 1634,
-            "right": 870,
+            "top": 227,
+            "left": 60,
+            "bottom": 1562,
+            "right": 811,
             "width": 751,
             "height": 1335
         },
@@ -1974,10 +1974,10 @@
         "category": "Phones",
         "device": "Apple iPhone 7",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 1634,
-            "right": 870,
+            "top": 227,
+            "left": 60,
+            "bottom": 1562,
+            "right": 811,
             "width": 751,
             "height": 1335
         },
@@ -1996,10 +1996,10 @@
         "category": "Phones",
         "device": "Apple iPhone SE",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 1416,
-            "right": 740,
+            "top": 236,
+            "left": 63,
+            "bottom": 1373,
+            "right": 704,
             "width": 641,
             "height": 1137
         },
@@ -2018,10 +2018,10 @@
         "category": "Phones",
         "device": "Apple iPhone SE",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 1416,
-            "right": 740,
+            "top": 236,
+            "left": 63,
+            "bottom": 1373,
+            "right": 704,
             "width": 641,
             "height": 1137
         },
@@ -2041,10 +2041,10 @@
         "category": "Phones",
         "device": "Apple iPhone SE",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 1416,
-            "right": 740,
+            "top": 236,
+            "left": 63,
+            "bottom": 1373,
+            "right": 704,
             "width": 641,
             "height": 1137
         },
@@ -2063,10 +2063,10 @@
         "category": "Phones",
         "device": "Apple iPhone SE",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 1416,
-            "right": 740,
+            "top": 236,
+            "left": 63,
+            "bottom": 1373,
+            "right": 704,
             "width": 641,
             "height": 1137
         },
@@ -2086,10 +2086,10 @@
         "category": "Phones",
         "device": "Apple iPhone SE",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 1416,
-            "right": 740,
+            "top": 236,
+            "left": 63,
+            "bottom": 1373,
+            "right": 704,
             "width": 641,
             "height": 1137
         },
@@ -2108,10 +2108,10 @@
         "category": "Phones",
         "device": "Apple iPhone SE",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 1416,
-            "right": 740,
+            "top": 236,
+            "left": 63,
+            "bottom": 1373,
+            "right": 704,
             "width": 641,
             "height": 1137
         },
@@ -2131,10 +2131,10 @@
         "category": "Phones",
         "device": "Apple iPhone SE",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 1416,
-            "right": 740,
+            "top": 236,
+            "left": 63,
+            "bottom": 1373,
+            "right": 704,
             "width": 641,
             "height": 1137
         },
@@ -2153,10 +2153,10 @@
         "category": "Phones",
         "device": "Apple iPhone SE",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 1416,
-            "right": 740,
+            "top": 236,
+            "left": 63,
+            "bottom": 1373,
+            "right": 704,
             "width": 641,
             "height": 1137
         },
@@ -2176,15 +2176,15 @@
         "category": "Phones",
         "device": "Apple iPhone X",
         "frame": {
-            "top": 95,
-            "left": 46,
-            "bottom": 1476,
-            "right": 709,
+            "top": 91,
+            "left": 45,
+            "bottom": 1472,
+            "right": 708,
             "width": 663,
             "height": 1381
         },
         "name": "Apple iPhone X Black",
-        "pixelRatio": 1,
+        "pixelRatio": 3,
         "shadow": false,
         "tags": [
             "apple",
@@ -2194,14 +2194,36 @@
         ]
     },
     {
+        "relPath": "Phones/Apple iPhone X/Device/Apple iPhone X Silver.png",
+        "category": "Phones",
+        "device": "Apple iPhone X",
+        "frame": {
+            "top": 53,
+            "left": 27,
+            "bottom": 801,
+            "right": 386,
+            "width": 359,
+            "height": 748
+        },
+        "name": "Apple iPhone X Silver",
+        "pixelRatio": 3,
+        "shadow": false,
+        "tags": [
+            "apple",
+            "iphone",
+            "x",
+            "silver"
+        ]
+    },
+    {
         "relPath": "Phones/Google Pixel/Device with Shadows/Google Pixel Quite Black.png",
         "category": "Phones",
         "device": "Google Pixel",
         "frame": {
-            "top": 499,
-            "left": 199,
-            "bottom": 2420,
-            "right": 1280,
+            "top": 251,
+            "left": 61,
+            "bottom": 2172,
+            "right": 1142,
             "width": 1081,
             "height": 1921
         },
@@ -2220,10 +2242,10 @@
         "category": "Phones",
         "device": "Google Pixel",
         "frame": {
-            "top": 499,
-            "left": 199,
-            "bottom": 2420,
-            "right": 1280,
+            "top": 251,
+            "left": 61,
+            "bottom": 2172,
+            "right": 1142,
             "width": 1081,
             "height": 1921
         },
@@ -2242,10 +2264,10 @@
         "category": "Phones",
         "device": "Google Pixel",
         "frame": {
-            "top": 499,
-            "left": 199,
-            "bottom": 2420,
-            "right": 1280,
+            "top": 251,
+            "left": 61,
+            "bottom": 2172,
+            "right": 1142,
             "width": 1081,
             "height": 1921
         },
@@ -2264,10 +2286,10 @@
         "category": "Phones",
         "device": "Google Pixel",
         "frame": {
-            "top": 499,
-            "left": 199,
-            "bottom": 2420,
-            "right": 1280,
+            "top": 251,
+            "left": 61,
+            "bottom": 2172,
+            "right": 1142,
             "width": 1081,
             "height": 1921
         },
@@ -2286,10 +2308,10 @@
         "category": "Phones",
         "device": "Google Pixel",
         "frame": {
-            "top": 499,
-            "left": 199,
-            "bottom": 2420,
-            "right": 1280,
+            "top": 251,
+            "left": 61,
+            "bottom": 2172,
+            "right": 1142,
             "width": 1081,
             "height": 1921
         },
@@ -2308,10 +2330,10 @@
         "category": "Phones",
         "device": "Google Pixel",
         "frame": {
-            "top": 499,
-            "left": 199,
-            "bottom": 2420,
-            "right": 1280,
+            "top": 251,
+            "left": 61,
+            "bottom": 2172,
+            "right": 1142,
             "width": 1081,
             "height": 1921
         },
@@ -2550,9 +2572,9 @@
         "category": "Phones",
         "device": "Huawei P8",
         "frame": {
-            "top": 319,
+            "top": 229,
             "left": 99,
-            "bottom": 2240,
+            "bottom": 2150,
             "right": 1180,
             "width": 1081,
             "height": 1921
@@ -2571,9 +2593,9 @@
         "category": "Phones",
         "device": "Huawei P8",
         "frame": {
-            "top": 319,
+            "top": 229,
             "left": 99,
-            "bottom": 2240,
+            "bottom": 2150,
             "right": 1180,
             "width": 1081,
             "height": 1921
@@ -2592,10 +2614,10 @@
         "category": "Phones",
         "device": "Huawei P8",
         "frame": {
-            "top": 319,
-            "left": 99,
-            "bottom": 2240,
-            "right": 1180,
+            "top": 229,
+            "left": 60,
+            "bottom": 2150,
+            "right": 1141,
             "width": 1081,
             "height": 1921
         },
@@ -2613,10 +2635,10 @@
         "category": "Phones",
         "device": "Huawei P8",
         "frame": {
-            "top": 319,
-            "left": 99,
-            "bottom": 2240,
-            "right": 1180,
+            "top": 229,
+            "left": 60,
+            "bottom": 2150,
+            "right": 1141,
             "width": 1081,
             "height": 1921
         },
@@ -2810,10 +2832,10 @@
         "category": "Phones",
         "device": "Motorola Moto G",
         "frame": {
-            "top": 249,
-            "left": 99,
-            "bottom": 1530,
-            "right": 820,
+            "top": 188,
+            "left": 63,
+            "bottom": 1469,
+            "right": 784,
             "width": 721,
             "height": 1281
         },
@@ -2831,10 +2853,10 @@
         "category": "Phones",
         "device": "Motorola Moto G",
         "frame": {
-            "top": 249,
-            "left": 99,
-            "bottom": 1530,
-            "right": 820,
+            "top": 188,
+            "left": 54,
+            "bottom": 1469,
+            "right": 775,
             "width": 721,
             "height": 1281
         },
@@ -3571,10 +3593,10 @@
         "category": "Phones",
         "device": "Samsung Galaxy Grand Prime",
         "frame": {
-            "top": 199,
-            "left": 79,
-            "bottom": 1160,
-            "right": 620,
+            "top": 147,
+            "left": 72,
+            "bottom": 1108,
+            "right": 613,
             "width": 541,
             "height": 961
         },
@@ -3594,10 +3616,10 @@
         "category": "Phones",
         "device": "Samsung Galaxy Grand Prime",
         "frame": {
-            "top": 199,
-            "left": 79,
-            "bottom": 1160,
-            "right": 620,
+            "top": 147,
+            "left": 72,
+            "bottom": 1108,
+            "right": 613,
             "width": 541,
             "height": 961
         },
@@ -3617,10 +3639,10 @@
         "category": "Phones",
         "device": "Samsung Galaxy Grand Prime",
         "frame": {
-            "top": 199,
-            "left": 79,
-            "bottom": 1160,
-            "right": 620,
+            "top": 147,
+            "left": 72,
+            "bottom": 1108,
+            "right": 613,
             "width": 541,
             "height": 961
         },
@@ -3640,10 +3662,10 @@
         "category": "Phones",
         "device": "Samsung Galaxy Grand Prime",
         "frame": {
-            "top": 199,
-            "left": 79,
-            "bottom": 1160,
-            "right": 620,
+            "top": 147,
+            "left": 46,
+            "bottom": 1108,
+            "right": 587,
             "width": 541,
             "height": 961
         },
@@ -3663,10 +3685,10 @@
         "category": "Phones",
         "device": "Samsung Galaxy Grand Prime",
         "frame": {
-            "top": 199,
-            "left": 79,
-            "bottom": 1160,
-            "right": 620,
+            "top": 147,
+            "left": 46,
+            "bottom": 1108,
+            "right": 587,
             "width": 541,
             "height": 961
         },
@@ -3686,10 +3708,10 @@
         "category": "Phones",
         "device": "Samsung Galaxy Grand Prime",
         "frame": {
-            "top": 199,
-            "left": 79,
-            "bottom": 1160,
-            "right": 620,
+            "top": 147,
+            "left": 46,
+            "bottom": 1108,
+            "right": 587,
             "width": 541,
             "height": 961
         },
@@ -3985,10 +4007,10 @@
         "category": "Phones",
         "device": "Samsung Galaxy S3",
         "frame": {
-            "top": 199,
-            "left": 99,
-            "bottom": 1480,
-            "right": 820,
+            "top": 157,
+            "left": 64,
+            "bottom": 1438,
+            "right": 785,
             "width": 721,
             "height": 1281
         },
@@ -4006,10 +4028,10 @@
         "category": "Phones",
         "device": "Samsung Galaxy S3",
         "frame": {
-            "top": 199,
-            "left": 99,
-            "bottom": 1480,
-            "right": 820,
+            "top": 157,
+            "left": 64,
+            "bottom": 1438,
+            "right": 785,
             "width": 721,
             "height": 1281
         },
@@ -4027,10 +4049,10 @@
         "category": "Phones",
         "device": "Samsung Galaxy S5",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 2220,
-            "right": 1200,
+            "top": 246,
+            "left": 101,
+            "bottom": 2167,
+            "right": 1182,
             "width": 1081,
             "height": 1921
         },
@@ -4049,10 +4071,10 @@
         "category": "Phones",
         "device": "Samsung Galaxy S5",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 2220,
-            "right": 1200,
+            "top": 246,
+            "left": 102,
+            "bottom": 2167,
+            "right": 1183,
             "width": 1081,
             "height": 1921
         },
@@ -4071,10 +4093,10 @@
         "category": "Phones",
         "device": "Samsung Galaxy S5",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 2220,
-            "right": 1200,
+            "top": 246,
+            "left": 78,
+            "bottom": 2167,
+            "right": 1159,
             "width": 1081,
             "height": 1921
         },
@@ -4093,10 +4115,10 @@
         "category": "Phones",
         "device": "Samsung Galaxy S5",
         "frame": {
-            "top": 299,
-            "left": 119,
-            "bottom": 2220,
-            "right": 1200,
+            "top": 246,
+            "left": 78,
+            "bottom": 2167,
+            "right": 1159,
             "width": 1081,
             "height": 1921
         },
@@ -4115,10 +4137,10 @@
         "category": "Phones",
         "device": "Samsung Galaxy S7",
         "frame": {
-            "top": 399,
-            "left": 139,
-            "bottom": 2960,
-            "right": 1580,
+            "top": 337,
+            "left": 72,
+            "bottom": 2898,
+            "right": 1513,
             "width": 1441,
             "height": 2561
         },
@@ -4137,10 +4159,10 @@
         "category": "Phones",
         "device": "Samsung Galaxy S7",
         "frame": {
-            "top": 399,
-            "left": 139,
-            "bottom": 2960,
-            "right": 1580,
+            "top": 337,
+            "left": 72,
+            "bottom": 2898,
+            "right": 1513,
             "width": 1441,
             "height": 2561
         },
@@ -4159,10 +4181,10 @@
         "category": "Phones",
         "device": "Samsung Galaxy S7",
         "frame": {
-            "top": 399,
-            "left": 139,
-            "bottom": 2960,
-            "right": 1580,
+            "top": 337,
+            "left": 72,
+            "bottom": 2898,
+            "right": 1513,
             "width": 1441,
             "height": 2561
         },
@@ -4181,10 +4203,10 @@
         "category": "Phones",
         "device": "Samsung Galaxy S7",
         "frame": {
-            "top": 399,
-            "left": 139,
-            "bottom": 2960,
-            "right": 1580,
+            "top": 337,
+            "left": 72,
+            "bottom": 2898,
+            "right": 1513,
             "width": 1441,
             "height": 2561
         },
@@ -4203,10 +4225,10 @@
         "category": "Phones",
         "device": "Samsung Galaxy S7",
         "frame": {
-            "top": 399,
-            "left": 139,
-            "bottom": 2960,
-            "right": 1580,
+            "top": 337,
+            "left": 72,
+            "bottom": 2898,
+            "right": 1513,
             "width": 1441,
             "height": 2561
         },
@@ -4225,10 +4247,10 @@
         "category": "Phones",
         "device": "Samsung Galaxy S7",
         "frame": {
-            "top": 399,
-            "left": 139,
-            "bottom": 2960,
-            "right": 1580,
+            "top": 337,
+            "left": 72,
+            "bottom": 2898,
+            "right": 1513,
             "width": 1441,
             "height": 2561
         },
@@ -4247,10 +4269,10 @@
         "category": "Phones",
         "device": "Samsung Galaxy S7",
         "frame": {
-            "top": 399,
-            "left": 139,
-            "bottom": 2960,
-            "right": 1580,
+            "top": 337,
+            "left": 72,
+            "bottom": 2898,
+            "right": 1513,
             "width": 1441,
             "height": 2561
         },
@@ -4269,10 +4291,10 @@
         "category": "Phones",
         "device": "Samsung Galaxy S7",
         "frame": {
-            "top": 399,
-            "left": 139,
-            "bottom": 2960,
-            "right": 1580,
+            "top": 337,
+            "left": 72,
+            "bottom": 2898,
+            "right": 1513,
             "width": 1441,
             "height": 2561
         },
@@ -4379,10 +4401,10 @@
         "category": "Tablets",
         "device": "Apple iPad Air 2",
         "frame": {
-            "top": 279,
-            "left": 159,
-            "bottom": 2328,
-            "right": 1696,
+            "top": 223,
+            "left": 111,
+            "bottom": 2272,
+            "right": 1648,
             "width": 1537,
             "height": 2049
         },
@@ -4402,10 +4424,10 @@
         "category": "Tablets",
         "device": "Apple iPad Air 2",
         "frame": {
-            "top": 279,
-            "left": 159,
-            "bottom": 2328,
-            "right": 1696,
+            "top": 223,
+            "left": 111,
+            "bottom": 2272,
+            "right": 1648,
             "width": 1537,
             "height": 2049
         },
@@ -4425,10 +4447,10 @@
         "category": "Tablets",
         "device": "Apple iPad Air 2",
         "frame": {
-            "top": 279,
-            "left": 159,
-            "bottom": 2328,
-            "right": 1696,
+            "top": 223,
+            "left": 110,
+            "bottom": 2272,
+            "right": 1647,
             "width": 1537,
             "height": 2049
         },
@@ -4449,10 +4471,10 @@
         "category": "Tablets",
         "device": "Apple iPad Air 2",
         "frame": {
-            "top": 279,
-            "left": 159,
-            "bottom": 2328,
-            "right": 1696,
+            "top": 223,
+            "left": 111,
+            "bottom": 2272,
+            "right": 1648,
             "width": 1537,
             "height": 2049
         },
@@ -4472,10 +4494,10 @@
         "category": "Tablets",
         "device": "Apple iPad Air 2",
         "frame": {
-            "top": 279,
-            "left": 159,
-            "bottom": 2328,
-            "right": 1696,
+            "top": 223,
+            "left": 111,
+            "bottom": 2272,
+            "right": 1648,
             "width": 1537,
             "height": 2049
         },
@@ -4495,10 +4517,10 @@
         "category": "Tablets",
         "device": "Apple iPad Air 2",
         "frame": {
-            "top": 279,
-            "left": 159,
-            "bottom": 2328,
-            "right": 1696,
+            "top": 223,
+            "left": 110,
+            "bottom": 2272,
+            "right": 1647,
             "width": 1537,
             "height": 2049
         },
@@ -4519,10 +4541,10 @@
         "category": "Tablets",
         "device": "Apple iPad Mini 4",
         "frame": {
-            "top": 319,
-            "left": 199,
-            "bottom": 2368,
-            "right": 1736,
+            "top": 277,
+            "left": 113,
+            "bottom": 2326,
+            "right": 1650,
             "width": 1537,
             "height": 2049
         },
@@ -4542,10 +4564,10 @@
         "category": "Tablets",
         "device": "Apple iPad Mini 4",
         "frame": {
-            "top": 319,
-            "left": 199,
-            "bottom": 2368,
-            "right": 1736,
+            "top": 277,
+            "left": 113,
+            "bottom": 2326,
+            "right": 1650,
             "width": 1537,
             "height": 2049
         },
@@ -4565,10 +4587,10 @@
         "category": "Tablets",
         "device": "Apple iPad Mini 4",
         "frame": {
-            "top": 319,
-            "left": 199,
-            "bottom": 2368,
-            "right": 1736,
+            "top": 277,
+            "left": 113,
+            "bottom": 2326,
+            "right": 1650,
             "width": 1537,
             "height": 2049
         },
@@ -4589,10 +4611,10 @@
         "category": "Tablets",
         "device": "Apple iPad Mini 4",
         "frame": {
-            "top": 319,
-            "left": 199,
-            "bottom": 2368,
-            "right": 1736,
+            "top": 277,
+            "left": 95,
+            "bottom": 2326,
+            "right": 1632,
             "width": 1537,
             "height": 2049
         },
@@ -4612,10 +4634,10 @@
         "category": "Tablets",
         "device": "Apple iPad Mini 4",
         "frame": {
-            "top": 319,
-            "left": 199,
-            "bottom": 2368,
-            "right": 1736,
+            "top": 277,
+            "left": 95,
+            "bottom": 2326,
+            "right": 1632,
             "width": 1537,
             "height": 2049
         },
@@ -4635,10 +4657,10 @@
         "category": "Tablets",
         "device": "Apple iPad Mini 4",
         "frame": {
-            "top": 319,
-            "left": 199,
-            "bottom": 2368,
-            "right": 1736,
+            "top": 277,
+            "left": 95,
+            "bottom": 2326,
+            "right": 1632,
             "width": 1537,
             "height": 2049
         },
@@ -4659,9 +4681,9 @@
         "category": "Tablets",
         "device": "Apple iPad Pro 10.5",
         "frame": {
-            "top": 191,
+            "top": 185,
             "left": 81,
-            "bottom": 2429,
+            "bottom": 2423,
             "right": 1762,
             "width": 1681,
             "height": 2238
@@ -4682,9 +4704,9 @@
         "category": "Tablets",
         "device": "Apple iPad Pro 10.5",
         "frame": {
-            "top": 195,
+            "top": 185,
             "left": 80,
-            "bottom": 2433,
+            "bottom": 2423,
             "right": 1761,
             "width": 1681,
             "height": 2238
@@ -4706,9 +4728,9 @@
         "category": "Tablets",
         "device": "Apple iPad Pro 10.5",
         "frame": {
-            "top": 195,
+            "top": 185,
             "left": 85,
-            "bottom": 2433,
+            "bottom": 2423,
             "right": 1766,
             "width": 1681,
             "height": 2238
@@ -4729,9 +4751,9 @@
         "category": "Tablets",
         "device": "Apple iPad Pro 10.5",
         "frame": {
-            "top": 195,
+            "top": 185,
             "left": 76,
-            "bottom": 2433,
+            "bottom": 2423,
             "right": 1757,
             "width": 1681,
             "height": 2238
@@ -4753,10 +4775,10 @@
         "category": "Tablets",
         "device": "Apple iPad Pro",
         "frame": {
-            "top": 349,
-            "left": 199,
-            "bottom": 3082,
-            "right": 2248,
+            "top": 215,
+            "left": 168,
+            "bottom": 2948,
+            "right": 2217,
             "width": 2049,
             "height": 2733
         },
@@ -4775,10 +4797,10 @@
         "category": "Tablets",
         "device": "Apple iPad Pro",
         "frame": {
-            "top": 349,
-            "left": 199,
-            "bottom": 3082,
-            "right": 2248,
+            "top": 215,
+            "left": 168,
+            "bottom": 2948,
+            "right": 2217,
             "width": 2049,
             "height": 2733
         },
@@ -4797,10 +4819,10 @@
         "category": "Tablets",
         "device": "Apple iPad Pro",
         "frame": {
-            "top": 349,
-            "left": 199,
-            "bottom": 3082,
-            "right": 2248,
+            "top": 215,
+            "left": 168,
+            "bottom": 2948,
+            "right": 2217,
             "width": 2049,
             "height": 2733
         },
@@ -4820,10 +4842,10 @@
         "category": "Tablets",
         "device": "Apple iPad Pro",
         "frame": {
-            "top": 349,
-            "left": 199,
-            "bottom": 3082,
-            "right": 2248,
+            "top": 215,
+            "left": 118,
+            "bottom": 2948,
+            "right": 2167,
             "width": 2049,
             "height": 2733
         },
@@ -4842,10 +4864,10 @@
         "category": "Tablets",
         "device": "Apple iPad Pro",
         "frame": {
-            "top": 349,
-            "left": 199,
-            "bottom": 3082,
-            "right": 2248,
+            "top": 215,
+            "left": 118,
+            "bottom": 2948,
+            "right": 2167,
             "width": 2049,
             "height": 2733
         },
@@ -4864,10 +4886,10 @@
         "category": "Tablets",
         "device": "Apple iPad Pro",
         "frame": {
-            "top": 349,
-            "left": 199,
-            "bottom": 3082,
-            "right": 2248,
+            "top": 215,
+            "left": 118,
+            "bottom": 2948,
+            "right": 2167,
             "width": 2049,
             "height": 2733
         },
@@ -4887,9 +4909,9 @@
         "category": "Tablets",
         "device": "Microsoft Surface 3",
         "frame": {
-            "top": 199,
+            "top": 116,
             "left": 199,
-            "bottom": 1480,
+            "bottom": 1397,
             "right": 2120,
             "width": 1921,
             "height": 1281
@@ -4909,9 +4931,9 @@
         "category": "Tablets",
         "device": "Microsoft Surface 3",
         "frame": {
-            "top": 199,
+            "top": 116,
             "left": 199,
-            "bottom": 1480,
+            "bottom": 1397,
             "right": 2120,
             "width": 1921,
             "height": 1281
@@ -4931,10 +4953,10 @@
         "category": "Tablets",
         "device": "Microsoft Surface Pro 4",
         "frame": {
-            "top": 199,
-            "left": 239,
-            "bottom": 2024,
-            "right": 2976,
+            "top": 147,
+            "left": 229,
+            "bottom": 1972,
+            "right": 2966,
             "width": 2737,
             "height": 1825
         },
@@ -4953,10 +4975,10 @@
         "category": "Tablets",
         "device": "Microsoft Surface Pro 4",
         "frame": {
-            "top": 199,
-            "left": 239,
-            "bottom": 2024,
-            "right": 2976,
+            "top": 147,
+            "left": 163,
+            "bottom": 1972,
+            "right": 2900,
             "width": 2737,
             "height": 1825
         },
@@ -4975,10 +4997,10 @@
         "category": "Tablets",
         "device": "Nexus 9",
         "frame": {
-            "top": 299,
-            "left": 179,
-            "bottom": 2348,
-            "right": 1716,
+            "top": 272,
+            "left": 131,
+            "bottom": 2321,
+            "right": 1668,
             "width": 1537,
             "height": 2049
         },
@@ -4995,10 +5017,10 @@
         "category": "Tablets",
         "device": "Nexus 9",
         "frame": {
-            "top": 299,
-            "left": 179,
-            "bottom": 2348,
-            "right": 1716,
+            "top": 272,
+            "left": 95,
+            "bottom": 2321,
+            "right": 1632,
             "width": 1537,
             "height": 2049
         },
@@ -5015,10 +5037,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 239,
-            "left": 99,
-            "bottom": 580,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -5041,10 +5063,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 239,
-            "left": 99,
-            "bottom": 580,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -5064,10 +5086,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 239,
-            "left": 99,
-            "bottom": 580,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -5092,10 +5114,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 239,
-            "left": 99,
-            "bottom": 580,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -5118,10 +5140,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 239,
-            "left": 99,
-            "bottom": 580,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -5144,10 +5166,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 239,
-            "left": 99,
-            "bottom": 580,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -5173,10 +5195,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 239,
-            "left": 99,
-            "bottom": 580,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -5202,10 +5224,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 239,
-            "left": 99,
-            "bottom": 580,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -5229,10 +5251,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 239,
-            "left": 99,
-            "bottom": 580,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -5255,10 +5277,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 239,
-            "left": 99,
-            "bottom": 580,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -5281,10 +5303,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 239,
-            "left": 99,
-            "bottom": 580,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -5307,10 +5329,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 239,
-            "left": 99,
-            "bottom": 580,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -5333,10 +5355,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 239,
-            "left": 99,
-            "bottom": 580,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -5360,10 +5382,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 239,
-            "left": 99,
-            "bottom": 580,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -5390,10 +5412,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 239,
-            "left": 99,
-            "bottom": 580,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -5419,10 +5441,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 239,
-            "left": 99,
-            "bottom": 580,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -5445,10 +5467,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 239,
-            "left": 99,
-            "bottom": 580,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -5470,12 +5492,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Black Steel + Black Open",
         "pixelRatio": 2,
@@ -5496,12 +5518,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Edition Open",
         "pixelRatio": 2,
@@ -5519,12 +5541,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Rose Gold Aluminum + Midnight Blue Open",
         "pixelRatio": 2,
@@ -5547,12 +5569,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Silver Aluminum + Cocoa Open",
         "pixelRatio": 2,
@@ -5573,12 +5595,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Silver Aluminum + Concrete Open",
         "pixelRatio": 2,
@@ -5599,12 +5621,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Silver Aluminum + Flat Silver Volt Nike Open",
         "pixelRatio": 2,
@@ -5628,12 +5650,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Silver Aluminum + Flat Silver White Nike Open",
         "pixelRatio": 2,
@@ -5657,12 +5679,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Silver Aluminum + Ocean Blue Open",
         "pixelRatio": 2,
@@ -5684,12 +5706,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Silver Aluminum + Pink Sand Open",
         "pixelRatio": 2,
@@ -5711,12 +5733,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Silver Aluminum + Red Open",
         "pixelRatio": 2,
@@ -5737,12 +5759,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Silver Aluminum + Turquoise Open",
         "pixelRatio": 2,
@@ -5763,12 +5785,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Silver Aluminum + White Open",
         "pixelRatio": 2,
@@ -5789,12 +5811,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Silver Aluminum + Yellow Open",
         "pixelRatio": 2,
@@ -5815,12 +5837,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Space Gray Aluminum + Black Cool Gray Nike Open",
         "pixelRatio": 2,
@@ -5845,12 +5867,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Space Gray Aluminum + Black Open",
         "pixelRatio": 2,
@@ -5872,12 +5894,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Space Gray Aluminum + Black Volt Nike Open",
         "pixelRatio": 2,
@@ -5901,12 +5923,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Steel + White Open",
         "pixelRatio": 2,
@@ -5926,10 +5948,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 670,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -5949,10 +5971,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 670,
-            "right": 412,
+            "top": 237,
+            "left": 75,
+            "bottom": 628,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -5975,10 +5997,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 670,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -6003,10 +6025,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 670,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -6029,10 +6051,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 670,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -6058,10 +6080,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 670,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -6087,10 +6109,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 670,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -6113,10 +6135,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 670,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -6140,10 +6162,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 670,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -6167,10 +6189,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 670,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -6194,10 +6216,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 670,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -6220,10 +6242,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 670,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -6246,10 +6268,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 670,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -6272,10 +6294,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 670,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -6298,10 +6320,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 670,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -6325,10 +6347,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 670,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -6352,10 +6374,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 670,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -6382,10 +6404,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 670,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -6411,10 +6433,10 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 279,
-            "left": 99,
-            "bottom": 670,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -6436,12 +6458,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1779,
-            "left": 99,
-            "bottom": 2170,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Edition Open",
         "pixelRatio": 2,
@@ -6459,12 +6481,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1779,
-            "left": 99,
-            "bottom": 2170,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Rose Gold Aluminum + Midnight Blue Open",
         "pixelRatio": 2,
@@ -6487,12 +6509,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1779,
-            "left": 99,
-            "bottom": 2170,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Silver Aluminum + Cocoa Open",
         "pixelRatio": 2,
@@ -6513,12 +6535,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1779,
-            "left": 99,
-            "bottom": 2170,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Silver Aluminum + Concrete Open",
         "pixelRatio": 2,
@@ -6539,12 +6561,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1779,
-            "left": 99,
-            "bottom": 2170,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Silver Aluminum + Flat Silver Volt Nike Open",
         "pixelRatio": 2,
@@ -6568,12 +6590,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1779,
-            "left": 99,
-            "bottom": 2170,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Silver Aluminum + Flat Silver White Nike Open",
         "pixelRatio": 2,
@@ -6597,12 +6619,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1779,
-            "left": 99,
-            "bottom": 2170,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Silver Aluminum + Green Open",
         "pixelRatio": 2,
@@ -6623,12 +6645,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1779,
-            "left": 99,
-            "bottom": 2170,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Silver Aluminum + Light Pink Open",
         "pixelRatio": 2,
@@ -6650,12 +6672,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1779,
-            "left": 99,
-            "bottom": 2170,
-            "right": 413,
-            "width": 314,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Silver Aluminum + Ocean Blue Open",
         "pixelRatio": 2,
@@ -6677,12 +6699,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1779,
-            "left": 99,
-            "bottom": 2170,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Silver Aluminum + Pink Sand Open",
         "pixelRatio": 2,
@@ -6704,12 +6726,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1779,
-            "left": 99,
-            "bottom": 2170,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Silver Aluminum + Red Open ",
         "pixelRatio": 2,
@@ -6731,12 +6753,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1779,
-            "left": 99,
-            "bottom": 2170,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1723,
+            "left": 243,
+            "bottom": 1723,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Silver Aluminum + Turquoise Open",
         "pixelRatio": 2,
@@ -6757,12 +6779,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1779,
-            "left": 99,
-            "bottom": 2170,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Silver Aluminum + White Open",
         "pixelRatio": 2,
@@ -6783,12 +6805,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1779,
-            "left": 99,
-            "bottom": 2170,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Silver Aluminum + Yellow Open",
         "pixelRatio": 2,
@@ -6809,12 +6831,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1779,
-            "left": 99,
-            "bottom": 2170,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Space Black Steel + Black Open",
         "pixelRatio": 2,
@@ -6836,12 +6858,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1779,
-            "left": 99,
-            "bottom": 2170,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Space Gray Aluminum + Black Cool Gray Nike Open",
         "pixelRatio": 2,
@@ -6866,12 +6888,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1779,
-            "left": 99,
-            "bottom": 2170,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Space Gray Aluminum + Black Open",
         "pixelRatio": 2,
@@ -6893,12 +6915,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1779,
-            "left": 99,
-            "bottom": 2170,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Space Gray Aluminum + Black Volt Nike Open",
         "pixelRatio": 2,
@@ -6922,12 +6944,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 1779,
-            "left": 99,
-            "bottom": 2170,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Steel + White Open",
         "pixelRatio": 2,
@@ -6947,10 +6969,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 215,
-            "left": 99,
-            "bottom": 556,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -6973,10 +6995,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 227,
-            "left": 99,
-            "bottom": 568,
-            "right": 372,
+            "top": 222,
+            "left": 65,
+            "bottom": 563,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -6999,10 +7021,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 215,
-            "left": 99,
-            "bottom": 556,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -7025,10 +7047,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 227,
-            "left": 99,
-            "bottom": 568,
-            "right": 372,
+            "top": 222,
+            "left": 65,
+            "bottom": 563,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -7052,10 +7074,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 215,
-            "left": 99,
-            "bottom": 556,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -7078,10 +7100,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 215,
-            "left": 99,
-            "bottom": 556,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -7104,10 +7126,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 215,
-            "left": 99,
-            "bottom": 556,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -7130,10 +7152,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 215,
-            "left": 99,
-            "bottom": 556,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -7156,10 +7178,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 215,
-            "left": 99,
-            "bottom": 556,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -7182,10 +7204,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 215,
-            "left": 99,
-            "bottom": 556,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -7208,10 +7230,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 215,
-            "left": 99,
-            "bottom": 556,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -7234,10 +7256,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 215,
-            "left": 99,
-            "bottom": 556,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -7262,10 +7284,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 215,
-            "left": 99,
-            "bottom": 556,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -7290,10 +7312,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 215,
-            "left": 99,
-            "bottom": 556,
-            "right": 372,
+            "top": 212,
+            "left": 65,
+            "bottom": 553,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -7317,10 +7339,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 227,
-            "left": 99,
-            "bottom": 568,
-            "right": 372,
+            "top": 222,
+            "left": 65,
+            "bottom": 563,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -7344,10 +7366,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 215,
-            "left": 99,
-            "bottom": 556,
-            "right": 372,
+            "top": 211,
+            "left": 65,
+            "bottom": 552,
+            "right": 338,
             "width": 273,
             "height": 341
         },
@@ -7369,12 +7391,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Black Steel + Black Open",
         "pixelRatio": 2,
@@ -7395,12 +7417,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Gold + Midnight Blue Open",
         "pixelRatio": 2,
@@ -7421,12 +7443,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Rose Gold + Lavender Open",
         "pixelRatio": 2,
@@ -7447,12 +7469,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Sport Aluminum + Blue Open",
         "pixelRatio": 2,
@@ -7473,12 +7495,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Sport Aluminum + Fog Open",
         "pixelRatio": 2,
@@ -7499,12 +7521,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Sport Aluminum + Green Open",
         "pixelRatio": 2,
@@ -7525,12 +7547,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Sport Aluminum + Red Open ",
         "pixelRatio": 2,
@@ -7552,12 +7574,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Sport Aluminum + Walnut Open",
         "pixelRatio": 2,
@@ -7578,12 +7600,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Sport Aluminum + White Open",
         "pixelRatio": 2,
@@ -7604,12 +7626,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Sport Aluminum Gold + Antique White Open",
         "pixelRatio": 2,
@@ -7632,12 +7654,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Sport Aluminum Rose Gold + Stone Open",
         "pixelRatio": 2,
@@ -7660,12 +7682,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Sport Space Gray + Black Open",
         "pixelRatio": 2,
@@ -7687,12 +7709,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1599,
-            "left": 99,
-            "bottom": 1940,
-            "right": 372,
-            "width": 273,
-            "height": 341
+            "top": 1551,
+            "left": 212,
+            "bottom": 1551,
+            "right": 212,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 38mm Steel + White Open",
         "pixelRatio": 2,
@@ -7712,10 +7734,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 299,
-            "left": 99,
-            "bottom": 690,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -7738,10 +7760,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 299,
-            "left": 99,
-            "bottom": 690,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -7764,10 +7786,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 299,
-            "left": 99,
-            "bottom": 690,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -7790,10 +7812,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 299,
-            "left": 99,
-            "bottom": 690,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -7817,10 +7839,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 299,
-            "left": 99,
-            "bottom": 690,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -7843,10 +7865,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 299,
-            "left": 99,
-            "bottom": 690,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -7869,10 +7891,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 299,
-            "left": 99,
-            "bottom": 690,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -7895,10 +7917,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 299,
-            "left": 99,
-            "bottom": 690,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -7921,10 +7943,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 299,
-            "left": 99,
-            "bottom": 690,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -7947,10 +7969,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 299,
-            "left": 99,
-            "bottom": 690,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -7973,10 +7995,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 299,
-            "left": 99,
-            "bottom": 690,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -7999,10 +8021,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 299,
-            "left": 99,
-            "bottom": 690,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -8027,10 +8049,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 299,
-            "left": 99,
-            "bottom": 690,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -8055,10 +8077,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 299,
-            "left": 99,
-            "bottom": 690,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -8082,10 +8104,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 299,
-            "left": 99,
-            "bottom": 690,
-            "right": 412,
+            "top": 238,
+            "left": 75,
+            "bottom": 629,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -8109,10 +8131,10 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 299,
-            "left": 99,
-            "bottom": 690,
-            "right": 412,
+            "top": 239,
+            "left": 75,
+            "bottom": 630,
+            "right": 388,
             "width": 313,
             "height": 391
         },
@@ -8134,12 +8156,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1769,
-            "left": 99,
-            "bottom": 2160,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Black Steel + Black Open",
         "pixelRatio": 2,
@@ -8160,12 +8182,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1769,
-            "left": 99,
-            "bottom": 2160,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Gold + Midnight Blue Open",
         "pixelRatio": 2,
@@ -8186,12 +8208,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1769,
-            "left": 99,
-            "bottom": 2160,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Rose Gold + Lavender Open",
         "pixelRatio": 2,
@@ -8212,12 +8234,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1769,
-            "left": 99,
-            "bottom": 2160,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Sport Aluminum + Blue Open",
         "pixelRatio": 2,
@@ -8238,12 +8260,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1769,
-            "left": 99,
-            "bottom": 2160,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Sport Aluminum + Fog Open",
         "pixelRatio": 2,
@@ -8264,12 +8286,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1769,
-            "left": 99,
-            "bottom": 2160,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Sport Aluminum + Green Open",
         "pixelRatio": 2,
@@ -8290,12 +8312,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1769,
-            "left": 99,
-            "bottom": 2160,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Sport Aluminum + Red Open ",
         "pixelRatio": 2,
@@ -8317,12 +8339,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1769,
-            "left": 99,
-            "bottom": 2160,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Sport Aluminum + Walnut Open",
         "pixelRatio": 2,
@@ -8343,12 +8365,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1769,
-            "left": 99,
-            "bottom": 2160,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Sport Aluminum + White Open",
         "pixelRatio": 2,
@@ -8369,12 +8391,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1769,
-            "left": 99,
-            "bottom": 2160,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Sport Aluminum Gold + Antique White Open",
         "pixelRatio": 2,
@@ -8397,12 +8419,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1769,
-            "left": 99,
-            "bottom": 2160,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Sport Aluminum Rose Gold + Stone Open",
         "pixelRatio": 2,
@@ -8425,12 +8447,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1769,
-            "left": 99,
-            "bottom": 2160,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Sport Space Gray + Black Open",
         "pixelRatio": 2,
@@ -8452,12 +8474,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 1769,
-            "left": 99,
-            "bottom": 2160,
-            "right": 412,
-            "width": 313,
-            "height": 391
+            "top": 1724,
+            "left": 243,
+            "bottom": 1724,
+            "right": 243,
+            "width": 0,
+            "height": 0
         },
         "name": "Apple Watch 42mm Steel + White Open",
         "pixelRatio": 2,
@@ -8478,9 +8500,9 @@
         "device": "Motorola Moto 360",
         "frame": {
             "top": 138,
-            "left": 43,
+            "left": 30,
             "bottom": 464,
-            "right": 404,
+            "right": 391,
             "width": 361,
             "height": 326
         },
@@ -8504,9 +8526,9 @@
         "device": "Motorola Moto 360",
         "frame": {
             "top": 138,
-            "left": 43,
+            "left": 30,
             "bottom": 464,
-            "right": 404,
+            "right": 391,
             "width": 361,
             "height": 326
         },
@@ -8530,9 +8552,9 @@
         "device": "Motorola Moto 360",
         "frame": {
             "top": 138,
-            "left": 43,
+            "left": 30,
             "bottom": 464,
-            "right": 404,
+            "right": 391,
             "width": 361,
             "height": 326
         },
@@ -8556,9 +8578,9 @@
         "device": "Motorola Moto 360",
         "frame": {
             "top": 138,
-            "left": 43,
+            "left": 30,
             "bottom": 464,
-            "right": 404,
+            "right": 391,
             "width": 361,
             "height": 326
         },
@@ -8582,9 +8604,9 @@
         "device": "Motorola Moto 360",
         "frame": {
             "top": 138,
-            "left": 43,
+            "left": 30,
             "bottom": 464,
-            "right": 404,
+            "right": 391,
             "width": 361,
             "height": 326
         },
@@ -8608,9 +8630,9 @@
         "device": "Motorola Moto 360",
         "frame": {
             "top": 138,
-            "left": 43,
+            "left": 30,
             "bottom": 464,
-            "right": 404,
+            "right": 391,
             "width": 361,
             "height": 326
         },
@@ -8634,9 +8656,9 @@
         "device": "Motorola Moto 360",
         "frame": {
             "top": 117,
-            "left": 43,
+            "left": 30,
             "bottom": 443,
-            "right": 404,
+            "right": 391,
             "width": 361,
             "height": 326
         },
@@ -8660,9 +8682,9 @@
         "device": "Motorola Moto 360",
         "frame": {
             "top": 117,
-            "left": 43,
+            "left": 30,
             "bottom": 443,
-            "right": 404,
+            "right": 391,
             "width": 361,
             "height": 326
         },
@@ -8686,9 +8708,9 @@
         "device": "Motorola Moto 360",
         "frame": {
             "top": 117,
-            "left": 43,
+            "left": 30,
             "bottom": 443,
-            "right": 404,
+            "right": 391,
             "width": 361,
             "height": 326
         },
@@ -8713,9 +8735,9 @@
         "device": "Motorola Moto 360",
         "frame": {
             "top": 117,
-            "left": 43,
+            "left": 30,
             "bottom": 443,
-            "right": 404,
+            "right": 391,
             "width": 361,
             "height": 326
         },
@@ -8741,9 +8763,9 @@
         "device": "Motorola Moto 360",
         "frame": {
             "top": 117,
-            "left": 43,
+            "left": 30,
             "bottom": 443,
-            "right": 404,
+            "right": 391,
             "width": 361,
             "height": 326
         },
@@ -8767,9 +8789,9 @@
         "device": "Motorola Moto 360",
         "frame": {
             "top": 117,
-            "left": 43,
+            "left": 30,
             "bottom": 443,
-            "right": 404,
+            "right": 391,
             "width": 361,
             "height": 326
         },
@@ -8793,10 +8815,10 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 1212,
-            "left": 224,
-            "bottom": 1212,
-            "right": 224,
+            "top": 1211,
+            "left": 211,
+            "bottom": 1211,
+            "right": 211,
             "width": 0,
             "height": 0
         },
@@ -8819,10 +8841,10 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 1212,
-            "left": 224,
-            "bottom": 1212,
-            "right": 224,
+            "top": 1211,
+            "left": 211,
+            "bottom": 1211,
+            "right": 211,
             "width": 0,
             "height": 0
         },
@@ -8845,10 +8867,10 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 1212,
-            "left": 224,
-            "bottom": 1212,
-            "right": 224,
+            "top": 1211,
+            "left": 211,
+            "bottom": 1211,
+            "right": 211,
             "width": 0,
             "height": 0
         },
@@ -8871,10 +8893,10 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 1212,
-            "left": 224,
-            "bottom": 1212,
-            "right": 224,
+            "top": 1211,
+            "left": 211,
+            "bottom": 1211,
+            "right": 211,
             "width": 0,
             "height": 0
         },
@@ -8897,10 +8919,10 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 1212,
-            "left": 224,
-            "bottom": 1212,
-            "right": 224,
+            "top": 1211,
+            "left": 211,
+            "bottom": 1211,
+            "right": 211,
             "width": 0,
             "height": 0
         },
@@ -8923,10 +8945,10 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 1212,
-            "left": 224,
-            "bottom": 1212,
-            "right": 224,
+            "top": 1211,
+            "left": 211,
+            "bottom": 1211,
+            "right": 211,
             "width": 0,
             "height": 0
         },
@@ -8949,10 +8971,10 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 1157,
-            "left": 224,
-            "bottom": 1157,
-            "right": 224,
+            "top": 1156,
+            "left": 211,
+            "bottom": 1156,
+            "right": 211,
             "width": 0,
             "height": 0
         },
@@ -8975,10 +8997,10 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 1157,
-            "left": 224,
-            "bottom": 1157,
-            "right": 224,
+            "top": 1156,
+            "left": 211,
+            "bottom": 1156,
+            "right": 211,
             "width": 0,
             "height": 0
         },
@@ -9001,10 +9023,10 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 1157,
-            "left": 224,
-            "bottom": 1157,
-            "right": 224,
+            "top": 1156,
+            "left": 211,
+            "bottom": 1156,
+            "right": 211,
             "width": 0,
             "height": 0
         },
@@ -9028,10 +9050,10 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 1157,
-            "left": 224,
-            "bottom": 1157,
-            "right": 224,
+            "top": 1156,
+            "left": 211,
+            "bottom": 1156,
+            "right": 211,
             "width": 0,
             "height": 0
         },
@@ -9056,10 +9078,10 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 1157,
-            "left": 224,
-            "bottom": 1157,
-            "right": 224,
+            "top": 1156,
+            "left": 211,
+            "bottom": 1156,
+            "right": 211,
             "width": 0,
             "height": 0
         },
@@ -9082,10 +9104,10 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 1157,
-            "left": 224,
-            "bottom": 1157,
-            "right": 224,
+            "top": 1156,
+            "left": 211,
+            "bottom": 1156,
+            "right": 211,
             "width": 0,
             "height": 0
         },
@@ -9109,10 +9131,10 @@
         "category": "Watches",
         "device": "Sony SmartWatch 3",
         "frame": {
-            "top": 187,
-            "left": 63,
-            "bottom": 508,
-            "right": 384,
+            "top": 185,
+            "left": 59,
+            "bottom": 506,
+            "right": 380,
             "width": 321,
             "height": 321
         },
@@ -9132,10 +9154,10 @@
         "category": "Watches",
         "device": "Sony SmartWatch 3",
         "frame": {
-            "top": 187,
-            "left": 63,
-            "bottom": 508,
-            "right": 384,
+            "top": 185,
+            "left": 59,
+            "bottom": 506,
+            "right": 380,
             "width": 321,
             "height": 321
         },
@@ -9155,10 +9177,10 @@
         "category": "Watches",
         "device": "Sony SmartWatch 3",
         "frame": {
-            "top": 1101,
-            "left": 63,
-            "bottom": 1422,
-            "right": 384,
+            "top": 1094,
+            "left": 59,
+            "bottom": 1415,
+            "right": 380,
             "width": 321,
             "height": 321
         },
@@ -9178,10 +9200,10 @@
         "category": "Watches",
         "device": "Sony SmartWatch 3",
         "frame": {
-            "top": 1101,
-            "left": 63,
-            "bottom": 1422,
-            "right": 384,
+            "top": 1094,
+            "left": 59,
+            "bottom": 1415,
+            "right": 380,
             "width": 321,
             "height": 321
         },
