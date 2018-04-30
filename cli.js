@@ -1,35 +1,31 @@
 #!/usr/bin/env node
 'use strict';
-const fs = require('fs');
-const path = require('path');
+// const fs = require('fs');
+// const path = require('path');
 const readline = require('readline');
 // const conf = require('conf');
 const chalk = require('chalk');
-const envPaths = require('env-paths');
-const flatten = require('lodash/flatten');
+// const flatten = require('lodash/flatten');
 const find = require('lodash/find');
 const Fuse = require('fuse.js');
 const getStream = require('get-stream');
 const globby = require('globby');
-const got = require('got');
 const inquirer = require('inquirer');
 const isStream = require('is-stream');
 const isUrl = require('is-url-superb');
 const Jimp = require('jimp');
 const logSymbols = require('log-symbols');
 const meow = require('meow');
-const mkdirp = require('mkdirp');
+// const mkdirp = require('mkdirp');
 const ora = require('ora');
 const ProgressBar = require('progress');
 const screenshot = require('screenshot-stream');
 const some = require('lodash/some');
 const typeis = require('type-is');
 const uniq = require('lodash/uniq');
-const frameData = require('./data/frames.json');
+// const frameData = require('./data/frames.json');
 
-const paths = envPaths('deviceframe');
-const frameCacheDir = path.join(paths.cache, 'frames');
-const webCacheDir = path.join(paths.cache, 'web');
+const deviceframe = require('./index');
 
 readline.emitKeypressEvents(process.stdin);
 
@@ -85,17 +81,9 @@ const cli = meow(`
   }
 );
 
-const framesRepo = cli.pkg.devDependencies['deviceframe-frames'];
-const framesVersion = framesRepo.match(/#(.+)$/)[1];
-
-// const framesUrl = 'https://gitcdn.xyz/repo/c0bra/deviceframe-frames/1.0.0/';
-const framesUrl = `https://cdn.rawgit.com/c0bra/deviceframe-frames/${framesVersion}/`;
-
 // Log out list of devices
 if (cli.flags.devices) {
-  console.log(
-    uniq(frameData.map(x => x.device)).sort().join('\n')
-  );
+  console.log(deviceframe.devices().join('\n'));
   process.exit(0);
 }
 
@@ -109,7 +97,7 @@ if (cli.flags.frame && typeof cli.flags.frame === 'string') {
 // Find matching frames
 let frames = null;
 if (cli.flags.frame) {
-  const fuse = new Fuse(frameData, {
+  const fuse = new Fuse(deviceframe.frames, {
     shouldSort: true,
     tokenize: true,
     matchAllTokens: true,
@@ -124,7 +112,7 @@ if (cli.flags.frame) {
   const results = [];
   cli.flags.frame.forEach(f => {
     // See if we can match exactly
-    const exact = find(frameData, { name: f });
+    const exact = find(deviceframe.frames, { name: f });
 
     if (exact) {
       results.push(exact);
@@ -154,7 +142,24 @@ Promise.resolve()
   .then(frames => [files, urls, frames]);
 })
 .then(([files, urls, frames]) => {
-  return downloadFrames(frames)
+  debug('Downloading frames');
+
+  return new Promise((resolve, reject) => {
+    // const bar = new ProgressBar(`Downloading frame ${chalk.green(frame.name)} [:bar] :rate/bps :percent :etas`, {
+    const bar = new ProgressBar(`Downloading frame :frame [:bar] :rate/bps :percent :etas`, {
+      complete: '=',
+      incomplete: ' ',
+      width: 20,
+      total: 100,
+    });
+
+    bar.tick();
+
+    deviceframe.downloadFrames(frames)
+    .on('progress', ([frame, progress]) => bar.tick(progress, { frame: chalk.green(frame.name) }))
+    .on('error', err => reject(err))
+    .on('end', results => resolve(results));
+  })
   .then(frames => [files, urls, frames])
   .catch(err => error(err));
 })
@@ -165,22 +170,12 @@ Promise.resolve()
 
 function init() {
   debug('Init...');
-  // Add shadow suffix on to frame name
-  frameData.forEach(frame => {
-    if (frame.shadow) frame.name = `${frame.name} [shadow]`;
-  });
 
-  mkdirp(frameCacheDir, err => {
-    if (err) console.error(chalk.red(err));
-
-    // NOTE: not used
-    // const files = fs.readdirSync(frameCacheDir);
-    // return files;
-  });
-
-  mkdirp(webCacheDir, err => {
-    if (err) console.error(chalk.red(err));
-  });
+  try {
+    deviceframe.init();
+  } catch (err) {
+    console.error(chalk.red(err));
+  }
 }
 
 function confirmInputs() {
@@ -217,13 +212,13 @@ function chooseFrames() {
           input = input || '';
           input = input.toLowerCase();
           return Promise.resolve(
-            frameData.map(f => f.name.toLowerCase()).filter(name => name.indexOf(input) !== -1)
+            deviceframe.frames.map(f => f.name.toLowerCase()).filter(name => name.indexOf(input) !== -1)
           );
         },
       });
 
       prompt.then(answers => {
-        const foundFrames = frameData.filter(frame => some(answers, a => a === frame.name.toLowerCase()));
+        const foundFrames = deviceframe.frames.filter(frame => some(answers, a => a === frame.name.toLowerCase()));
         frames = uniq(frames.concat(foundFrames));
         ui.log.write(chalk.magenta(`\nFrames: [${frames.map(f => chalk.bold(f.name)).join(', ')}]\n`));
         prompter();
@@ -278,68 +273,6 @@ function globImageFiles(inputs) {
   });
 
   return Promise.all(ps).then(results => flatten(results));
-}
-
-function downloadFrames(frames) {
-  debug('Downloading frames');
-  // console.log('frames', frames);
-  const promises = [];
-
-  for (const frame of frames) {
-    const frameCachePath = path.join(frameCacheDir, frame.relPath);
-
-    if (fs.existsSync(frameCachePath) && fs.statSync(frameCachePath).size > 0) {
-      debug(`Frame found at ${frameCachePath}`);
-      frame.path = frameCachePath;
-      promises.push(frame);
-    } else {
-      if (fs.existsSync(frameCachePath)) fs.unlink(frameCachePath);
-      frame.url = framesUrl + frame.relPath; // encodeURIComponent(frame.relPath);
-      promises.push(downloadFrame(frame));
-    }
-  }
-
-  return Promise.all(promises).then(results => flatten(results));
-}
-
-function downloadFrame(frame) {
-  debug(`Downloading frame ${frame.url}`);
-
-  const bar = new ProgressBar(`Downloading frame ${chalk.green(frame.name)} [:bar] :rate/bps :percent :etas`, {
-    complete: '=',
-    incomplete: ' ',
-    width: 20,
-    total: 100,
-  });
-
-  bar.tick();
-
-  frame.path = path.join(frameCacheDir, frame.relPath);
-
-  const downloadDir = path.parse(frame.path).dir;
-  mkdirp.sync(downloadDir);
-
-  return new Promise((resolve, reject) => {
-    got.stream(frame.url, {
-      headers: {
-        'user-agent': `deviceframe/${cli.pkg.version} (${cli.pkg.repo})`,
-      },
-    })
-    .on('end', () => {
-      bar.tick(100);
-      resolve(frame);
-    })
-    .on('downloadProgress', progress => {
-      console.log('progress.percent', progress.percent);
-      bar.tick(progress.percent * 100);
-    })
-    .on('error', error => {
-      if (fs.existsSync(frame.path)) fs.unlink(frame.path);
-      console.log(require('util').inspect(error, { depth: null }));
-      reject(error);
-    })
-    .pipe(fs.createWriteStream(frame.path));
-  });
 }
 
 function frameIt(img, frameConf) {
