@@ -4,12 +4,12 @@
         "category": "Computers",
         "device": "Apple Macbook Air",
         "frame": {
-            "top": 86,
-            "left": 298,
+            "top": 87,
+            "left": 299,
             "bottom": 855,
             "right": 1665,
-            "width": 1367,
-            "height": 769
+            "width": 1366,
+            "height": 768
         },
         "name": "Apple Macbook Air 11\"",
         "pixelRatio": 1,
@@ -26,12 +26,12 @@
         "category": "Computers",
         "device": "Apple Macbook Air",
         "frame": {
-            "top": 86,
-            "left": 298,
+            "top": 87,
+            "left": 299,
             "bottom": 855,
             "right": 1665,
-            "width": 1367,
-            "height": 769
+            "width": 1366,
+            "height": 768
         },
         "name": "Apple Macbook Air 11\"",
         "pixelRatio": 1,
@@ -48,12 +48,12 @@
         "category": "Computers",
         "device": "Apple Macbook Air",
         "frame": {
-            "top": 79,
-            "left": 261,
+            "top": 80,
+            "left": 262,
             "bottom": 980,
             "right": 1702,
-            "width": 1441,
-            "height": 901
+            "width": 1440,
+            "height": 900
         },
         "name": "Apple Macbook Air 13\"",
         "pixelRatio": 1,
@@ -70,12 +70,12 @@
         "category": "Computers",
         "device": "Apple Macbook Air",
         "frame": {
-            "top": 79,
-            "left": 261,
+            "top": 80,
+            "left": 262,
             "bottom": 980,
             "right": 1702,
-            "width": 1441,
-            "height": 901
+            "width": 1440,
+            "height": 900
         },
         "name": "Apple Macbook Air 13\"",
         "pixelRatio": 1,
@@ -92,12 +92,12 @@
         "category": "Computers",
         "device": "Apple Macbook Pro",
         "frame": {
-            "top": 135,
-            "left": 426,
+            "top": 136,
+            "left": 427,
             "bottom": 1736,
             "right": 2987,
-            "width": 2561,
-            "height": 1601
+            "width": 2560,
+            "height": 1600
         },
         "name": "Apple Macbook Pro 13\"",
         "pixelRatio": 2,
@@ -114,12 +114,12 @@
         "category": "Computers",
         "device": "Apple Macbook Pro",
         "frame": {
-            "top": 135,
-            "left": 426,
+            "top": 136,
+            "left": 427,
             "bottom": 1736,
             "right": 2987,
-            "width": 2561,
-            "height": 1601
+            "width": 2560,
+            "height": 1600
         },
         "name": "Apple Macbook Pro 13\"",
         "pixelRatio": 2,
@@ -136,12 +136,12 @@
         "category": "Computers",
         "device": "Apple Macbook Pro",
         "frame": {
-            "top": 132,
-            "left": 451,
+            "top": 133,
+            "left": 452,
             "bottom": 1934,
             "right": 3333,
-            "width": 2882,
-            "height": 1802
+            "width": 2881,
+            "height": 1801
         },
         "name": "Apple Macbook Pro 15\"",
         "pixelRatio": 2,
@@ -158,12 +158,12 @@
         "category": "Computers",
         "device": "Apple Macbook Pro",
         "frame": {
-            "top": 132,
-            "left": 451,
+            "top": 133,
+            "left": 452,
             "bottom": 1934,
             "right": 3333,
-            "width": 2882,
-            "height": 1802
+            "width": 2881,
+            "height": 1801
         },
         "name": "Apple Macbook Pro 15\"",
         "pixelRatio": 2,
@@ -180,12 +180,12 @@
         "category": "Computers",
         "device": "Apple Macbook",
         "frame": {
-            "top": 127,
-            "left": 379,
+            "top": 128,
+            "left": 380,
             "bottom": 1568,
             "right": 2684,
-            "width": 2305,
-            "height": 1441
+            "width": 2304,
+            "height": 1440
         },
         "name": "Apple-Macbook-Gold",
         "pixelRatio": 2,
@@ -199,12 +199,12 @@
         "category": "Computers",
         "device": "Apple Macbook",
         "frame": {
-            "top": 127,
-            "left": 379,
+            "top": 128,
+            "left": 380,
             "bottom": 1568,
             "right": 2684,
-            "width": 2305,
-            "height": 1441
+            "width": 2304,
+            "height": 1440
         },
         "name": "Apple-Macbook-Space-Grey",
         "pixelRatio": 2,
@@ -218,12 +218,12 @@
         "category": "Computers",
         "device": "Apple Macbook",
         "frame": {
-            "top": 127,
-            "left": 379,
+            "top": 128,
+            "left": 380,
             "bottom": 1568,
             "right": 2684,
-            "width": 2305,
-            "height": 1441
+            "width": 2304,
+            "height": 1440
         },
         "name": "Apple-Macbook-Gold",
         "pixelRatio": 2,
@@ -237,12 +237,12 @@
         "category": "Computers",
         "device": "Apple Macbook",
         "frame": {
-            "top": 127,
-            "left": 379,
+            "top": 128,
+            "left": 380,
             "bottom": 1568,
             "right": 2684,
-            "width": 2305,
-            "height": 1441
+            "width": 2304,
+            "height": 1440
         },
         "name": "Apple-Macbook-Space-Grey",
         "pixelRatio": 2,
@@ -256,12 +256,12 @@
         "category": "Computers",
         "device": "Apple iMac Retina",
         "frame": {
-            "top": 240,
-            "left": 227,
+            "top": 241,
+            "left": 228,
             "bottom": 3121,
-            "right": 5348,
-            "width": 5121,
-            "height": 2881
+            "right": 4097,
+            "width": 3869,
+            "height": 2880
         },
         "name": "Apple iMac Retina",
         "pixelRatio": 2,
@@ -277,12 +277,12 @@
         "category": "Computers",
         "device": "Apple iMac Retina",
         "frame": {
-            "top": 240,
-            "left": 227,
+            "top": 241,
+            "left": 228,
             "bottom": 3121,
-            "right": 5348,
-            "width": 5121,
-            "height": 2881
+            "right": 4097,
+            "width": 3869,
+            "height": 2880
         },
         "name": "Apple iMac Retina",
         "pixelRatio": 2,
@@ -298,12 +298,12 @@
         "category": "Computers",
         "device": "Apple iMac",
         "frame": {
-            "top": 121,
-            "left": 113,
+            "top": 122,
+            "left": 114,
             "bottom": 1562,
             "right": 2674,
-            "width": 2561,
-            "height": 1441
+            "width": 2560,
+            "height": 1440
         },
         "name": "Apple iMac",
         "pixelRatio": 1,
@@ -318,12 +318,12 @@
         "category": "Computers",
         "device": "Apple iMac",
         "frame": {
-            "top": 121,
-            "left": 113,
+            "top": 122,
+            "left": 114,
             "bottom": 1562,
             "right": 2674,
-            "width": 2561,
-            "height": 1441
+            "width": 2560,
+            "height": 1440
         },
         "name": "Apple iMac",
         "pixelRatio": 1,
@@ -338,12 +338,12 @@
         "category": "Computers",
         "device": "Dell XPS 13",
         "frame": {
-            "top": 61,
-            "left": 316,
+            "top": 62,
+            "left": 317,
             "bottom": 1862,
             "right": 3517,
-            "width": 3201,
-            "height": 1801
+            "width": 3200,
+            "height": 1800
         },
         "name": "Dell XPS 13\"",
         "pixelRatio": "",
@@ -359,12 +359,12 @@
         "category": "Computers",
         "device": "Dell XPS 13",
         "frame": {
-            "top": 61,
-            "left": 316,
+            "top": 62,
+            "left": 317,
             "bottom": 1862,
             "right": 3517,
-            "width": 3201,
-            "height": 1801
+            "width": 3200,
+            "height": 1800
         },
         "name": "Dell XPS 13\"",
         "pixelRatio": "",
@@ -380,12 +380,12 @@
         "category": "Computers",
         "device": "Dell XPS 15",
         "frame": {
-            "top": 56,
-            "left": 676,
-            "bottom": 2218,
-            "right": 4518,
-            "width": 3842,
-            "height": 2162
+            "top": 0,
+            "left": 0,
+            "bottom": 2687,
+            "right": 4097,
+            "width": 4097,
+            "height": 2687
         },
         "name": "Dell XPS 15\"",
         "pixelRatio": "",
@@ -401,12 +401,12 @@
         "category": "Computers",
         "device": "Dell XPS 15",
         "frame": {
-            "top": 56,
-            "left": 676,
-            "bottom": 2218,
-            "right": 4518,
-            "width": 3842,
-            "height": 2162
+            "top": 0,
+            "left": 0,
+            "bottom": 2646,
+            "right": 4097,
+            "width": 4097,
+            "height": 2646
         },
         "name": "Dell XPS 15\"",
         "pixelRatio": "",
@@ -422,12 +422,12 @@
         "category": "Computers",
         "device": "Microsoft Surface Book",
         "frame": {
-            "top": 158,
-            "left": 573,
+            "top": 159,
+            "left": 574,
             "bottom": 2159,
             "right": 3574,
-            "width": 3001,
-            "height": 2001
+            "width": 3000,
+            "height": 2000
         },
         "name": "Microsoft Surface Book",
         "pixelRatio": 2,
@@ -443,12 +443,12 @@
         "category": "Computers",
         "device": "Microsoft Surface Book",
         "frame": {
-            "top": 158,
-            "left": 548,
+            "top": 159,
+            "left": 549,
             "bottom": 2159,
             "right": 3549,
-            "width": 3001,
-            "height": 2001
+            "width": 3000,
+            "height": 2000
         },
         "name": "Microsoft Surface Book",
         "pixelRatio": 2,
@@ -464,12 +464,12 @@
         "category": "Displays",
         "device": "Apple Thunderbolt Display",
         "frame": {
-            "top": 113,
-            "left": 113,
+            "top": 114,
+            "left": 114,
             "bottom": 1554,
             "right": 2674,
-            "width": 2561,
-            "height": 1441
+            "width": 2560,
+            "height": 1440
         },
         "name": "Apple Thunderbolt Display",
         "pixelRatio": "",
@@ -485,12 +485,12 @@
         "category": "Displays",
         "device": "Apple Thunderbolt Display",
         "frame": {
-            "top": 113,
-            "left": 113,
+            "top": 114,
+            "left": 114,
             "bottom": 1554,
             "right": 2674,
-            "width": 2561,
-            "height": 1441
+            "width": 2560,
+            "height": 1440
         },
         "name": "Apple Thunderbolt Display",
         "pixelRatio": "",
@@ -506,12 +506,12 @@
         "category": "Displays",
         "device": "Dell UltraSharp HD 5K Monitor",
         "frame": {
-            "top": 166,
-            "left": 209,
-            "bottom": 5287,
+            "top": 167,
+            "left": 210,
+            "bottom": 4097,
             "right": 3090,
-            "width": 2881,
-            "height": 5121
+            "width": 2880,
+            "height": 3930
         },
         "name": "Dell UltraSharp 5K Monitor 27\" 90deg",
         "pixelRatio": "",
@@ -530,12 +530,12 @@
         "category": "Displays",
         "device": "Dell UltraSharp HD 5K Monitor",
         "frame": {
-            "top": 177,
-            "left": 166,
+            "top": 178,
+            "left": 167,
             "bottom": 3058,
-            "right": 5287,
-            "width": 5121,
-            "height": 2881
+            "right": 4097,
+            "width": 3930,
+            "height": 2880
         },
         "name": "Dell UltraSharp 5K Monitor 27\"",
         "pixelRatio": "",
@@ -553,12 +553,12 @@
         "category": "Displays",
         "device": "Dell UltraSharp HD 5K Monitor",
         "frame": {
-            "top": 166,
-            "left": 209,
-            "bottom": 5287,
+            "top": 167,
+            "left": 210,
+            "bottom": 4097,
             "right": 3090,
-            "width": 2881,
-            "height": 5121
+            "width": 2880,
+            "height": 3930
         },
         "name": "Dell UltraSharp 5K Monitor 27\" 90deg",
         "pixelRatio": "",
@@ -577,12 +577,12 @@
         "category": "Displays",
         "device": "Dell UltraSharp HD 5K Monitor",
         "frame": {
-            "top": 177,
-            "left": 166,
+            "top": 178,
+            "left": 167,
             "bottom": 3058,
-            "right": 5287,
-            "width": 5121,
-            "height": 2881
+            "right": 4097,
+            "width": 3930,
+            "height": 2880
         },
         "name": "Dell UltraSharp 5K Monitor 27\"",
         "pixelRatio": "",
@@ -600,12 +600,12 @@
         "category": "Displays",
         "device": "Dell UltraSharp Monitor",
         "frame": {
-            "top": 26,
-            "left": 68,
+            "top": 27,
+            "left": 69,
             "bottom": 1947,
             "right": 1269,
-            "width": 1201,
-            "height": 1921
+            "width": 1200,
+            "height": 1920
         },
         "name": "Dell UltraSharp 24\" 90deg",
         "pixelRatio": "",
@@ -622,12 +622,12 @@
         "category": "Displays",
         "device": "Dell UltraSharp Monitor",
         "frame": {
-            "top": 26,
-            "left": 26,
+            "top": 27,
+            "left": 27,
             "bottom": 1227,
             "right": 1947,
-            "width": 1921,
-            "height": 1201
+            "width": 1920,
+            "height": 1200
         },
         "name": "Dell UltraSharp 24\"",
         "pixelRatio": "",
@@ -643,12 +643,12 @@
         "category": "Displays",
         "device": "Dell UltraSharp Monitor",
         "frame": {
-            "top": 26,
-            "left": 68,
+            "top": 27,
+            "left": 69,
             "bottom": 1947,
             "right": 1269,
-            "width": 1201,
-            "height": 1921
+            "width": 1200,
+            "height": 1920
         },
         "name": "Dell UltraSharp 24\" 90deg",
         "pixelRatio": "",
@@ -665,12 +665,12 @@
         "category": "Displays",
         "device": "Dell UltraSharp Monitor",
         "frame": {
-            "top": 26,
-            "left": 26,
+            "top": 27,
+            "left": 27,
             "bottom": 1227,
             "right": 1947,
-            "width": 1921,
-            "height": 1201
+            "width": 1920,
+            "height": 1200
         },
         "name": "Dell UltraSharp 24\"",
         "pixelRatio": "",
@@ -686,12 +686,12 @@
         "category": "Displays",
         "device": "Dell UltraSharp Monitor",
         "frame": {
-            "top": 32,
-            "left": 79,
+            "top": 33,
+            "left": 80,
             "bottom": 2593,
             "right": 1520,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Dell UltraSharp 27\" 90deg",
         "pixelRatio": "",
@@ -708,12 +708,12 @@
         "category": "Displays",
         "device": "Dell UltraSharp Monitor",
         "frame": {
-            "top": 32,
-            "left": 32,
+            "top": 33,
+            "left": 33,
             "bottom": 1473,
             "right": 2593,
-            "width": 2561,
-            "height": 1441
+            "width": 2560,
+            "height": 1440
         },
         "name": "Dell UltraSharp 27\"",
         "pixelRatio": "",
@@ -729,12 +729,12 @@
         "category": "Displays",
         "device": "Dell UltraSharp Monitor",
         "frame": {
-            "top": 32,
-            "left": 79,
+            "top": 33,
+            "left": 80,
             "bottom": 2593,
             "right": 1520,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Dell UltraSharp 27\" 90deg",
         "pixelRatio": "",
@@ -751,12 +751,12 @@
         "category": "Displays",
         "device": "Dell UltraSharp Monitor",
         "frame": {
-            "top": 32,
-            "left": 32,
+            "top": 33,
+            "left": 33,
             "bottom": 1473,
             "right": 2593,
-            "width": 2561,
-            "height": 1441
+            "width": 2560,
+            "height": 1440
         },
         "name": "Dell UltraSharp 27\"",
         "pixelRatio": "",
@@ -772,12 +772,12 @@
         "category": "Displays",
         "device": "Sony W850C",
         "frame": {
-            "top": 13,
-            "left": 11,
+            "top": 14,
+            "left": 12,
             "bottom": 735,
             "right": 1292,
-            "width": 1281,
-            "height": 722
+            "width": 1280,
+            "height": 721
         },
         "name": "Snony W850C",
         "pixelRatio": "",
@@ -792,12 +792,12 @@
         "category": "Displays",
         "device": "Sony W850C",
         "frame": {
-            "top": 13,
-            "left": 11,
+            "top": 14,
+            "left": 12,
             "bottom": 735,
             "right": 1292,
-            "width": 1281,
-            "height": 722
+            "width": 1280,
+            "height": 721
         },
         "name": "Sony W850C",
         "pixelRatio": "",
@@ -812,12 +812,12 @@
         "category": "Phones",
         "device": "Apple iPhone 5c",
         "frame": {
-            "top": 238,
-            "left": 66,
+            "top": 239,
+            "left": 67,
             "bottom": 1375,
             "right": 707,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone 5c Blue",
         "pixelRatio": 2,
@@ -834,12 +834,12 @@
         "category": "Phones",
         "device": "Apple iPhone 5c",
         "frame": {
-            "top": 238,
-            "left": 66,
+            "top": 239,
+            "left": 67,
             "bottom": 1375,
             "right": 707,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone 5c Green",
         "pixelRatio": 2,
@@ -856,12 +856,12 @@
         "category": "Phones",
         "device": "Apple iPhone 5c",
         "frame": {
-            "top": 238,
-            "left": 66,
+            "top": 239,
+            "left": 67,
             "bottom": 1375,
             "right": 707,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone 5c Red",
         "pixelRatio": 2,
@@ -878,12 +878,12 @@
         "category": "Phones",
         "device": "Apple iPhone 5c",
         "frame": {
-            "top": 238,
-            "left": 66,
+            "top": 239,
+            "left": 67,
             "bottom": 1375,
             "right": 707,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone 5c White",
         "pixelRatio": 2,
@@ -900,12 +900,12 @@
         "category": "Phones",
         "device": "Apple iPhone 5c",
         "frame": {
-            "top": 238,
-            "left": 66,
+            "top": 239,
+            "left": 67,
             "bottom": 1375,
             "right": 707,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone 5c Yellow",
         "pixelRatio": 2,
@@ -922,12 +922,12 @@
         "category": "Phones",
         "device": "Apple iPhone 5c",
         "frame": {
-            "top": 238,
-            "left": 66,
+            "top": 239,
+            "left": 67,
             "bottom": 1375,
             "right": 707,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone 5c Blue",
         "pixelRatio": 2,
@@ -944,12 +944,12 @@
         "category": "Phones",
         "device": "Apple iPhone 5c",
         "frame": {
-            "top": 238,
-            "left": 66,
+            "top": 239,
+            "left": 67,
             "bottom": 1375,
             "right": 707,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone 5c Green",
         "pixelRatio": 2,
@@ -966,12 +966,12 @@
         "category": "Phones",
         "device": "Apple iPhone 5c",
         "frame": {
-            "top": 238,
-            "left": 66,
+            "top": 239,
+            "left": 67,
             "bottom": 1375,
             "right": 707,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone 5c Red",
         "pixelRatio": 2,
@@ -988,12 +988,12 @@
         "category": "Phones",
         "device": "Apple iPhone 5c",
         "frame": {
-            "top": 238,
-            "left": 66,
+            "top": 239,
+            "left": 67,
             "bottom": 1375,
             "right": 707,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone 5c White",
         "pixelRatio": 2,
@@ -1010,12 +1010,12 @@
         "category": "Phones",
         "device": "Apple iPhone 5c",
         "frame": {
-            "top": 238,
-            "left": 66,
+            "top": 239,
+            "left": 67,
             "bottom": 1375,
             "right": 707,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone 5c Yellow",
         "pixelRatio": 2,
@@ -1032,12 +1032,12 @@
         "category": "Phones",
         "device": "Apple iPhone 5s",
         "frame": {
-            "top": 237,
-            "left": 63,
+            "top": 238,
+            "left": 64,
             "bottom": 1374,
             "right": 704,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone 5s Gold",
         "pixelRatio": 2,
@@ -1054,12 +1054,12 @@
         "category": "Phones",
         "device": "Apple iPhone 5s",
         "frame": {
-            "top": 237,
-            "left": 63,
+            "top": 238,
+            "left": 64,
             "bottom": 1374,
             "right": 704,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone 5s Silver",
         "pixelRatio": 2,
@@ -1076,12 +1076,12 @@
         "category": "Phones",
         "device": "Apple iPhone 5s",
         "frame": {
-            "top": 237,
-            "left": 63,
+            "top": 238,
+            "left": 64,
             "bottom": 1374,
             "right": 704,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone 5s Space Gray",
         "pixelRatio": 2,
@@ -1099,12 +1099,12 @@
         "category": "Phones",
         "device": "Apple iPhone 5s",
         "frame": {
-            "top": 237,
-            "left": 63,
+            "top": 238,
+            "left": 64,
             "bottom": 1374,
             "right": 704,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone 5s Gold",
         "pixelRatio": 2,
@@ -1121,12 +1121,12 @@
         "category": "Phones",
         "device": "Apple iPhone 5s",
         "frame": {
-            "top": 237,
-            "left": 63,
+            "top": 238,
+            "left": 64,
             "bottom": 1374,
             "right": 704,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone 5s Silver",
         "pixelRatio": 2,
@@ -1143,12 +1143,12 @@
         "category": "Phones",
         "device": "Apple iPhone 5s",
         "frame": {
-            "top": 237,
-            "left": 63,
+            "top": 238,
+            "left": 64,
             "bottom": 1374,
             "right": 704,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone 5s Space Gray",
         "pixelRatio": 2,
@@ -1166,12 +1166,12 @@
         "category": "Phones",
         "device": "Apple iPhone 6s Plus",
         "frame": {
-            "top": 378,
-            "left": 101,
+            "top": 379,
+            "left": 102,
             "bottom": 2587,
             "right": 1344,
-            "width": 1243,
-            "height": 2209
+            "width": 1242,
+            "height": 2208
         },
         "name": "Apple iPhone 6s Plus Gold",
         "pixelRatio": 3,
@@ -1189,12 +1189,12 @@
         "category": "Phones",
         "device": "Apple iPhone 6s Plus",
         "frame": {
-            "top": 378,
-            "left": 101,
+            "top": 379,
+            "left": 102,
             "bottom": 2587,
             "right": 1344,
-            "width": 1243,
-            "height": 2209
+            "width": 1242,
+            "height": 2208
         },
         "name": "Apple iPhone 6s Plus Rose Gold",
         "pixelRatio": 3,
@@ -1213,12 +1213,12 @@
         "category": "Phones",
         "device": "Apple iPhone 6s Plus",
         "frame": {
-            "top": 378,
-            "left": 101,
+            "top": 379,
+            "left": 102,
             "bottom": 2587,
             "right": 1344,
-            "width": 1243,
-            "height": 2209
+            "width": 1242,
+            "height": 2208
         },
         "name": "Apple iPhone 6s Plus Silver",
         "pixelRatio": 3,
@@ -1236,12 +1236,12 @@
         "category": "Phones",
         "device": "Apple iPhone 6s Plus",
         "frame": {
-            "top": 378,
-            "left": 101,
+            "top": 379,
+            "left": 102,
             "bottom": 2587,
             "right": 1344,
-            "width": 1243,
-            "height": 2209
+            "width": 1242,
+            "height": 2208
         },
         "name": "Apple iPhone 6s Plus Space Gray",
         "pixelRatio": 3,
@@ -1260,12 +1260,12 @@
         "category": "Phones",
         "device": "Apple iPhone 6s Plus",
         "frame": {
-            "top": 378,
-            "left": 101,
+            "top": 379,
+            "left": 102,
             "bottom": 2587,
             "right": 1344,
-            "width": 1243,
-            "height": 2209
+            "width": 1242,
+            "height": 2208
         },
         "name": "Apple iPhone 6s Plus Gold",
         "pixelRatio": 3,
@@ -1283,12 +1283,12 @@
         "category": "Phones",
         "device": "Apple iPhone 6s Plus",
         "frame": {
-            "top": 378,
-            "left": 101,
+            "top": 379,
+            "left": 102,
             "bottom": 2587,
             "right": 1344,
-            "width": 1243,
-            "height": 2209
+            "width": 1242,
+            "height": 2208
         },
         "name": "Apple iPhone 6s Plus Rose Gold",
         "pixelRatio": 3,
@@ -1307,12 +1307,12 @@
         "category": "Phones",
         "device": "Apple iPhone 6s Plus",
         "frame": {
-            "top": 378,
-            "left": 101,
+            "top": 379,
+            "left": 102,
             "bottom": 2587,
             "right": 1344,
-            "width": 1243,
-            "height": 2209
+            "width": 1242,
+            "height": 2208
         },
         "name": "Apple iPhone 6s Plus Silver",
         "pixelRatio": 3,
@@ -1330,12 +1330,12 @@
         "category": "Phones",
         "device": "Apple iPhone 6s Plus",
         "frame": {
-            "top": 378,
-            "left": 101,
+            "top": 379,
+            "left": 102,
             "bottom": 2587,
             "right": 1344,
-            "width": 1243,
-            "height": 2209
+            "width": 1242,
+            "height": 2208
         },
         "name": "Apple iPhone 6s Plus Space Gray",
         "pixelRatio": 3,
@@ -1354,12 +1354,12 @@
         "category": "Phones",
         "device": "Apple iPhone 6s",
         "frame": {
-            "top": 227,
-            "left": 60,
+            "top": 228,
+            "left": 61,
             "bottom": 1562,
             "right": 811,
-            "width": 751,
-            "height": 1335
+            "width": 750,
+            "height": 1334
         },
         "name": "Apple iPhone 6s Gold",
         "pixelRatio": 2,
@@ -1376,12 +1376,12 @@
         "category": "Phones",
         "device": "Apple iPhone 6s",
         "frame": {
-            "top": 227,
-            "left": 60,
+            "top": 228,
+            "left": 61,
             "bottom": 1562,
             "right": 811,
-            "width": 751,
-            "height": 1335
+            "width": 750,
+            "height": 1334
         },
         "name": "Apple iPhone 6s Rose Gold",
         "pixelRatio": 2,
@@ -1399,12 +1399,12 @@
         "category": "Phones",
         "device": "Apple iPhone 6s",
         "frame": {
-            "top": 227,
-            "left": 60,
+            "top": 228,
+            "left": 61,
             "bottom": 1562,
             "right": 811,
-            "width": 751,
-            "height": 1335
+            "width": 750,
+            "height": 1334
         },
         "name": "Apple iPhone 6s Silver",
         "pixelRatio": 2,
@@ -1421,12 +1421,12 @@
         "category": "Phones",
         "device": "Apple iPhone 6s",
         "frame": {
-            "top": 227,
-            "left": 60,
+            "top": 228,
+            "left": 61,
             "bottom": 1562,
             "right": 811,
-            "width": 751,
-            "height": 1335
+            "width": 750,
+            "height": 1334
         },
         "name": "Apple iPhone 6s Space Gray",
         "pixelRatio": 2,
@@ -1444,12 +1444,12 @@
         "category": "Phones",
         "device": "Apple iPhone 6s",
         "frame": {
-            "top": 227,
-            "left": 60,
+            "top": 228,
+            "left": 61,
             "bottom": 1562,
             "right": 811,
-            "width": 751,
-            "height": 1335
+            "width": 750,
+            "height": 1334
         },
         "name": "Apple iPhone 6s Gold",
         "pixelRatio": 2,
@@ -1466,12 +1466,12 @@
         "category": "Phones",
         "device": "Apple iPhone 6s",
         "frame": {
-            "top": 227,
-            "left": 60,
+            "top": 228,
+            "left": 61,
             "bottom": 1562,
             "right": 811,
-            "width": 751,
-            "height": 1335
+            "width": 750,
+            "height": 1334
         },
         "name": "Apple iPhone 6s Rose Gold",
         "pixelRatio": 2,
@@ -1489,12 +1489,12 @@
         "category": "Phones",
         "device": "Apple iPhone 6s",
         "frame": {
-            "top": 227,
-            "left": 60,
+            "top": 228,
+            "left": 61,
             "bottom": 1562,
             "right": 811,
-            "width": 751,
-            "height": 1335
+            "width": 750,
+            "height": 1334
         },
         "name": "Apple iPhone 6s Silver",
         "pixelRatio": 2,
@@ -1511,12 +1511,12 @@
         "category": "Phones",
         "device": "Apple iPhone 6s",
         "frame": {
-            "top": 227,
-            "left": 60,
+            "top": 228,
+            "left": 61,
             "bottom": 1562,
             "right": 811,
-            "width": 751,
-            "height": 1335
+            "width": 750,
+            "height": 1334
         },
         "name": "Apple iPhone 6s Space Gray",
         "pixelRatio": 2,
@@ -1534,12 +1534,12 @@
         "category": "Phones",
         "device": "Apple iPhone 7 Plus",
         "frame": {
-            "top": 379,
-            "left": 103,
+            "top": 380,
+            "left": 104,
             "bottom": 2588,
             "right": 1346,
-            "width": 1243,
-            "height": 2209
+            "width": 1242,
+            "height": 2208
         },
         "name": "Apple iPhone 7 Plus Gold",
         "pixelRatio": 3,
@@ -1557,12 +1557,12 @@
         "category": "Phones",
         "device": "Apple iPhone 7 Plus",
         "frame": {
-            "top": 379,
-            "left": 103,
+            "top": 380,
+            "left": 104,
             "bottom": 2588,
             "right": 1346,
-            "width": 1243,
-            "height": 2209
+            "width": 1242,
+            "height": 2208
         },
         "name": "Apple iPhone 7 Plus Jet Black",
         "pixelRatio": 3,
@@ -1581,12 +1581,12 @@
         "category": "Phones",
         "device": "Apple iPhone 7 Plus",
         "frame": {
-            "top": 379,
-            "left": 103,
+            "top": 380,
+            "left": 104,
             "bottom": 2588,
             "right": 1346,
-            "width": 1243,
-            "height": 2209
+            "width": 1242,
+            "height": 2208
         },
         "name": "Apple iPhone 7 Plus Matte Black",
         "pixelRatio": 3,
@@ -1605,12 +1605,12 @@
         "category": "Phones",
         "device": "Apple iPhone 7 Plus",
         "frame": {
-            "top": 379,
-            "left": 103,
+            "top": 380,
+            "left": 104,
             "bottom": 2588,
             "right": 1346,
-            "width": 1243,
-            "height": 2209
+            "width": 1242,
+            "height": 2208
         },
         "name": "Apple iPhone 7 Plus Rose Gold",
         "pixelRatio": 3,
@@ -1629,12 +1629,12 @@
         "category": "Phones",
         "device": "Apple iPhone 7 Plus",
         "frame": {
-            "top": 379,
-            "left": 103,
+            "top": 380,
+            "left": 104,
             "bottom": 2588,
             "right": 1346,
-            "width": 1243,
-            "height": 2209
+            "width": 1242,
+            "height": 2208
         },
         "name": "Apple iPhone 7 Plus Silver",
         "pixelRatio": 3,
@@ -1652,12 +1652,12 @@
         "category": "Phones",
         "device": "Apple iPhone 7 Plus",
         "frame": {
-            "top": 379,
-            "left": 103,
+            "top": 380,
+            "left": 104,
             "bottom": 2588,
             "right": 1346,
-            "width": 1243,
-            "height": 2209
+            "width": 1242,
+            "height": 2208
         },
         "name": "Apple iPhone 7 Plus Gold",
         "pixelRatio": 3,
@@ -1675,12 +1675,12 @@
         "category": "Phones",
         "device": "Apple iPhone 7 Plus",
         "frame": {
-            "top": 379,
-            "left": 103,
+            "top": 380,
+            "left": 104,
             "bottom": 2588,
             "right": 1346,
-            "width": 1243,
-            "height": 2209
+            "width": 1242,
+            "height": 2208
         },
         "name": "Apple iPhone 7 Plus Jet Black",
         "pixelRatio": 3,
@@ -1699,12 +1699,12 @@
         "category": "Phones",
         "device": "Apple iPhone 7 Plus",
         "frame": {
-            "top": 379,
-            "left": 103,
+            "top": 380,
+            "left": 104,
             "bottom": 2588,
             "right": 1346,
-            "width": 1243,
-            "height": 2209
+            "width": 1242,
+            "height": 2208
         },
         "name": "Apple iPhone 7 Plus Matte Black",
         "pixelRatio": 3,
@@ -1723,12 +1723,12 @@
         "category": "Phones",
         "device": "Apple iPhone 7 Plus",
         "frame": {
-            "top": 379,
-            "left": 103,
+            "top": 380,
+            "left": 104,
             "bottom": 2588,
             "right": 1346,
-            "width": 1243,
-            "height": 2209
+            "width": 1242,
+            "height": 2208
         },
         "name": "Apple iPhone 7 Plus Rose Gold",
         "pixelRatio": 3,
@@ -1747,12 +1747,12 @@
         "category": "Phones",
         "device": "Apple iPhone 7 Plus",
         "frame": {
-            "top": 379,
-            "left": 103,
+            "top": 380,
+            "left": 104,
             "bottom": 2588,
             "right": 1346,
-            "width": 1243,
-            "height": 2209
+            "width": 1242,
+            "height": 2208
         },
         "name": "Apple iPhone 7 Plus Silver",
         "pixelRatio": 3,
@@ -1770,12 +1770,12 @@
         "category": "Phones",
         "device": "Apple iPhone 7",
         "frame": {
-            "top": 227,
-            "left": 60,
+            "top": 228,
+            "left": 61,
             "bottom": 1562,
             "right": 811,
-            "width": 751,
-            "height": 1335
+            "width": 750,
+            "height": 1334
         },
         "name": "Apple iPhone 7 Gold",
         "pixelRatio": 2,
@@ -1792,12 +1792,12 @@
         "category": "Phones",
         "device": "Apple iPhone 7",
         "frame": {
-            "top": 227,
-            "left": 60,
+            "top": 228,
+            "left": 61,
             "bottom": 1562,
             "right": 811,
-            "width": 751,
-            "height": 1335
+            "width": 750,
+            "height": 1334
         },
         "name": "Apple iPhone 7 Jet Black",
         "pixelRatio": 2,
@@ -1815,12 +1815,12 @@
         "category": "Phones",
         "device": "Apple iPhone 7",
         "frame": {
-            "top": 227,
-            "left": 60,
+            "top": 228,
+            "left": 61,
             "bottom": 1562,
             "right": 811,
-            "width": 751,
-            "height": 1335
+            "width": 750,
+            "height": 1334
         },
         "name": "Apple iPhone 7 Matte Black",
         "pixelRatio": 2,
@@ -1838,12 +1838,12 @@
         "category": "Phones",
         "device": "Apple iPhone 7",
         "frame": {
-            "top": 227,
-            "left": 60,
+            "top": 228,
+            "left": 61,
             "bottom": 1562,
             "right": 811,
-            "width": 751,
-            "height": 1335
+            "width": 750,
+            "height": 1334
         },
         "name": "Apple iPhone 7 Rose Gold",
         "pixelRatio": 2,
@@ -1861,12 +1861,12 @@
         "category": "Phones",
         "device": "Apple iPhone 7",
         "frame": {
-            "top": 227,
-            "left": 60,
+            "top": 228,
+            "left": 61,
             "bottom": 1562,
             "right": 811,
-            "width": 751,
-            "height": 1335
+            "width": 750,
+            "height": 1334
         },
         "name": "Apple iPhone 7 Silver",
         "pixelRatio": 2,
@@ -1883,12 +1883,12 @@
         "category": "Phones",
         "device": "Apple iPhone 7",
         "frame": {
-            "top": 227,
-            "left": 60,
+            "top": 228,
+            "left": 61,
             "bottom": 1562,
             "right": 811,
-            "width": 751,
-            "height": 1335
+            "width": 750,
+            "height": 1334
         },
         "name": "Apple iPhone 7 Gold",
         "pixelRatio": 2,
@@ -1905,12 +1905,12 @@
         "category": "Phones",
         "device": "Apple iPhone 7",
         "frame": {
-            "top": 227,
-            "left": 60,
+            "top": 228,
+            "left": 61,
             "bottom": 1562,
             "right": 811,
-            "width": 751,
-            "height": 1335
+            "width": 750,
+            "height": 1334
         },
         "name": "Apple iPhone 7 Jet Black",
         "pixelRatio": 2,
@@ -1928,12 +1928,12 @@
         "category": "Phones",
         "device": "Apple iPhone 7",
         "frame": {
-            "top": 227,
-            "left": 60,
+            "top": 228,
+            "left": 61,
             "bottom": 1562,
             "right": 811,
-            "width": 751,
-            "height": 1335
+            "width": 750,
+            "height": 1334
         },
         "name": "Apple iPhone 7 Matte Black",
         "pixelRatio": 2,
@@ -1951,12 +1951,12 @@
         "category": "Phones",
         "device": "Apple iPhone 7",
         "frame": {
-            "top": 227,
-            "left": 60,
+            "top": 228,
+            "left": 61,
             "bottom": 1562,
             "right": 811,
-            "width": 751,
-            "height": 1335
+            "width": 750,
+            "height": 1334
         },
         "name": "Apple iPhone 7 Rose Gold",
         "pixelRatio": 2,
@@ -1974,12 +1974,12 @@
         "category": "Phones",
         "device": "Apple iPhone 7",
         "frame": {
-            "top": 227,
-            "left": 60,
+            "top": 228,
+            "left": 61,
             "bottom": 1562,
             "right": 811,
-            "width": 751,
-            "height": 1335
+            "width": 750,
+            "height": 1334
         },
         "name": "Apple iPhone 7 Silver",
         "pixelRatio": 2,
@@ -1996,12 +1996,12 @@
         "category": "Phones",
         "device": "Apple iPhone SE",
         "frame": {
-            "top": 236,
-            "left": 63,
+            "top": 237,
+            "left": 64,
             "bottom": 1373,
             "right": 704,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone SE Gold",
         "pixelRatio": 1,
@@ -2018,12 +2018,12 @@
         "category": "Phones",
         "device": "Apple iPhone SE",
         "frame": {
-            "top": 236,
-            "left": 63,
+            "top": 237,
+            "left": 64,
             "bottom": 1373,
             "right": 704,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone SE Rose Gold",
         "pixelRatio": 1,
@@ -2041,12 +2041,12 @@
         "category": "Phones",
         "device": "Apple iPhone SE",
         "frame": {
-            "top": 236,
-            "left": 63,
+            "top": 237,
+            "left": 64,
             "bottom": 1373,
             "right": 704,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone SE Silver",
         "pixelRatio": 1,
@@ -2063,12 +2063,12 @@
         "category": "Phones",
         "device": "Apple iPhone SE",
         "frame": {
-            "top": 236,
-            "left": 63,
+            "top": 237,
+            "left": 64,
             "bottom": 1373,
             "right": 704,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone SE Space Gray",
         "pixelRatio": 1,
@@ -2086,12 +2086,12 @@
         "category": "Phones",
         "device": "Apple iPhone SE",
         "frame": {
-            "top": 236,
-            "left": 63,
+            "top": 237,
+            "left": 64,
             "bottom": 1373,
             "right": 704,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone SE Gold",
         "pixelRatio": 1,
@@ -2108,12 +2108,12 @@
         "category": "Phones",
         "device": "Apple iPhone SE",
         "frame": {
-            "top": 236,
-            "left": 63,
+            "top": 237,
+            "left": 64,
             "bottom": 1373,
             "right": 704,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone SE Rose Gold",
         "pixelRatio": 1,
@@ -2131,12 +2131,12 @@
         "category": "Phones",
         "device": "Apple iPhone SE",
         "frame": {
-            "top": 236,
-            "left": 63,
+            "top": 237,
+            "left": 64,
             "bottom": 1373,
             "right": 704,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone SE Silver",
         "pixelRatio": 1,
@@ -2153,12 +2153,12 @@
         "category": "Phones",
         "device": "Apple iPhone SE",
         "frame": {
-            "top": 236,
-            "left": 63,
+            "top": 237,
+            "left": 64,
             "bottom": 1373,
             "right": 704,
-            "width": 641,
-            "height": 1137
+            "width": 640,
+            "height": 1136
         },
         "name": "Apple iPhone SE Space Gray",
         "pixelRatio": 1,
@@ -2176,12 +2176,12 @@
         "category": "Phones",
         "device": "Apple iPhone X",
         "frame": {
-            "top": 91,
-            "left": 45,
+            "top": 39,
+            "left": 46,
             "bottom": 1472,
             "right": 708,
-            "width": 663,
-            "height": 1381
+            "width": 662,
+            "height": 1433
         },
         "name": "Apple iPhone X Black",
         "pixelRatio": 3,
@@ -2198,12 +2198,12 @@
         "category": "Phones",
         "device": "Apple iPhone X",
         "frame": {
-            "top": 53,
-            "left": 27,
+            "top": 25,
+            "left": 28,
             "bottom": 801,
             "right": 386,
-            "width": 359,
-            "height": 748
+            "width": 358,
+            "height": 776
         },
         "name": "Apple iPhone X Silver",
         "pixelRatio": 3,
@@ -2220,12 +2220,12 @@
         "category": "Phones",
         "device": "Google Pixel",
         "frame": {
-            "top": 251,
-            "left": 61,
+            "top": 252,
+            "left": 62,
             "bottom": 2172,
             "right": 1142,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "Google Pixel Quite Black",
         "pixelRatio": 2.6,
@@ -2242,12 +2242,12 @@
         "category": "Phones",
         "device": "Google Pixel",
         "frame": {
-            "top": 251,
-            "left": 61,
+            "top": 252,
+            "left": 62,
             "bottom": 2172,
             "right": 1142,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "Google Pixel Really Blue",
         "pixelRatio": 2.6,
@@ -2264,12 +2264,12 @@
         "category": "Phones",
         "device": "Google Pixel",
         "frame": {
-            "top": 251,
-            "left": 61,
+            "top": 252,
+            "left": 62,
             "bottom": 2172,
             "right": 1142,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "Google Pixel Very Silver",
         "pixelRatio": 2.6,
@@ -2286,12 +2286,12 @@
         "category": "Phones",
         "device": "Google Pixel",
         "frame": {
-            "top": 251,
-            "left": 61,
+            "top": 252,
+            "left": 62,
             "bottom": 2172,
             "right": 1142,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "Google Pixel Quite Black",
         "pixelRatio": 2.6,
@@ -2308,12 +2308,12 @@
         "category": "Phones",
         "device": "Google Pixel",
         "frame": {
-            "top": 251,
-            "left": 61,
+            "top": 252,
+            "left": 62,
             "bottom": 2172,
             "right": 1142,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "Google Pixel Really Blue",
         "pixelRatio": 2.6,
@@ -2330,12 +2330,12 @@
         "category": "Phones",
         "device": "Google Pixel",
         "frame": {
-            "top": 251,
-            "left": 61,
+            "top": 252,
+            "left": 62,
             "bottom": 2172,
             "right": 1142,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "Google Pixel Very Silver",
         "pixelRatio": 2.6,
@@ -2352,12 +2352,12 @@
         "category": "Phones",
         "device": "HTC One A9",
         "frame": {
-            "top": 292,
-            "left": 84,
+            "top": 293,
+            "left": 85,
             "bottom": 2213,
             "right": 1165,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "HTC One A9 Black",
         "pixelRatio": 3,
@@ -2374,12 +2374,12 @@
         "category": "Phones",
         "device": "HTC One A9",
         "frame": {
-            "top": 292,
-            "left": 83,
+            "top": 293,
+            "left": 84,
             "bottom": 2213,
             "right": 1164,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "HTC One A9 White",
         "pixelRatio": 3,
@@ -2396,12 +2396,12 @@
         "category": "Phones",
         "device": "HTC One A9",
         "frame": {
-            "top": 292,
-            "left": 79,
+            "top": 293,
+            "left": 80,
             "bottom": 2213,
             "right": 1160,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "HTC One A9 Black",
         "pixelRatio": 3,
@@ -2418,12 +2418,12 @@
         "category": "Phones",
         "device": "HTC One A9",
         "frame": {
-            "top": 292,
-            "left": 78,
+            "top": 293,
+            "left": 79,
             "bottom": 2213,
             "right": 1159,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "HTC One A9 White",
         "pixelRatio": 3,
@@ -2440,12 +2440,12 @@
         "category": "Phones",
         "device": "HTC One M8",
         "frame": {
-            "top": 266,
-            "left": 71,
+            "top": 267,
+            "left": 72,
             "bottom": 2187,
             "right": 1152,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "HTC One M8 Black",
         "pixelRatio": 3,
@@ -2462,12 +2462,12 @@
         "category": "Phones",
         "device": "HTC One M8",
         "frame": {
-            "top": 266,
-            "left": 71,
+            "top": 267,
+            "left": 72,
             "bottom": 2187,
             "right": 1152,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "HTC One M8 Gold",
         "pixelRatio": 3,
@@ -2484,12 +2484,12 @@
         "category": "Phones",
         "device": "HTC One M8",
         "frame": {
-            "top": 266,
-            "left": 71,
+            "top": 267,
+            "left": 72,
             "bottom": 2187,
             "right": 1152,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "HTC One M8 Silver",
         "pixelRatio": 3,
@@ -2506,12 +2506,12 @@
         "category": "Phones",
         "device": "HTC One M8",
         "frame": {
-            "top": 266,
-            "left": 71,
+            "top": 267,
+            "left": 72,
             "bottom": 2187,
             "right": 1152,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "HTC One M8 Black",
         "pixelRatio": 3,
@@ -2528,12 +2528,12 @@
         "category": "Phones",
         "device": "HTC One M8",
         "frame": {
-            "top": 266,
-            "left": 71,
+            "top": 267,
+            "left": 72,
             "bottom": 2187,
             "right": 1152,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "HTC One M8 Gold",
         "pixelRatio": 3,
@@ -2550,12 +2550,12 @@
         "category": "Phones",
         "device": "HTC One M8",
         "frame": {
-            "top": 266,
-            "left": 71,
+            "top": 267,
+            "left": 72,
             "bottom": 2187,
             "right": 1152,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "HTC One M8 Silver",
         "pixelRatio": 3,
@@ -2572,12 +2572,12 @@
         "category": "Phones",
         "device": "Huawei P8",
         "frame": {
-            "top": 229,
-            "left": 99,
+            "top": 230,
+            "left": 100,
             "bottom": 2150,
             "right": 1180,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "Huawei P8 Black",
         "pixelRatio": 3,
@@ -2593,12 +2593,12 @@
         "category": "Phones",
         "device": "Huawei P8",
         "frame": {
-            "top": 229,
-            "left": 99,
+            "top": 230,
+            "left": 100,
             "bottom": 2150,
             "right": 1180,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "Huawei P8 White",
         "pixelRatio": 3,
@@ -2614,12 +2614,12 @@
         "category": "Phones",
         "device": "Huawei P8",
         "frame": {
-            "top": 229,
-            "left": 60,
+            "top": 230,
+            "left": 61,
             "bottom": 2150,
             "right": 1141,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "Huawei P8 Black",
         "pixelRatio": 3,
@@ -2635,12 +2635,12 @@
         "category": "Phones",
         "device": "Huawei P8",
         "frame": {
-            "top": 229,
-            "left": 60,
+            "top": 230,
+            "left": 61,
             "bottom": 2150,
             "right": 1141,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "Huawei P8 White",
         "pixelRatio": 3,
@@ -2656,12 +2656,12 @@
         "category": "Phones",
         "device": "Microsoft Lumia 950",
         "frame": {
-            "top": 365,
-            "left": 93,
+            "top": 366,
+            "left": 94,
             "bottom": 2926,
             "right": 1534,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Microsoft Lumia 950 Black",
         "pixelRatio": 4,
@@ -2678,12 +2678,12 @@
         "category": "Phones",
         "device": "Microsoft Lumia 950",
         "frame": {
-            "top": 365,
-            "left": 93,
+            "top": 366,
+            "left": 94,
             "bottom": 2926,
             "right": 1534,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Microsoft Lumia 950 White",
         "pixelRatio": 4,
@@ -2700,12 +2700,12 @@
         "category": "Phones",
         "device": "Microsoft Lumia 950",
         "frame": {
-            "top": 365,
-            "left": 92,
+            "top": 366,
+            "left": 93,
             "bottom": 2926,
             "right": 1533,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Microsoft Lumia 950 Black",
         "pixelRatio": 4,
@@ -2722,12 +2722,12 @@
         "category": "Phones",
         "device": "Microsoft Lumia 950",
         "frame": {
-            "top": 365,
-            "left": 92,
+            "top": 366,
+            "left": 93,
             "bottom": 2926,
             "right": 1533,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Microsoft Lumia 950 White",
         "pixelRatio": 4,
@@ -2744,12 +2744,12 @@
         "category": "Phones",
         "device": "Motorola Moto E",
         "frame": {
-            "top": 184,
-            "left": 54,
+            "top": 185,
+            "left": 55,
             "bottom": 1145,
             "right": 595,
-            "width": 541,
-            "height": 961
+            "width": 540,
+            "height": 960
         },
         "name": "Motorola Moto E Black",
         "pixelRatio": 1,
@@ -2766,12 +2766,12 @@
         "category": "Phones",
         "device": "Motorola Moto E",
         "frame": {
-            "top": 184,
-            "left": 54,
+            "top": 185,
+            "left": 55,
             "bottom": 1145,
             "right": 595,
-            "width": 541,
-            "height": 961
+            "width": 540,
+            "height": 960
         },
         "name": "Motorola Moto E White",
         "pixelRatio": 1,
@@ -2788,12 +2788,12 @@
         "category": "Phones",
         "device": "Motorola Moto E",
         "frame": {
-            "top": 184,
-            "left": 54,
+            "top": 185,
+            "left": 55,
             "bottom": 1145,
             "right": 595,
-            "width": 541,
-            "height": 961
+            "width": 540,
+            "height": 960
         },
         "name": "Motorola Moto E Black",
         "pixelRatio": 1,
@@ -2810,12 +2810,12 @@
         "category": "Phones",
         "device": "Motorola Moto E",
         "frame": {
-            "top": 184,
-            "left": 54,
+            "top": 185,
+            "left": 55,
             "bottom": 1145,
             "right": 595,
-            "width": 541,
-            "height": 961
+            "width": 540,
+            "height": 960
         },
         "name": "Motorola Moto E White",
         "pixelRatio": 1,
@@ -2832,12 +2832,12 @@
         "category": "Phones",
         "device": "Motorola Moto G",
         "frame": {
-            "top": 188,
-            "left": 63,
+            "top": 189,
+            "left": 64,
             "bottom": 1469,
             "right": 784,
-            "width": 721,
-            "height": 1281
+            "width": 720,
+            "height": 1280
         },
         "name": "Motorola Moto G",
         "pixelRatio": 2,
@@ -2853,12 +2853,12 @@
         "category": "Phones",
         "device": "Motorola Moto G",
         "frame": {
-            "top": 188,
-            "left": 54,
+            "top": 189,
+            "left": 55,
             "bottom": 1469,
             "right": 775,
-            "width": 721,
-            "height": 1281
+            "width": 720,
+            "height": 1280
         },
         "name": "Motorola Moto G",
         "pixelRatio": 2,
@@ -2874,12 +2874,12 @@
         "category": "Phones",
         "device": "Nexus 4",
         "frame": {
-            "top": 184,
-            "left": 40,
+            "top": 185,
+            "left": 41,
             "bottom": 1465,
             "right": 809,
-            "width": 769,
-            "height": 1281
+            "width": 768,
+            "height": 1280
         },
         "name": "Nexus 4",
         "pixelRatio": 2,
@@ -2894,12 +2894,12 @@
         "category": "Phones",
         "device": "Nexus 4",
         "frame": {
-            "top": 184,
-            "left": 40,
+            "top": 185,
+            "left": 41,
             "bottom": 1465,
             "right": 809,
-            "width": 769,
-            "height": 1281
+            "width": 768,
+            "height": 1280
         },
         "name": "Nexus 4",
         "pixelRatio": 2,
@@ -2914,12 +2914,12 @@
         "category": "Phones",
         "device": "Nexus 5X",
         "frame": {
-            "top": 230,
-            "left": 52,
+            "top": 231,
+            "left": 53,
             "bottom": 2151,
             "right": 1133,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "Nexus 5x",
         "pixelRatio": 2.6,
@@ -2934,12 +2934,12 @@
         "category": "Phones",
         "device": "Nexus 5X",
         "frame": {
-            "top": 230,
-            "left": 52,
+            "top": 231,
+            "left": 53,
             "bottom": 2151,
             "right": 1133,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "Nexus 5x",
         "pixelRatio": 2.6,
@@ -2954,12 +2954,12 @@
         "category": "Phones",
         "device": "Nexus 6P",
         "frame": {
-            "top": 328,
-            "left": 58,
+            "top": 329,
+            "left": 59,
             "bottom": 2889,
             "right": 1499,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Nexus 6P",
         "pixelRatio": 3.5,
@@ -2974,12 +2974,12 @@
         "category": "Phones",
         "device": "Nexus 6P",
         "frame": {
-            "top": 328,
-            "left": 58,
+            "top": 329,
+            "left": 59,
             "bottom": 2889,
             "right": 1499,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Nexus 6P",
         "pixelRatio": 3.5,
@@ -2994,12 +2994,12 @@
         "category": "Phones",
         "device": "Nokia 220",
         "frame": {
-            "top": 95,
-            "left": 39,
+            "top": 96,
+            "left": 40,
             "bottom": 416,
             "right": 280,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia 220 Black",
         "pixelRatio": 1,
@@ -3015,12 +3015,12 @@
         "category": "Phones",
         "device": "Nokia 220",
         "frame": {
-            "top": 95,
-            "left": 39,
+            "top": 96,
+            "left": 40,
             "bottom": 416,
             "right": 280,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia 220 Blue",
         "pixelRatio": 1,
@@ -3036,12 +3036,12 @@
         "category": "Phones",
         "device": "Nokia 220",
         "frame": {
-            "top": 95,
-            "left": 39,
+            "top": 96,
+            "left": 40,
             "bottom": 416,
             "right": 280,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia 220 Red",
         "pixelRatio": 1,
@@ -3057,12 +3057,12 @@
         "category": "Phones",
         "device": "Nokia 220",
         "frame": {
-            "top": 95,
-            "left": 39,
+            "top": 96,
+            "left": 40,
             "bottom": 416,
             "right": 280,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia 220 White",
         "pixelRatio": 1,
@@ -3078,12 +3078,12 @@
         "category": "Phones",
         "device": "Nokia 220",
         "frame": {
-            "top": 95,
-            "left": 39,
+            "top": 96,
+            "left": 40,
             "bottom": 416,
             "right": 280,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia 220 Yellow",
         "pixelRatio": 1,
@@ -3099,12 +3099,12 @@
         "category": "Phones",
         "device": "Nokia 220",
         "frame": {
-            "top": 95,
-            "left": 39,
+            "top": 96,
+            "left": 40,
             "bottom": 416,
             "right": 280,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia 220 Black",
         "pixelRatio": 1,
@@ -3120,12 +3120,12 @@
         "category": "Phones",
         "device": "Nokia 220",
         "frame": {
-            "top": 95,
-            "left": 39,
+            "top": 96,
+            "left": 40,
             "bottom": 416,
             "right": 280,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia 220 Blue",
         "pixelRatio": 1,
@@ -3141,12 +3141,12 @@
         "category": "Phones",
         "device": "Nokia 220",
         "frame": {
-            "top": 95,
-            "left": 39,
+            "top": 96,
+            "left": 40,
             "bottom": 416,
             "right": 280,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia 220 Red",
         "pixelRatio": 1,
@@ -3162,12 +3162,12 @@
         "category": "Phones",
         "device": "Nokia 220",
         "frame": {
-            "top": 95,
-            "left": 39,
+            "top": 96,
+            "left": 40,
             "bottom": 416,
             "right": 280,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia 220 White",
         "pixelRatio": 1,
@@ -3183,12 +3183,12 @@
         "category": "Phones",
         "device": "Nokia 220",
         "frame": {
-            "top": 95,
-            "left": 39,
+            "top": 96,
+            "left": 40,
             "bottom": 416,
             "right": 280,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia 220 Yellow",
         "pixelRatio": 1,
@@ -3204,12 +3204,12 @@
         "category": "Phones",
         "device": "Nokia 230",
         "frame": {
-            "top": 66,
-            "left": 27,
+            "top": 67,
+            "left": 28,
             "bottom": 387,
             "right": 268,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia 230 Black",
         "pixelRatio": 1,
@@ -3225,12 +3225,12 @@
         "category": "Phones",
         "device": "Nokia 230",
         "frame": {
-            "top": 66,
-            "left": 27,
+            "top": 67,
+            "left": 28,
             "bottom": 387,
             "right": 268,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia 230 White",
         "pixelRatio": 1,
@@ -3246,12 +3246,12 @@
         "category": "Phones",
         "device": "Nokia 230",
         "frame": {
-            "top": 66,
-            "left": 27,
+            "top": 67,
+            "left": 28,
             "bottom": 387,
             "right": 268,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia 230 Black",
         "pixelRatio": 1,
@@ -3267,12 +3267,12 @@
         "category": "Phones",
         "device": "Nokia 230",
         "frame": {
-            "top": 66,
-            "left": 27,
+            "top": 67,
+            "left": 28,
             "bottom": 387,
             "right": 268,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia 230 White",
         "pixelRatio": 1,
@@ -3288,12 +3288,12 @@
         "category": "Phones",
         "device": "Nokia Asha 230",
         "frame": {
-            "top": 100,
-            "left": 38,
+            "top": 101,
+            "left": 39,
             "bottom": 421,
             "right": 279,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia Asha 230 230 White",
         "pixelRatio": 1,
@@ -3311,12 +3311,12 @@
         "category": "Phones",
         "device": "Nokia Asha 230",
         "frame": {
-            "top": 100,
-            "left": 38,
+            "top": 101,
+            "left": 39,
             "bottom": 421,
             "right": 279,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia Asha 230 Black",
         "pixelRatio": 1,
@@ -3333,12 +3333,12 @@
         "category": "Phones",
         "device": "Nokia Asha 230",
         "frame": {
-            "top": 100,
-            "left": 38,
+            "top": 101,
+            "left": 39,
             "bottom": 421,
             "right": 279,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia Asha 230 Blue",
         "pixelRatio": 1,
@@ -3355,12 +3355,12 @@
         "category": "Phones",
         "device": "Nokia Asha 230",
         "frame": {
-            "top": 100,
-            "left": 38,
+            "top": 101,
+            "left": 39,
             "bottom": 421,
             "right": 279,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia Asha 230 Green",
         "pixelRatio": 1,
@@ -3377,12 +3377,12 @@
         "category": "Phones",
         "device": "Nokia Asha 230",
         "frame": {
-            "top": 100,
-            "left": 38,
+            "top": 101,
+            "left": 39,
             "bottom": 421,
             "right": 279,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia Asha 230 Red",
         "pixelRatio": 1,
@@ -3399,12 +3399,12 @@
         "category": "Phones",
         "device": "Nokia Asha 230",
         "frame": {
-            "top": 100,
-            "left": 38,
+            "top": 101,
+            "left": 39,
             "bottom": 421,
             "right": 279,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia Asha 230 Yellow",
         "pixelRatio": 1,
@@ -3421,12 +3421,12 @@
         "category": "Phones",
         "device": "Nokia Asha 230",
         "frame": {
-            "top": 100,
-            "left": 38,
+            "top": 101,
+            "left": 39,
             "bottom": 421,
             "right": 279,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia Asha 230 Black",
         "pixelRatio": 1,
@@ -3443,12 +3443,12 @@
         "category": "Phones",
         "device": "Nokia Asha 230",
         "frame": {
-            "top": 100,
-            "left": 38,
+            "top": 101,
+            "left": 39,
             "bottom": 421,
             "right": 279,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia Asha 230 Blue",
         "pixelRatio": 1,
@@ -3465,12 +3465,12 @@
         "category": "Phones",
         "device": "Nokia Asha 230",
         "frame": {
-            "top": 100,
-            "left": 38,
+            "top": 101,
+            "left": 39,
             "bottom": 421,
             "right": 279,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia Asha 230 Green",
         "pixelRatio": 1,
@@ -3487,12 +3487,12 @@
         "category": "Phones",
         "device": "Nokia Asha 230",
         "frame": {
-            "top": 100,
-            "left": 38,
+            "top": 101,
+            "left": 39,
             "bottom": 421,
             "right": 279,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia Asha 230 Red",
         "pixelRatio": 1,
@@ -3509,12 +3509,12 @@
         "category": "Phones",
         "device": "Nokia Asha 230",
         "frame": {
-            "top": 100,
-            "left": 38,
+            "top": 101,
+            "left": 39,
             "bottom": 421,
             "right": 279,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia Asha 230 White",
         "pixelRatio": 1,
@@ -3531,12 +3531,12 @@
         "category": "Phones",
         "device": "Nokia Asha 230",
         "frame": {
-            "top": 100,
-            "left": 38,
+            "top": 101,
+            "left": 39,
             "bottom": 421,
             "right": 279,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Nokia Asha 230 Yellow",
         "pixelRatio": 1,
@@ -3593,12 +3593,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy Grand Prime",
         "frame": {
-            "top": 147,
-            "left": 72,
+            "top": 148,
+            "left": 73,
             "bottom": 1108,
             "right": 613,
-            "width": 541,
-            "height": 961
+            "width": 540,
+            "height": 960
         },
         "name": "Samsung Galaxy Grand Prime Black",
         "pixelRatio": 1.5,
@@ -3616,12 +3616,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy Grand Prime",
         "frame": {
-            "top": 147,
-            "left": 72,
+            "top": 148,
+            "left": 73,
             "bottom": 1108,
             "right": 613,
-            "width": 541,
-            "height": 961
+            "width": 540,
+            "height": 960
         },
         "name": "Samsung Galaxy Grand Prime Gold",
         "pixelRatio": 1.5,
@@ -3639,12 +3639,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy Grand Prime",
         "frame": {
-            "top": 147,
-            "left": 72,
+            "top": 148,
+            "left": 73,
             "bottom": 1108,
             "right": 613,
-            "width": 541,
-            "height": 961
+            "width": 540,
+            "height": 960
         },
         "name": "Samsung Galaxy Grand Prime White",
         "pixelRatio": 1.5,
@@ -3662,12 +3662,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy Grand Prime",
         "frame": {
-            "top": 147,
-            "left": 46,
+            "top": 148,
+            "left": 47,
             "bottom": 1108,
             "right": 587,
-            "width": 541,
-            "height": 961
+            "width": 540,
+            "height": 960
         },
         "name": "Samsung Galaxy Grand Prime Black",
         "pixelRatio": 1.5,
@@ -3685,12 +3685,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy Grand Prime",
         "frame": {
-            "top": 147,
-            "left": 46,
+            "top": 148,
+            "left": 47,
             "bottom": 1108,
             "right": 587,
-            "width": 541,
-            "height": 961
+            "width": 540,
+            "height": 960
         },
         "name": "Samsung Galaxy Grand Prime Gold",
         "pixelRatio": 1.5,
@@ -3708,12 +3708,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy Grand Prime",
         "frame": {
-            "top": 147,
-            "left": 46,
+            "top": 148,
+            "left": 47,
             "bottom": 1108,
             "right": 587,
-            "width": 541,
-            "height": 961
+            "width": 540,
+            "height": 960
         },
         "name": "Samsung Galaxy Grand Prime White",
         "pixelRatio": 1.5,
@@ -3731,12 +3731,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy Note 5",
         "frame": {
-            "top": 289,
-            "left": 69,
+            "top": 290,
+            "left": 70,
             "bottom": 2850,
             "right": 1510,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Samsung Galaxy Note 5 Black",
         "pixelRatio": 3.5,
@@ -3754,12 +3754,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy Note 5",
         "frame": {
-            "top": 289,
-            "left": 69,
+            "top": 290,
+            "left": 70,
             "bottom": 2850,
             "right": 1510,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Samsung Galaxy Note 5 Gold",
         "pixelRatio": 3.5,
@@ -3777,12 +3777,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy Note 5",
         "frame": {
-            "top": 289,
-            "left": 69,
+            "top": 290,
+            "left": 70,
             "bottom": 2850,
             "right": 1510,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Samsung Galaxy Note 5 Pink",
         "pixelRatio": 3.5,
@@ -3800,12 +3800,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy Note 5",
         "frame": {
-            "top": 289,
-            "left": 69,
+            "top": 290,
+            "left": 70,
             "bottom": 2850,
             "right": 1510,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Samsung Galaxy Note 5 Silver Titanium",
         "pixelRatio": 3.5,
@@ -3824,12 +3824,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy Note 5",
         "frame": {
-            "top": 289,
-            "left": 69,
+            "top": 290,
+            "left": 70,
             "bottom": 2850,
             "right": 1510,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Samsung Galaxy Note 5 White",
         "pixelRatio": 3.5,
@@ -3847,12 +3847,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy Note 5",
         "frame": {
-            "top": 289,
-            "left": 65,
+            "top": 290,
+            "left": 66,
             "bottom": 2850,
             "right": 1506,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Samsung Galaxy Note 5 Black",
         "pixelRatio": 3.5,
@@ -3870,12 +3870,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy Note 5",
         "frame": {
-            "top": 289,
-            "left": 65,
+            "top": 290,
+            "left": 66,
             "bottom": 2850,
             "right": 1506,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Samsung Galaxy Note 5 Gold",
         "pixelRatio": 3.5,
@@ -3893,12 +3893,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy Note 5",
         "frame": {
-            "top": 289,
-            "left": 65,
+            "top": 290,
+            "left": 66,
             "bottom": 2850,
             "right": 1506,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Samsung Galaxy Note 5 Pink",
         "pixelRatio": 3.5,
@@ -3916,12 +3916,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy Note 5",
         "frame": {
-            "top": 289,
-            "left": 65,
+            "top": 290,
+            "left": 66,
             "bottom": 2850,
             "right": 1506,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Samsung Galaxy Note 5 Silver Titanium",
         "pixelRatio": 3.5,
@@ -3940,12 +3940,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy Note 5",
         "frame": {
-            "top": 289,
-            "left": 65,
+            "top": 290,
+            "left": 66,
             "bottom": 2850,
             "right": 1506,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Samsung Galaxy Note 5 White",
         "pixelRatio": 3.5,
@@ -3963,12 +3963,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy S Duos",
         "frame": {
-            "top": 155,
-            "left": 47,
+            "top": 156,
+            "left": 48,
             "bottom": 956,
             "right": 528,
-            "width": 481,
-            "height": 801
+            "width": 480,
+            "height": 800
         },
         "name": "Samsung Galaxy S Duos",
         "pixelRatio": 1.5,
@@ -3985,12 +3985,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy S Duos",
         "frame": {
-            "top": 155,
-            "left": 47,
+            "top": 156,
+            "left": 48,
             "bottom": 956,
             "right": 528,
-            "width": 481,
-            "height": 801
+            "width": 480,
+            "height": 800
         },
         "name": "Samsung Galaxy S Duos",
         "pixelRatio": 1.5,
@@ -4007,12 +4007,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy S3",
         "frame": {
-            "top": 157,
-            "left": 64,
+            "top": 158,
+            "left": 65,
             "bottom": 1438,
             "right": 785,
-            "width": 721,
-            "height": 1281
+            "width": 720,
+            "height": 1280
         },
         "name": "Samsung Galaxy S3",
         "pixelRatio": 2,
@@ -4028,12 +4028,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy S3",
         "frame": {
-            "top": 157,
-            "left": 64,
+            "top": 158,
+            "left": 65,
             "bottom": 1438,
             "right": 785,
-            "width": 721,
-            "height": 1281
+            "width": 720,
+            "height": 1280
         },
         "name": "Samsung Galaxy S3",
         "pixelRatio": 2,
@@ -4049,12 +4049,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy S5",
         "frame": {
-            "top": 246,
-            "left": 101,
+            "top": 247,
+            "left": 102,
             "bottom": 2167,
             "right": 1182,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "Samsung Galaxy S5 Black",
         "pixelRatio": 3,
@@ -4071,12 +4071,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy S5",
         "frame": {
-            "top": 246,
-            "left": 102,
+            "top": 247,
+            "left": 103,
             "bottom": 2167,
             "right": 1183,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "Samsung Galaxy S5 White",
         "pixelRatio": 3,
@@ -4093,12 +4093,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy S5",
         "frame": {
-            "top": 246,
-            "left": 78,
+            "top": 247,
+            "left": 79,
             "bottom": 2167,
             "right": 1159,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "Samsung Galaxy S5 Black",
         "pixelRatio": 3,
@@ -4115,12 +4115,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy S5",
         "frame": {
-            "top": 246,
-            "left": 78,
+            "top": 247,
+            "left": 79,
             "bottom": 2167,
             "right": 1159,
-            "width": 1081,
-            "height": 1921
+            "width": 1080,
+            "height": 1920
         },
         "name": "Samsung Galaxy S5 White",
         "pixelRatio": 3,
@@ -4137,12 +4137,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy S7",
         "frame": {
-            "top": 337,
-            "left": 72,
+            "top": 338,
+            "left": 73,
             "bottom": 2898,
             "right": 1513,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Samsung Galaxy S7 Black",
         "pixelRatio": 4,
@@ -4159,12 +4159,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy S7",
         "frame": {
-            "top": 337,
-            "left": 72,
+            "top": 338,
+            "left": 73,
             "bottom": 2898,
             "right": 1513,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Samsung Galaxy S7 Gold",
         "pixelRatio": 4,
@@ -4181,12 +4181,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy S7",
         "frame": {
-            "top": 337,
-            "left": 72,
+            "top": 338,
+            "left": 73,
             "bottom": 2898,
             "right": 1513,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Samsung Galaxy S7 Silver",
         "pixelRatio": 4,
@@ -4203,12 +4203,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy S7",
         "frame": {
-            "top": 337,
-            "left": 72,
+            "top": 338,
+            "left": 73,
             "bottom": 2898,
             "right": 1513,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Samsung Galaxy S7 White",
         "pixelRatio": 4,
@@ -4225,12 +4225,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy S7",
         "frame": {
-            "top": 337,
-            "left": 72,
+            "top": 338,
+            "left": 73,
             "bottom": 2898,
             "right": 1513,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Samsung Galaxy S7 Black",
         "pixelRatio": 4,
@@ -4247,12 +4247,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy S7",
         "frame": {
-            "top": 337,
-            "left": 72,
+            "top": 338,
+            "left": 73,
             "bottom": 2898,
             "right": 1513,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Samsung Galaxy S7 Gold",
         "pixelRatio": 4,
@@ -4269,12 +4269,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy S7",
         "frame": {
-            "top": 337,
-            "left": 72,
+            "top": 338,
+            "left": 73,
             "bottom": 2898,
             "right": 1513,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Samsung Galaxy S7 Silver",
         "pixelRatio": 4,
@@ -4291,12 +4291,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy S7",
         "frame": {
-            "top": 337,
-            "left": 72,
+            "top": 338,
+            "left": 73,
             "bottom": 2898,
             "right": 1513,
-            "width": 1441,
-            "height": 2561
+            "width": 1440,
+            "height": 2560
         },
         "name": "Samsung Galaxy S7 White",
         "pixelRatio": 4,
@@ -4313,12 +4313,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy Y",
         "frame": {
-            "top": 115,
-            "left": 36,
+            "top": 116,
+            "left": 37,
             "bottom": 436,
             "right": 277,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Samsung Galaxy Y Black",
         "pixelRatio": 0.75,
@@ -4335,12 +4335,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy Y",
         "frame": {
-            "top": 115,
-            "left": 36,
+            "top": 116,
+            "left": 37,
             "bottom": 436,
             "right": 277,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Samsung Galaxy Y White",
         "pixelRatio": 0.75,
@@ -4357,12 +4357,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy Y",
         "frame": {
-            "top": 115,
-            "left": 36,
+            "top": 116,
+            "left": 37,
             "bottom": 436,
             "right": 277,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Samsung Galaxy Y Black",
         "pixelRatio": 0.75,
@@ -4379,12 +4379,12 @@
         "category": "Phones",
         "device": "Samsung Galaxy Y",
         "frame": {
-            "top": 115,
-            "left": 36,
+            "top": 116,
+            "left": 37,
             "bottom": 436,
             "right": 277,
-            "width": 241,
-            "height": 321
+            "width": 240,
+            "height": 320
         },
         "name": "Samsung Galaxy Y White",
         "pixelRatio": 0.75,
@@ -4401,12 +4401,12 @@
         "category": "Tablets",
         "device": "Apple iPad Air 2",
         "frame": {
-            "top": 223,
-            "left": 111,
+            "top": 224,
+            "left": 112,
             "bottom": 2272,
             "right": 1648,
-            "width": 1537,
-            "height": 2049
+            "width": 1536,
+            "height": 2048
         },
         "name": "Apple iPad Air 2 Gold",
         "pixelRatio": 2,
@@ -4424,12 +4424,12 @@
         "category": "Tablets",
         "device": "Apple iPad Air 2",
         "frame": {
-            "top": 223,
-            "left": 111,
+            "top": 224,
+            "left": 112,
             "bottom": 2272,
             "right": 1648,
-            "width": 1537,
-            "height": 2049
+            "width": 1536,
+            "height": 2048
         },
         "name": "Apple iPad Air 2 Silver",
         "pixelRatio": 2,
@@ -4447,12 +4447,12 @@
         "category": "Tablets",
         "device": "Apple iPad Air 2",
         "frame": {
-            "top": 223,
-            "left": 110,
+            "top": 224,
+            "left": 111,
             "bottom": 2272,
             "right": 1647,
-            "width": 1537,
-            "height": 2049
+            "width": 1536,
+            "height": 2048
         },
         "name": "Apple iPad Air 2 Space Gray",
         "pixelRatio": 2,
@@ -4471,12 +4471,12 @@
         "category": "Tablets",
         "device": "Apple iPad Air 2",
         "frame": {
-            "top": 223,
-            "left": 111,
+            "top": 224,
+            "left": 112,
             "bottom": 2272,
             "right": 1648,
-            "width": 1537,
-            "height": 2049
+            "width": 1536,
+            "height": 2048
         },
         "name": "Apple iPad Air 2 Gold",
         "pixelRatio": 2,
@@ -4494,12 +4494,12 @@
         "category": "Tablets",
         "device": "Apple iPad Air 2",
         "frame": {
-            "top": 223,
-            "left": 111,
+            "top": 224,
+            "left": 112,
             "bottom": 2272,
             "right": 1648,
-            "width": 1537,
-            "height": 2049
+            "width": 1536,
+            "height": 2048
         },
         "name": "Apple iPad Air 2 Silver",
         "pixelRatio": 2,
@@ -4517,12 +4517,12 @@
         "category": "Tablets",
         "device": "Apple iPad Air 2",
         "frame": {
-            "top": 223,
-            "left": 110,
+            "top": 224,
+            "left": 111,
             "bottom": 2272,
             "right": 1647,
-            "width": 1537,
-            "height": 2049
+            "width": 1536,
+            "height": 2048
         },
         "name": "Apple iPad Air 2 Space Gray",
         "pixelRatio": 2,
@@ -4541,12 +4541,12 @@
         "category": "Tablets",
         "device": "Apple iPad Mini 4",
         "frame": {
-            "top": 277,
-            "left": 113,
+            "top": 278,
+            "left": 114,
             "bottom": 2326,
             "right": 1650,
-            "width": 1537,
-            "height": 2049
+            "width": 1536,
+            "height": 2048
         },
         "name": "Apple iPad Mini 4 Gold",
         "pixelRatio": 2,
@@ -4564,12 +4564,12 @@
         "category": "Tablets",
         "device": "Apple iPad Mini 4",
         "frame": {
-            "top": 277,
-            "left": 113,
+            "top": 278,
+            "left": 114,
             "bottom": 2326,
             "right": 1650,
-            "width": 1537,
-            "height": 2049
+            "width": 1536,
+            "height": 2048
         },
         "name": "Apple iPad Mini 4 Silver",
         "pixelRatio": 2,
@@ -4587,12 +4587,12 @@
         "category": "Tablets",
         "device": "Apple iPad Mini 4",
         "frame": {
-            "top": 277,
-            "left": 113,
+            "top": 278,
+            "left": 114,
             "bottom": 2326,
             "right": 1650,
-            "width": 1537,
-            "height": 2049
+            "width": 1536,
+            "height": 2048
         },
         "name": "Apple iPad Mini 4 Space Gray",
         "pixelRatio": 2,
@@ -4611,12 +4611,12 @@
         "category": "Tablets",
         "device": "Apple iPad Mini 4",
         "frame": {
-            "top": 277,
-            "left": 95,
+            "top": 278,
+            "left": 96,
             "bottom": 2326,
             "right": 1632,
-            "width": 1537,
-            "height": 2049
+            "width": 1536,
+            "height": 2048
         },
         "name": "Apple iPad Mini 4 Gold",
         "pixelRatio": 2,
@@ -4634,12 +4634,12 @@
         "category": "Tablets",
         "device": "Apple iPad Mini 4",
         "frame": {
-            "top": 277,
-            "left": 95,
+            "top": 278,
+            "left": 96,
             "bottom": 2326,
             "right": 1632,
-            "width": 1537,
-            "height": 2049
+            "width": 1536,
+            "height": 2048
         },
         "name": "Apple iPad Mini 4 Silver",
         "pixelRatio": 2,
@@ -4657,12 +4657,12 @@
         "category": "Tablets",
         "device": "Apple iPad Mini 4",
         "frame": {
-            "top": 277,
-            "left": 95,
+            "top": 278,
+            "left": 96,
             "bottom": 2326,
             "right": 1632,
-            "width": 1537,
-            "height": 2049
+            "width": 1536,
+            "height": 2048
         },
         "name": "Apple iPad Mini 4 Space Gray",
         "pixelRatio": 2,
@@ -4681,12 +4681,12 @@
         "category": "Tablets",
         "device": "Apple iPad Pro 10.5",
         "frame": {
-            "top": 185,
-            "left": 81,
+            "top": 186,
+            "left": 82,
             "bottom": 2423,
             "right": 1762,
-            "width": 1681,
-            "height": 2238
+            "width": 1680,
+            "height": 2237
         },
         "name": "Apple iPad Pro 10.5 Gold",
         "pixelRatio": 2,
@@ -4704,12 +4704,12 @@
         "category": "Tablets",
         "device": "Apple iPad Pro 10.5",
         "frame": {
-            "top": 185,
-            "left": 80,
+            "top": 186,
+            "left": 81,
             "bottom": 2423,
             "right": 1761,
-            "width": 1681,
-            "height": 2238
+            "width": 1680,
+            "height": 2237
         },
         "name": "Apple iPad Pro 10.5 Rose Gold",
         "pixelRatio": 2,
@@ -4728,12 +4728,12 @@
         "category": "Tablets",
         "device": "Apple iPad Pro 10.5",
         "frame": {
-            "top": 185,
-            "left": 85,
+            "top": 186,
+            "left": 86,
             "bottom": 2423,
             "right": 1766,
-            "width": 1681,
-            "height": 2238
+            "width": 1680,
+            "height": 2237
         },
         "name": "Apple iPad Pro 10.5 Silver",
         "pixelRatio": 2,
@@ -4751,12 +4751,12 @@
         "category": "Tablets",
         "device": "Apple iPad Pro 10.5",
         "frame": {
-            "top": 185,
-            "left": 76,
+            "top": 186,
+            "left": 77,
             "bottom": 2423,
             "right": 1757,
-            "width": 1681,
-            "height": 2238
+            "width": 1680,
+            "height": 2237
         },
         "name": "Apple iPad Pro 10.5 Space Gray",
         "pixelRatio": 2,
@@ -4775,12 +4775,12 @@
         "category": "Tablets",
         "device": "Apple iPad Pro",
         "frame": {
-            "top": 215,
-            "left": 168,
+            "top": 216,
+            "left": 169,
             "bottom": 2948,
             "right": 2217,
-            "width": 2049,
-            "height": 2733
+            "width": 2048,
+            "height": 2732
         },
         "name": "Apple iPad Pro Gold",
         "pixelRatio": 2,
@@ -4797,12 +4797,12 @@
         "category": "Tablets",
         "device": "Apple iPad Pro",
         "frame": {
-            "top": 215,
-            "left": 168,
+            "top": 216,
+            "left": 169,
             "bottom": 2948,
             "right": 2217,
-            "width": 2049,
-            "height": 2733
+            "width": 2048,
+            "height": 2732
         },
         "name": "Apple iPad Pro Silver",
         "pixelRatio": 2,
@@ -4819,12 +4819,12 @@
         "category": "Tablets",
         "device": "Apple iPad Pro",
         "frame": {
-            "top": 215,
-            "left": 168,
+            "top": 216,
+            "left": 169,
             "bottom": 2948,
             "right": 2217,
-            "width": 2049,
-            "height": 2733
+            "width": 2048,
+            "height": 2732
         },
         "name": "Apple iPad Pro Space Gray",
         "pixelRatio": 2,
@@ -4842,12 +4842,12 @@
         "category": "Tablets",
         "device": "Apple iPad Pro",
         "frame": {
-            "top": 215,
-            "left": 118,
+            "top": 216,
+            "left": 119,
             "bottom": 2948,
             "right": 2167,
-            "width": 2049,
-            "height": 2733
+            "width": 2048,
+            "height": 2732
         },
         "name": "Apple iPad Pro Gold",
         "pixelRatio": 2,
@@ -4864,12 +4864,12 @@
         "category": "Tablets",
         "device": "Apple iPad Pro",
         "frame": {
-            "top": 215,
-            "left": 118,
+            "top": 216,
+            "left": 119,
             "bottom": 2948,
             "right": 2167,
-            "width": 2049,
-            "height": 2733
+            "width": 2048,
+            "height": 2732
         },
         "name": "Apple iPad Pro Silver",
         "pixelRatio": 2,
@@ -4886,12 +4886,12 @@
         "category": "Tablets",
         "device": "Apple iPad Pro",
         "frame": {
-            "top": 215,
-            "left": 118,
+            "top": 216,
+            "left": 119,
             "bottom": 2948,
             "right": 2167,
-            "width": 2049,
-            "height": 2733
+            "width": 2048,
+            "height": 2732
         },
         "name": "Apple iPad Pro Space Gray",
         "pixelRatio": 2,
@@ -4909,12 +4909,12 @@
         "category": "Tablets",
         "device": "Microsoft Surface 3",
         "frame": {
-            "top": 116,
-            "left": 199,
+            "top": 117,
+            "left": 200,
             "bottom": 1397,
             "right": 2120,
-            "width": 1921,
-            "height": 1281
+            "width": 1920,
+            "height": 1280
         },
         "name": "Microsoft Surface Pro 3",
         "pixelRatio": 1.5,
@@ -4931,12 +4931,12 @@
         "category": "Tablets",
         "device": "Microsoft Surface 3",
         "frame": {
-            "top": 116,
-            "left": 199,
+            "top": 117,
+            "left": 200,
             "bottom": 1397,
             "right": 2120,
-            "width": 1921,
-            "height": 1281
+            "width": 1920,
+            "height": 1280
         },
         "name": "Microsoft Surface Pro 3",
         "pixelRatio": 1.5,
@@ -4953,12 +4953,12 @@
         "category": "Tablets",
         "device": "Microsoft Surface Pro 4",
         "frame": {
-            "top": 147,
-            "left": 229,
+            "top": 148,
+            "left": 230,
             "bottom": 1972,
             "right": 2966,
-            "width": 2737,
-            "height": 1825
+            "width": 2736,
+            "height": 1824
         },
         "name": "Microsoft Surface Pro 4",
         "pixelRatio": 2,
@@ -4975,12 +4975,12 @@
         "category": "Tablets",
         "device": "Microsoft Surface Pro 4",
         "frame": {
-            "top": 147,
-            "left": 163,
+            "top": 148,
+            "left": 164,
             "bottom": 1972,
             "right": 2900,
-            "width": 2737,
-            "height": 1825
+            "width": 2736,
+            "height": 1824
         },
         "name": "Microsoft Surface Pro 4",
         "pixelRatio": 2,
@@ -4997,12 +4997,12 @@
         "category": "Tablets",
         "device": "Nexus 9",
         "frame": {
-            "top": 272,
-            "left": 131,
+            "top": 273,
+            "left": 132,
             "bottom": 2321,
             "right": 1668,
-            "width": 1537,
-            "height": 2049
+            "width": 1536,
+            "height": 2048
         },
         "name": "Nexus 9",
         "pixelRatio": 2,
@@ -5017,12 +5017,12 @@
         "category": "Tablets",
         "device": "Nexus 9",
         "frame": {
-            "top": 272,
-            "left": 95,
+            "top": 273,
+            "left": 96,
             "bottom": 2321,
             "right": 1632,
-            "width": 1537,
-            "height": 2049
+            "width": 1536,
+            "height": 2048
         },
         "name": "Nexus 9",
         "pixelRatio": 2,
@@ -5037,12 +5037,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Black Steel + Black Closed",
         "pixelRatio": 2,
@@ -5063,12 +5063,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Edition Closed",
         "pixelRatio": 2,
@@ -5086,12 +5086,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Rose Gold Aluminum + Midnight Blue Closed",
         "pixelRatio": 2,
@@ -5114,12 +5114,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Silver Aluminum + Cocoa Closed",
         "pixelRatio": 2,
@@ -5140,12 +5140,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Silver Aluminum + Concrete Closed",
         "pixelRatio": 2,
@@ -5166,12 +5166,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Silver Aluminum + Flat Silver Volt Nike Closed",
         "pixelRatio": 2,
@@ -5195,12 +5195,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Silver Aluminum + Flat Silver White Nike Closed",
         "pixelRatio": 2,
@@ -5224,12 +5224,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Silver Aluminum + Ocean Blue Closed",
         "pixelRatio": 2,
@@ -5251,12 +5251,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Silver Aluminum + Red Closed",
         "pixelRatio": 2,
@@ -5277,12 +5277,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Silver Aluminum + Turquoise Closed",
         "pixelRatio": 2,
@@ -5303,12 +5303,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Silver Aluminum + White Closed",
         "pixelRatio": 2,
@@ -5329,12 +5329,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Silver Aluminum + Yellow Closed",
         "pixelRatio": 2,
@@ -5355,12 +5355,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Space Gray Aluminum + Black Closed",
         "pixelRatio": 2,
@@ -5382,12 +5382,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Space Gray Aluminum + Black Cool Gray Nike Closed",
         "pixelRatio": 2,
@@ -5412,12 +5412,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Space Gray Aluminum + Black Volt Nike Closed",
         "pixelRatio": 2,
@@ -5441,12 +5441,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Sport Aluminum + Walnut Closed",
         "pixelRatio": 2,
@@ -5467,12 +5467,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Steel + White Closed",
         "pixelRatio": 2,
@@ -5948,12 +5948,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Edition Closed",
         "pixelRatio": 2,
@@ -5971,12 +5971,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 237,
-            "left": 75,
+            "top": 238,
+            "left": 76,
             "bottom": 628,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Gold Aluminum + Cocoa Closed",
         "pixelRatio": 2,
@@ -5997,12 +5997,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Rose Gold Aluminum + Midnight Blue Closed",
         "pixelRatio": 2,
@@ -6025,12 +6025,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Silver Aluminum + Concrete Closed",
         "pixelRatio": 2,
@@ -6051,12 +6051,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Silver Aluminum + Flat Silver Volt Nike Closed",
         "pixelRatio": 2,
@@ -6080,12 +6080,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Silver Aluminum + Flat Silver White Nike Closed",
         "pixelRatio": 2,
@@ -6109,12 +6109,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Silver Aluminum + Green Closed",
         "pixelRatio": 2,
@@ -6135,12 +6135,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Silver Aluminum + Light Pink Closed",
         "pixelRatio": 2,
@@ -6162,12 +6162,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Silver Aluminum + Ocean Blue Closed",
         "pixelRatio": 2,
@@ -6189,12 +6189,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Silver Aluminum + Pink Sand Closed",
         "pixelRatio": 2,
@@ -6216,12 +6216,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Silver Aluminum + Red Closed",
         "pixelRatio": 2,
@@ -6242,12 +6242,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Silver Aluminum + Turquoise Closed",
         "pixelRatio": 2,
@@ -6268,12 +6268,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Silver Aluminum + White Closed",
         "pixelRatio": 2,
@@ -6294,12 +6294,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Silver Aluminum + Yellow Closed",
         "pixelRatio": 2,
@@ -6320,12 +6320,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Space Black Steel + Black Closed",
         "pixelRatio": 2,
@@ -6347,12 +6347,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Space Gray Aluminum + Black Closed",
         "pixelRatio": 2,
@@ -6374,12 +6374,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Space Gray Aluminum + Black Cool Gray Nike Closed",
         "pixelRatio": 2,
@@ -6404,12 +6404,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Space Gray Aluminum + Black Volt Nike Closed",
         "pixelRatio": 2,
@@ -6433,12 +6433,12 @@
         "category": "Watches",
         "device": "Apple Watch 2",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Steel + White Closed",
         "pixelRatio": 2,
@@ -6969,12 +6969,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Black Steel + Black Closed",
         "pixelRatio": 2,
@@ -6995,12 +6995,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 222,
-            "left": 65,
+            "top": 223,
+            "left": 66,
             "bottom": 563,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Gold + Black Leather Closed",
         "pixelRatio": 2,
@@ -7021,12 +7021,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Gold + Midnight Blue Closed",
         "pixelRatio": 2,
@@ -7047,12 +7047,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 222,
-            "left": 65,
+            "top": 223,
+            "left": 66,
             "bottom": 563,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Rose Gold + Black Leather Closed",
         "pixelRatio": 2,
@@ -7074,12 +7074,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Rose Gold + Lavender Closed",
         "pixelRatio": 2,
@@ -7100,12 +7100,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Sport Aluminum + Blue Closed",
         "pixelRatio": 2,
@@ -7126,12 +7126,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Sport Aluminum + Fog Closed",
         "pixelRatio": 2,
@@ -7152,12 +7152,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Sport Aluminum + Green Closed",
         "pixelRatio": 2,
@@ -7178,12 +7178,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Sport Aluminum + Red Closed",
         "pixelRatio": 2,
@@ -7204,12 +7204,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Sport Aluminum + Walnut Closed",
         "pixelRatio": 2,
@@ -7230,12 +7230,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Sport Aluminum + White Closed",
         "pixelRatio": 2,
@@ -7256,12 +7256,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Sport Aluminum Gold + Antique White Closed",
         "pixelRatio": 2,
@@ -7284,12 +7284,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Sport Aluminum Rose Gold + Stone Closed",
         "pixelRatio": 2,
@@ -7312,12 +7312,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 212,
-            "left": 65,
+            "top": 213,
+            "left": 66,
             "bottom": 553,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Sport Space Gray + Black Closed",
         "pixelRatio": 2,
@@ -7339,12 +7339,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 222,
-            "left": 65,
+            "top": 223,
+            "left": 66,
             "bottom": 563,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Stainless Steel + Black Leather Closed",
         "pixelRatio": 2,
@@ -7366,12 +7366,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 211,
-            "left": 65,
+            "top": 212,
+            "left": 66,
             "bottom": 552,
             "right": 338,
-            "width": 273,
-            "height": 341
+            "width": 272,
+            "height": 340
         },
         "name": "Apple Watch 38mm Steel + White Closed",
         "pixelRatio": 2,
@@ -7734,12 +7734,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Black Steel + Black Closed",
         "pixelRatio": 2,
@@ -7760,12 +7760,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Gold + Black Leather Closed",
         "pixelRatio": 2,
@@ -7786,12 +7786,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Gold + Midnight Blue Closed",
         "pixelRatio": 2,
@@ -7812,12 +7812,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Rose Gold + Black Leather Closed",
         "pixelRatio": 2,
@@ -7839,12 +7839,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Rose Gold + Lavender Closed",
         "pixelRatio": 2,
@@ -7865,12 +7865,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Sport Aluminum + Blue Closed",
         "pixelRatio": 2,
@@ -7891,12 +7891,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Sport Aluminum + Fog Closed",
         "pixelRatio": 2,
@@ -7917,12 +7917,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Sport Aluminum + Green Closed",
         "pixelRatio": 2,
@@ -7943,12 +7943,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Sport Aluminum + Red Closed",
         "pixelRatio": 2,
@@ -7969,12 +7969,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Sport Aluminum + Walnut Closed",
         "pixelRatio": 2,
@@ -7995,12 +7995,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Sport Aluminum + White Closed",
         "pixelRatio": 2,
@@ -8021,12 +8021,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Sport Aluminum Gold + Antique White Closed",
         "pixelRatio": 2,
@@ -8049,12 +8049,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Sport Aluminum Rose Gold + Stone Closed",
         "pixelRatio": 2,
@@ -8077,12 +8077,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Sport Space Gray + Black Closed",
         "pixelRatio": 2,
@@ -8104,12 +8104,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 238,
-            "left": 75,
+            "top": 239,
+            "left": 76,
             "bottom": 629,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Stainless Steel + Black Leather Closed",
         "pixelRatio": 2,
@@ -8131,12 +8131,12 @@
         "category": "Watches",
         "device": "Apple Watch",
         "frame": {
-            "top": 239,
-            "left": 75,
+            "top": 240,
+            "left": 76,
             "bottom": 630,
             "right": 388,
-            "width": 313,
-            "height": 391
+            "width": 312,
+            "height": 390
         },
         "name": "Apple Watch 42mm Steel + White Closed",
         "pixelRatio": 2,
@@ -8499,12 +8499,12 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 138,
-            "left": 30,
+            "top": 139,
+            "left": 31,
             "bottom": 464,
             "right": 391,
-            "width": 361,
-            "height": 326
+            "width": 360,
+            "height": 325
         },
         "name": "Motorola Moto 360 Men Black + Black Closed",
         "pixelRatio": "",
@@ -8525,12 +8525,12 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 138,
-            "left": 30,
+            "top": 139,
+            "left": 31,
             "bottom": 464,
             "right": 391,
-            "width": 361,
-            "height": 326
+            "width": 360,
+            "height": 325
         },
         "name": "Motorola Moto 360 Men Black + Cognac Closed",
         "pixelRatio": "",
@@ -8551,12 +8551,12 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 138,
-            "left": 30,
+            "top": 139,
+            "left": 31,
             "bottom": 464,
             "right": 391,
-            "width": 361,
-            "height": 326
+            "width": 360,
+            "height": 325
         },
         "name": "Motorola Moto 360 Men Gold + Black Closed",
         "pixelRatio": "",
@@ -8577,12 +8577,12 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 138,
-            "left": 30,
+            "top": 139,
+            "left": 31,
             "bottom": 464,
             "right": 391,
-            "width": 361,
-            "height": 326
+            "width": 360,
+            "height": 325
         },
         "name": "Motorola Moto 360 Men Gold + Cognac Closed",
         "pixelRatio": "",
@@ -8603,12 +8603,12 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 138,
-            "left": 30,
+            "top": 139,
+            "left": 31,
             "bottom": 464,
             "right": 391,
-            "width": 361,
-            "height": 326
+            "width": 360,
+            "height": 325
         },
         "name": "Motorola Moto 360 Men Silver + Black Closed",
         "pixelRatio": "",
@@ -8629,12 +8629,12 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 138,
-            "left": 30,
+            "top": 139,
+            "left": 31,
             "bottom": 464,
             "right": 391,
-            "width": 361,
-            "height": 326
+            "width": 360,
+            "height": 325
         },
         "name": "Motorola Moto 360 Men Silver + Cognac Closed",
         "pixelRatio": "",
@@ -8655,12 +8655,12 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 117,
-            "left": 30,
+            "top": 118,
+            "left": 31,
             "bottom": 443,
             "right": 391,
-            "width": 361,
-            "height": 326
+            "width": 360,
+            "height": 325
         },
         "name": "Motorola Moto 360 Women Gold + Blush Closed",
         "pixelRatio": "",
@@ -8681,12 +8681,12 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 117,
-            "left": 30,
+            "top": 118,
+            "left": 31,
             "bottom": 443,
             "right": 391,
-            "width": 361,
-            "height": 326
+            "width": 360,
+            "height": 325
         },
         "name": "Motorola Moto 360 Women Gold + Stone Closed",
         "pixelRatio": "",
@@ -8707,12 +8707,12 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 117,
-            "left": 30,
+            "top": 118,
+            "left": 31,
             "bottom": 443,
             "right": 391,
-            "width": 361,
-            "height": 326
+            "width": 360,
+            "height": 325
         },
         "name": "Motorola Moto 360 Women Rose Gold + Blush Closed",
         "pixelRatio": "",
@@ -8734,12 +8734,12 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 117,
-            "left": 30,
+            "top": 118,
+            "left": 31,
             "bottom": 443,
             "right": 391,
-            "width": 361,
-            "height": 326
+            "width": 360,
+            "height": 325
         },
         "name": "Motorola Moto 360 Women Rose Gold + Stone Grey Closed",
         "pixelRatio": "",
@@ -8762,12 +8762,12 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 117,
-            "left": 30,
+            "top": 118,
+            "left": 31,
             "bottom": 443,
             "right": 391,
-            "width": 361,
-            "height": 326
+            "width": 360,
+            "height": 325
         },
         "name": "Motorola Moto 360 Women Silver + Blush Closed",
         "pixelRatio": "",
@@ -8788,12 +8788,12 @@
         "category": "Watches",
         "device": "Motorola Moto 360",
         "frame": {
-            "top": 117,
-            "left": 30,
+            "top": 118,
+            "left": 31,
             "bottom": 443,
             "right": 391,
-            "width": 361,
-            "height": 326
+            "width": 360,
+            "height": 325
         },
         "name": "Motorola Moto 360 Women Silver + Stone Grey Closed",
         "pixelRatio": "",
@@ -9131,12 +9131,12 @@
         "category": "Watches",
         "device": "Sony SmartWatch 3",
         "frame": {
-            "top": 185,
-            "left": 59,
+            "top": 186,
+            "left": 60,
             "bottom": 506,
             "right": 380,
-            "width": 321,
-            "height": 321
+            "width": 320,
+            "height": 320
         },
         "name": "Sony SmartWatch 3 Black Closed",
         "pixelRatio": "",
@@ -9154,12 +9154,12 @@
         "category": "Watches",
         "device": "Sony SmartWatch 3",
         "frame": {
-            "top": 185,
-            "left": 59,
+            "top": 186,
+            "left": 60,
             "bottom": 506,
             "right": 380,
-            "width": 321,
-            "height": 321
+            "width": 320,
+            "height": 320
         },
         "name": "Sony SmartWatch 3 White Closed",
         "pixelRatio": "",
@@ -9177,12 +9177,12 @@
         "category": "Watches",
         "device": "Sony SmartWatch 3",
         "frame": {
-            "top": 1094,
-            "left": 59,
+            "top": 1095,
+            "left": 60,
             "bottom": 1415,
             "right": 380,
-            "width": 321,
-            "height": 321
+            "width": 320,
+            "height": 320
         },
         "name": "Sony SmartWatch 3 Black Open",
         "pixelRatio": "",
@@ -9200,12 +9200,12 @@
         "category": "Watches",
         "device": "Sony SmartWatch 3",
         "frame": {
-            "top": 1094,
-            "left": 59,
+            "top": 1095,
+            "left": 60,
             "bottom": 1415,
             "right": 380,
-            "width": 321,
-            "height": 321
+            "width": 320,
+            "height": 320
         },
         "name": "Sony SmartWatch 3 White Open",
         "pixelRatio": "",
