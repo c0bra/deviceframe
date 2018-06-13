@@ -55,52 +55,47 @@ function pathToFrame(framePath) {
 }
 
 function findFrame(image) {
-  const middleX = parseInt(image.bitmap.width / 2, 10);
-  const middleY = parseInt(image.bitmap.height / 2, 10);
+  const { width, height } = image.bitmap;
 
-  let left;
-  let right;
-  let top;
-  let bottom;
+  const offsets = [[1, 0], [-1, 0], [0, 1], [0, -1]];
 
-  // Scan left
-  for (let i = middleX; i >= 0; i--) {
-    const idx = image.getPixelIndex(i, middleY);
-    const alpha = image.bitmap.data[idx + 3];
-    // console.log('i', i, middleY, alpha);
-    if (alpha === 255) {
-      left = i;
-      break;
-    }
-  }
+  const s = 12;
+  const mask = (1 << s) - 1;
+  const xyToPosition = (x, y) => ((x & mask) << s) + (y & mask);
+  const positionToXy = p => {
+    const y = p & mask;
+    const x = p >> s;
+    return [x, y];
+  };
 
-  // Scan right
-  for (let i = middleX; i <= image.bitmap.width; i++) {
-    const idx = image.getPixelIndex(i, middleY);
-    const alpha = image.bitmap.data[idx + 3];
-    if (alpha === 255) {
-      right = i;
-      break;
-    }
-  }
+  const middleX = Math.floor(width / 2);
+  const middleY = Math.floor(height / 2);
 
-  // Scan top
-  for (let i = middleY; i >= 0; i--) {
-    const idx = image.getPixelIndex(middleX, i);
-    const alpha = image.bitmap.data[idx + 3];
-    if (alpha === 255) {
-      top = i;
-      break;
-    }
-  }
+  let top = middleY;
+  let left = middleX;
+  let bottom = middleY;
+  let right = middleX;
 
-  // Scan bottom
-  for (let i = middleY; i <= image.bitmap.height; i++) {
-    const idx = image.getPixelIndex(middleX, i);
-    const alpha = image.bitmap.data[idx + 3];
-    if (alpha === 255) {
-      bottom = i;
-      break;
+  const floodFill = new Set([xyToPosition(middleX, middleY)]);
+
+  for (const p of floodFill) {
+    const [px, py] = positionToXy(p);
+    for (const [dx, dy] of offsets) {
+      const x = px + dx;
+      const y = py + dy;
+
+      if (!(x >= 0 && y >= 0 && x <= width && y <= height)) continue;
+
+      const index = image.getPixelIndex(x, y);
+      const alpha = image.bitmap.data[index + 3];
+
+      if (alpha === 255) continue;
+
+      floodFill.add(xyToPosition(x, y));
+      top = Math.min(y, top);
+      left = Math.min(x, left);
+      bottom = Math.max(y + 1, bottom);
+      right = Math.max(x + 1, right);
     }
   }
 
