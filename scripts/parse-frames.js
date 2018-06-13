@@ -71,19 +71,13 @@ if (cluster.isMaster) {
       if (cli.flags.write) fs.writeFileSync(path.join(__dirname, '../data/frames.json'), content);
     });
 } else {
-  // console.log(`Worker ${process.pid} is running`);
   // Worker
   process.on('message', message => {
-    // console.log(`Worker #${cluster.worker.id}`, message);
-
     Promise.all(message.data.map(file => getFrameDetails(file)))
       .then(result => {
         process.send({ result });
-        process.exit(0);
       });
   });
-
-  // process.exit(0);
 }
 
 function readFrames() {
@@ -110,8 +104,10 @@ function readFrames() {
           let results = [];
           for (const id in cluster.workers) { /* eslint guard-for-in: 0 */
             cluster.workers[id].on('message', message => {
-              // console.log(`Master ${process.pid}`, message);
-              if (message.result) results = results.concat(message.result);
+              if (message.result) {
+                results = results.concat(message.result);
+                cluster.workers[id].kill();
+              }
             });
 
             cluster.workers[id].send({ data: chunks.shift() });
@@ -119,8 +115,6 @@ function readFrames() {
 
           return new Promise(resolve => {
             cluster.on('exit', () => {
-              // console.log('workers', Object.keys(cluster.workers).length);
-
               if (Object.keys(cluster.workers).length === 0) resolve(results);
             });
           });
