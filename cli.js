@@ -60,29 +60,29 @@ const cli = meow(`
       $ dframe cat.png --frame "iPhone 6" --frame "iPhone 7"
       $ dframe cat.png --frame "iphone 6","iphone 7"
   `,
-{
-  flags: {
-    help: {
-      alias: 'h',
+  {
+    flags: {
+      help: {
+        alias: 'h',
+      },
+      delay: {
+        default: 0,
+      },
+      devices: {
+        default: false,
+      },
+      output: {
+        type: 'string',
+        alias: 'o',
+        default: '.',
+      },
+      debug: {
+        type: 'boolean',
+        alias: 'd',
+        default: false,
+      },
     },
-    delay: {
-      default: 0,
-    },
-    devices: {
-      default: false,
-    },
-    output: {
-      type: 'string',
-      alias: 'o',
-      default: '.',
-    },
-    debug: {
-      type: 'boolean',
-      alias: 'd',
-      default: false,
-    },
-  },
-}
+  }
 );
 
 const framesRepo = cli.pkg.devDependencies['deviceframe-frames'];

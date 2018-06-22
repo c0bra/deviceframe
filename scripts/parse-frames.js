@@ -21,36 +21,36 @@ const cli = meow(`
     --count, -c     Run on limited number of frames. Ex: '-c 5' will do 5 frames then stop
     --parallel, -p  Run N multiple workers at once. Ex: '-p 4' if you have 4 cores
 `,
-{
-  flags: {
-    help: {
-      alias: 'h',
-    },
-    write: {
-      alias: 'w',
-      default: false,
-    },
-    count: {
-      type: 'number',
-      alias: 'c',
-      default: 0,
-    },
-    parallel: {
-      alias: 'p',
-      default: false,
-    },
-    output: {
-      type: 'string',
-      alias: 'o',
-      default: '.',
-    },
+  {
+    flags: {
+      help: {
+        alias: 'h',
+      },
+      write: {
+        alias: 'w',
+        default: false,
+      },
+      count: {
+        type: 'number',
+        alias: 'c',
+        default: 0,
+      },
+      parallel: {
+        alias: 'p',
+        default: false,
+      },
+      output: {
+        type: 'string',
+        alias: 'o',
+        default: '.',
+      },
     // debug: {
     //   type: 'boolean',
     //   alias: 'd',
     //   default: false,
     // }
-  },
-});
+    },
+  });
 
 const start = new Date().getTime();
 
