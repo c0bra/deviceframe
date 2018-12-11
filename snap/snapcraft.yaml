@@ -1,0 +1,35 @@
+name: dframe
+base: core18 # the base snap is the execution environment for this snap
+version: git
+summary: Put device frames around your mobile/web/progressive app screenshots
+description: |
+  This is my-snap's description. You have a paragraph or two to tell the
+  most important story about your snap. Keep it under 100 words though,
+  we live in tweetspace and your description wants to look good in the snap
+  store.
+
+grade: stable
+confinement: strict
+
+parts:
+  deviceframe:
+    plugin: nodejs
+    nodejs-version: "8.14.0"
+    source: .
+    build-packages:
+      - build-essential
+    stage-packages:
+      - libpng16-16
+      - libfreetype6
+      - libfontconfig1
+      - fontconfig-config
+
+apps:
+  dframe:
+    command: bin/dframe
+    environment:
+      FONTCONFIG_PATH: "$SNAP/etc/fonts"
+    plugs:
+      - network
+      - home
+      - removable-media
