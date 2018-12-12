@@ -4,8 +4,8 @@ version: git
 summary: Put device frames around your mobile/web/progressive app screenshots
 description: |
   Pass in filenames, file globs, websites urls, or image urls. In any combination or order.
-  dframe will prompt for the frames you want to use. Select multiple frames and 
-  search by typing. Once all the frames are selected, hit ESC.
+  dframe will prompt for the frames to use. Select multiple frames and search by typing. 
+  Once all the frames are selected, hit ESC.
   The frames will be downloaded from a CDN and cached locally in case they need re-using.
 
 grade: stable
