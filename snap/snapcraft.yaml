@@ -3,10 +3,10 @@ base: core18 # the base snap is the execution environment for this snap
 version: git
 summary: Put device frames around your mobile/web/progressive app screenshots
 description: |
-  This is my-snap's description. You have a paragraph or two to tell the
-  most important story about your snap. Keep it under 100 words though,
-  we live in tweetspace and your description wants to look good in the snap
-  store.
+  Pass in filenames, file globs, websites urls, or image urls. In any combination or order.
+  dframe will prompt for the frames you want to use. Select multiple frames and 
+  search by typing. Once all the frames are selected, hit ESC.
+  The frames will be downloaded from a CDN and cached locally in case they need re-using.
 
 grade: stable
 confinement: strict
