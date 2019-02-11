@@ -21,7 +21,6 @@ const meow = require('meow');
 const mkdirp = require('mkdirp');
 const ora = require('ora');
 const ProgressBar = require('progress');
-const screenshot = require('screenshot-stream');
 const puppeteer = require('puppeteer');
 const some = require('lodash/some');
 const typeis = require('type-is');
@@ -37,7 +36,8 @@ readline.emitKeypressEvents(process.stdin);
 /* ------ */
 
 // Help text
-const cli = meow(`
+const cli = meow(
+  `
     Usage
       # Pass in any number of image files (globs allows), image urls, or website urls:
       $ dframe <image>
@@ -61,29 +61,29 @@ const cli = meow(`
       $ dframe cat.png --frame "iPhone 6" --frame "iPhone 7"
       $ dframe cat.png --frame "iphone 6","iphone 7"
   `,
-{
-  flags: {
-    help: {
-      alias: 'h'
+  {
+    flags: {
+      help: {
+        alias: 'h',
+      },
+      delay: {
+        default: 0,
+      },
+      devices: {
+        default: false,
+      },
+      output: {
+        type: 'string',
+        alias: 'o',
+        default: '.',
+      },
+      debug: {
+        type: 'boolean',
+        alias: 'd',
+        default: false,
+      },
     },
-    delay: {
-      default: 0
-    },
-    devices: {
-      default: false
-    },
-    output: {
-      type: 'string',
-      alias: 'o',
-      default: '.'
-    },
-    debug: {
-      type: 'boolean',
-      alias: 'd',
-      default: false
-    }
   }
-}
 );
 
 const framesRepo = cli.pkg.devDependencies['deviceframe-frames'];
@@ -119,7 +119,7 @@ if (cli.flags.frame) {
     distance: 100,
     maxPatternLength: 32,
     minMatchCharLength: 1,
-    keys: ['name']
+    keys: ['name'],
   });
 
   const results = [];
@@ -164,7 +164,7 @@ Promise.resolve()
 
 /* ------------------------------------------------------------------------- */
 
-function init () {
+function init() {
   debug('Init...');
   // Add shadow suffix on to frame name
   frameData.forEach(frame => {
@@ -184,7 +184,7 @@ function init () {
   });
 }
 
-function confirmInputs () {
+function confirmInputs() {
   const urls = cli.input.filter(f => isUrl(f));
 
   // Find image files to frame from input
@@ -196,7 +196,7 @@ function confirmInputs () {
     });
 }
 
-function chooseFrames () {
+function chooseFrames() {
   if (frames) return Promise.resolve(frames);
 
   debug('Choosing frames');
@@ -209,7 +209,7 @@ function chooseFrames () {
     let frames = [];
     let prompt = null;
 
-    function prompter () {
+    function prompter() {
       prompt = inquirer.prompt({
         type: 'autocomplete',
         name: 'frames',
@@ -220,7 +220,7 @@ function chooseFrames () {
           return Promise.resolve(
             frameData.map(f => f.name.toLowerCase()).filter(name => name.indexOf(input) !== -1)
           );
-        }
+        },
       });
 
       prompt.then(answers => {
@@ -244,7 +244,7 @@ function chooseFrames () {
   });
 }
 
-function frameImages (files, urls, frames) {
+function frameImages(files, urls, frames) {
   let promises = files.map(file => {
     return frames.map(frame => {
       return frameIt(file, frame);
@@ -271,7 +271,7 @@ function frameImages (files, urls, frames) {
 //   });
 // }
 
-function globImageFiles (inputs) {
+function globImageFiles(inputs) {
   if (!inputs || inputs.length === 0) return Promise.resolve([]);
 
   const ps = inputs.map(file => {
@@ -281,7 +281,7 @@ function globImageFiles (inputs) {
   return Promise.all(ps).then(results => flatten(results));
 }
 
-function downloadFrames (frames) {
+function downloadFrames(frames) {
   debug('Downloading frames');
   // console.log('frames', frames);
   const promises = [];
@@ -303,14 +303,14 @@ function downloadFrames (frames) {
   return Promise.all(promises).then(results => flatten(results));
 }
 
-function downloadFrame (frame) {
+function downloadFrame(frame) {
   debug(`Downloading frame ${frame.url}`);
 
   const bar = new ProgressBar(`Downloading frame ${chalk.green(frame.name)} [:bar] :rate/bps :percent :etas`, {
     complete: '=',
     incomplete: ' ',
     width: 20,
-    total: 100
+    total: 100,
   });
 
   bar.tick();
@@ -323,8 +323,8 @@ function downloadFrame (frame) {
   return new Promise((resolve, reject) => {
     got.stream(frame.url, {
       headers: {
-        'user-agent': `deviceframe/${cli.pkg.version} (${cli.pkg.repo})`
-      }
+        'user-agent': `deviceframe/${cli.pkg.version} (${cli.pkg.repo})`,
+      },
     })
       .on('end', () => {
         bar.tick(100);
@@ -343,7 +343,7 @@ function downloadFrame (frame) {
   });
 }
 
-function frameIt (img, frameConf) {
+function frameIt(img, frameConf) {
   debug('Framing images');
 
   // TODO: use filenamify here?
@@ -379,63 +379,47 @@ function frameIt (img, frameConf) {
         const h = Math.floor(frameConf.frame.height / 1);
         const dim = [w, h].join('x');
 
-        const spinner = ora(`Screenshoting ${imgUrl} at ${dim}`).start();
+        const spinner = ora(`ing ${imgUrl} at ${dim}`).start();
 
         // TODO: need to dynamically choose device user-agent from a list, or store them with the frames
-        const ua = 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1';
-        /*
-        const stream = screenshot(imgUrl, dim, { crop: false, userAgent: ua, delay: cli.flags.delay })
-          .on('error', err => {
-            spinner.fail();
-            error(err);
-          })
-          .on('end', () => spinner.succeed());
-
-        const bufPromise = getStream.buffer(stream);
-        */
-       
-        // console.log('width', w, h, frameConf);
-
-        let delay = 1000 || cli.flags.delay * 1000;
+        const delay = 1000 || cli.flags.delay * 1000;
         const bufPromise = new Promise((resolve, reject) => {
           puppeteer.launch().then(browser => {
             browser.newPage()
               .then(page => {
                 page.goto(imgUrl);
 
-                page.on('load', () => {
-                  // console.log('page loaded');
+                const shot = () => {
+                  page.setViewport({
+                    width: w,
+                    height: h,
+                    deviceScaleFactor: pixelRatio,
+                  });
+                  page.screenshot().then(buffer => {
+                    spinner.succeed();
+                    browser.close();
 
-                  setTimeout(() => {
-                    page.setViewport({'width': w, 'height': h, 'deviceScaleFactor': pixelRatio });
-                    page.screenshot().then((buffer) => {
-                      // console.log('screenshoted');
+                    resolve(buffer);
+                  }).catch(err => {
+                    spinner.fail();
+                    browser.close();
 
-                      spinner.succeed();
-                      browser.close();
+                    reject(err);
+                  });
+                };
 
-                      resolve(buffer);
-                    }).catch((err) => {
-                      // console.log('errrou', err);
+                const onload = () => {
+                  setTimeout(shot, delay);
+                };
 
-                      spinner.fail();
-                      browser.close();
-
-                      reject(err);
-                    });
-                  }, delay);
-                });
+                page.on('load', onload);
               })
-              .catch((err) => {
+              .catch(err => {
                 spinner.fail();
                 reject(err);
               });
           });
         });
-
-        // bufPromise.then(buf => {
-        //   fs.writeFileSync('test.png', buf, { encoding: 'binary' });
-        // });
 
         return Promise.all([bufPromise, w, h]);
       })
@@ -463,10 +447,10 @@ function frameIt (img, frameConf) {
 
       return Promise.all([
         Jimp.read(framePath),
-        Jimp.read(imgData)
+        Jimp.read(imgData),
       ]);
     })
-  // Resize largest image to fit the other
+    // Resize largest image to fit the other
     .then(([frame, jimg]) => {
       debug('Resizing frame/image');
 
@@ -509,8 +493,8 @@ function frameIt (img, frameConf) {
 
         jimg.cover(newFrameWidth, newFrameHeight);
       } else {
-      // Source image is bigger, size it down to frame
-      // Resize frame so shortest dimension matches
+        // Source image is bigger, size it down to frame
+        // Resize frame so shortest dimension matches
         let rH = jimg.bitmap.height;
         let rW = jimg.bitmap.width;
         if (rH > rW) {
@@ -547,12 +531,12 @@ function frameIt (img, frameConf) {
 //   // TODO: write settings to ~/.deviceframe/settings.json
 // }
 
-function error (msg, usage) {
+function error(msg, usage) {
   if (usage) console.log(cli.help);
   console.error('\n' + logSymbols.error + ' ' + chalk.red(msg));
   process.exit(1);
 }
 
-function debug (...args) {
+function debug(...args) {
   if (cli.flags.debug) console.log(chalk.green(...args));
 }
