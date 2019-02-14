@@ -21,7 +21,7 @@ const meow = require('meow');
 const mkdirp = require('mkdirp');
 const ora = require('ora');
 const ProgressBar = require('progress');
-const screenshot = require('screenshot-stream');
+const puppeteer = require('puppeteer');
 const some = require('lodash/some');
 const typeis = require('type-is');
 const uniq = require('lodash/uniq');
@@ -36,7 +36,8 @@ readline.emitKeypressEvents(process.stdin);
 /* ------ */
 
 // Help text
-const cli = meow(`
+const cli = meow(
+  `
     Usage
       # Pass in any number of image files (globs allows), image urls, or website urls:
       $ dframe <image>
@@ -373,25 +374,52 @@ function frameIt(img, frameConf) {
         if (typeis(response, ['image/*'])) return response.body;
 
         // Scale image size for device pixel density
-        const w = Math.floor(frameConf.frame.width / (frameConf.pixelRatio || 1));
-        const h = Math.floor(frameConf.frame.height / (frameConf.pixelRatio || 1));
+        const pixelRatio = frameConf.pixelRatio;
+        const w = Math.floor(frameConf.frame.width / 1);
+        const h = Math.floor(frameConf.frame.height / 1);
         const dim = [w, h].join('x');
 
-        const spinner = ora(`Screenshotting ${imgUrl} at ${dim}`).start();
+        const spinner = ora(`ing ${imgUrl} at ${dim}`).start();
 
         // TODO: need to dynamically choose device user-agent from a list, or store them with the frames
-        const ua = 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1';
-        const stream = screenshot(imgUrl, dim, { crop: false, userAgent: ua, delay: cli.flags.delay })
-          .on('error', err => {
-            spinner.fail();
-            error(err);
-          })
-          .on('end', () => spinner.succeed());
+        const delay = 1000 || cli.flags.delay * 1000;
+        const bufPromise = new Promise((resolve, reject) => {
+          puppeteer.launch().then(browser => {
+            browser.newPage()
+              .then(page => {
+                page.goto(imgUrl);
 
-        const bufPromise = getStream.buffer(stream);
-        // bufPromise.then(buf => {
-        //   fs.writeFileSync('test.png', buf, { encoding: 'binary' });
-        // });
+                const shot = () => {
+                  page.setViewport({
+                    width: w,
+                    height: h,
+                    deviceScaleFactor: pixelRatio,
+                  });
+                  page.screenshot().then(buffer => {
+                    spinner.succeed();
+                    browser.close();
+
+                    resolve(buffer);
+                  }).catch(err => {
+                    spinner.fail();
+                    browser.close();
+
+                    reject(err);
+                  });
+                };
+
+                const onload = () => {
+                  setTimeout(shot, delay);
+                };
+
+                page.on('load', onload);
+              })
+              .catch(err => {
+                spinner.fail();
+                reject(err);
+              });
+          });
+        });
 
         return Promise.all([bufPromise, w, h]);
       })
@@ -422,7 +450,7 @@ function frameIt(img, frameConf) {
         Jimp.read(imgData),
       ]);
     })
-  // Resize largest image to fit the other
+    // Resize largest image to fit the other
     .then(([frame, jimg]) => {
       debug('Resizing frame/image');
 
@@ -465,8 +493,8 @@ function frameIt(img, frameConf) {
 
         jimg.cover(newFrameWidth, newFrameHeight);
       } else {
-      // Source image is bigger, size it down to frame
-      // Resize frame so shortest dimension matches
+        // Source image is bigger, size it down to frame
+        // Resize frame so shortest dimension matches
         let rH = jimg.bitmap.height;
         let rW = jimg.bitmap.width;
         if (rH > rW) {
