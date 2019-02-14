@@ -59,6 +59,7 @@
     "aws-sdk": "^2.213.1",
     "deviceframe-frames": "https://github.com/c0bra/deviceframe-frames.git#2.0.1",
     "nyc": "^11.2.1",
+    "prettier": "1.16.4",
     "recursive-readdir": "^2.2.2",
     "xo": "^0.18.2"
   },
