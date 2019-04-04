@@ -1,0 +1,35 @@
+name: dframe
+base: core18 # the base snap is the execution environment for this snap
+version: git
+summary: Put device frames around your mobile/web/progressive app screenshots
+description: |
+  Pass in filenames, file globs, websites urls, or image urls. In any combination or order.
+  dframe will prompt for the frames to use. Select multiple frames and search by typing. 
+  Once all the frames are selected, hit ESC.
+  The frames will be downloaded from a CDN and cached locally in case they need re-using.
+
+grade: stable
+confinement: strict
+
+parts:
+  deviceframe:
+    plugin: nodejs
+    nodejs-version: "8.14.0"
+    source: .
+    build-packages:
+      - build-essential
+    stage-packages:
+      - libpng16-16
+      - libfreetype6
+      - libfontconfig1
+      - fontconfig-config
+
+apps:
+  dframe:
+    command: bin/dframe
+    environment:
+      FONTCONFIG_PATH: "$SNAP/etc/fonts"
+    plugs:
+      - network
+      - home
+      - removable-media
