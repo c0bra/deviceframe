@@ -315,7 +315,7 @@ function downloadFrame(frame) {
 
   bar.tick();
 
-  frame.path = path.join(frameCacheDir, frame.relPath);
+  frame.path = path.join(frameCacheDir, frame.relPath).replace(/"/gi, '');
 
   const downloadDir = path.parse(frame.path).dir;
   mkdirp.sync(downloadDir);
